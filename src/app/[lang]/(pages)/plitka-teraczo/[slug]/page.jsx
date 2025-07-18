@@ -2,7 +2,7 @@ import TerrazzoTilesIdSection from "@/sections/terrazzoTilesIdSection/TerrazzoTi
 import { getDictionary } from "@/helpers/getDictionary";
 // import { arrOfBlogs } from "@/data/blog/arrOfBlogs";
 
-const TerrazzoTilesIdSectionPage = async ({ params }) => {
+const TerrazzoTilesIdPage = async ({ params }) => {
   const { lang, slug } = await params;
   const { terrazzoTilesIdSection } = await getDictionary(lang);
 
@@ -19,4 +19,4 @@ const TerrazzoTilesIdSectionPage = async ({ params }) => {
   );
 };
 
-export default TerrazzoTilesIdSectionPage;
+export default TerrazzoTilesIdPage;

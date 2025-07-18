@@ -1,4 +1,6 @@
-const HomeHeroSection = () => {
+import styles from "./HomeHeroSection.module.scss";
+
+const HomeHeroSection = ({ lang, dictionary }) => {
   return <section>HomeHeroSection</section>;
 };
 

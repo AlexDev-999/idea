@@ -1,4 +1,6 @@
-const AboutUsSection = () => {
+import styles from "./AboutUsSection.module.scss";
+
+const AboutUsSection = ({ lang, dictionary }) => {
   return <section>AboutUsSection</section>;
 };
 

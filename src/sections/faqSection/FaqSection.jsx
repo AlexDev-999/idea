@@ -1,4 +1,6 @@
-const FaqSection = () => {
+import styles from "./FaqSection.module.scss";
+
+const FaqSection = ({ lang, dictionary }) => {
   return <section>FaqSection</section>;
 };
 

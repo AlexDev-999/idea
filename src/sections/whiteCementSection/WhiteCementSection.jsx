@@ -1,4 +1,6 @@
-const WhiteCementSection = () => {
+import styles from "./WhiteCementSection.module.scss";
+
+const WhiteCementSection = ({ lang, dictionary }) => {
   return <section>WhiteCementSection</section>;
 };
 
