@@ -1,0 +1,57 @@
+{
+  "lang": "en",
+  "header": {
+    "topTitle": "Roof"
+  },
+  "aboutUsSection": {
+    "title": "Title"
+  },
+  "calciteSection": {
+    "title": "Title"
+  },
+  "calxSection": {
+    "title": "Title"
+  },
+  "decorativeStoneIdSection": {
+    "title": "Title"
+  },
+  "decorativeStoneSection": {
+    "title": "Title"
+  },
+  "faqSection": {
+    "title": "Title"
+  },
+  "gasBlocksSection": {
+    "title": "Title"
+  },
+  "homeAboutUsSection": {
+    "title": "Title"
+  },
+  "homeHeroSection": {
+    "title": "Title"
+  },
+  "homePartnersSection": {
+    "title": "Title"
+  },
+  "homeProductsSection": {
+    "title": "Title"
+  },
+  "marbleCrumbSection": {
+    "title": "Title"
+  },
+  "stairsSection": {
+    "title": "Title"
+  },
+  "terrazzoTilesIdSection": {
+    "title": "Title"
+  },
+  "terrazzoTilesSection": {
+    "title": "Title"
+  },
+  "whiteCementSection": {
+    "title": "Title"
+  },
+  "footer": {
+    "policy": "Privacy policy"
+  }
+}
