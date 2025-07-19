@@ -1,0 +1,118 @@
+@use "@/app/variables";
+
+.navBlock {
+  @media screen and (min-width: variables.$tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    gap: 16px;
+  }
+}
+
+.titleWrapp {
+  padding: 2px 4px 2px 2px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 200;
+  border: solid 1px transparent;
+  cursor: pointer;
+
+  @media screen and (min-width: variables.$tablet) {
+    gap: 0px;
+  }
+
+  @media screen and (min-width: variables.$laptop) {
+    &:hover,
+    &:focus {
+      border-bottom: solid 1px variables.$primary-900;
+    }
+  }
+}
+
+.productsTitle {
+  @media screen and (min-width: variables.$tablet) {
+    padding: 2px 4px 2px 2px;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 16px;
+  }
+}
+
+.arrowStyles {
+  width: 24px;
+  height: 24px;
+  stroke: variables.$gray-900;
+  fill: transparent;
+
+  @media screen and (min-width: variables.$tablet) {
+    display: none;
+  }
+}
+
+.arrowStylesClicked {
+  rotate: 90deg;
+}
+
+.subMenu {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  & svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    gap: 16px;
+  }
+}
+
+.subMenuVisible {
+  padding-top: 12px;
+  opacity: 1;
+
+  @media screen and (min-width: variables.$tablet) {
+    padding: 0px 0px 0px 4px;
+  }
+}
+
+.subMenuHidden {
+  height: 0px;
+  opacity: 0;
+}
+
+.subMenuItem {
+  width: fit-content;
+  padding: 2px 4px 2px 2px;
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  border: solid 1px transparent;
+
+  @media screen and (min-width: variables.$laptop) {
+    &:hover,
+    &:focus {
+      border-bottom: solid 1px variables.$primary-900;
+    }
+  }
+}

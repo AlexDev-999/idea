@@ -1,28 +1,28 @@
 @use "./variables";
 
 @font-face {
-  font-family: "PTSerif-Regular";
-  src: url("./fonts/PTSerif-Regular.woff2") format("woff2");
+  font-family: "GothamPro";
+  src: url("./fonts/GothamPro.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-// @font-face {
-//   font-family: "Manrope-Regular";
-//   src: url("./fonts/Manrope-Regular.woff2") format("woff2");
-//   font-weight: 400;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("./fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-// @font-face {
-//   font-family: "Manrope-Bold";
-//   src: url("./fonts/Manrope-Bold.woff2") format("woff2");
-//   font-weight: 700;
-//   font-style: normal;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("./fonts/Manrope-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 *,
 *::after,
@@ -53,9 +53,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // background-color: variables.$mainBgColor;
+  background-color: variables.$bgColor;
   // color: variables.$mainTextColor;
-  // font-family: Manrope-Regular, sans-serif;
+  font-family: Manrope-Regular, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -81,14 +81,9 @@ main {
   align-items: center;
 }
 
-// header,
-// footer {
-//   font-family: Manrope-Regular, sans-serif;
-// }
-
 .section {
   width: 100%;
-  // @include variables.sectionSidePadding;
+  @include variables.sectionSidePadding;
   // @include variables.sectionTopBottomPadding;
 }
 
@@ -118,4 +113,8 @@ button {
 ul,
 ol {
   list-style: none;
+}
+
+#activePageLink{
+  border-bottom: solid 1px variables.$primary-900;
 }

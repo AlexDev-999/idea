@@ -1,8 +1,5 @@
 {
   "lang": "en",
-  "header": {
-    "topTitle": "Roof"
-  },
   "aboutUsSection": {
     "title": "Title"
   },
@@ -10,6 +7,9 @@
     "title": "Title"
   },
   "calxSection": {
+    "title": "Title"
+  },
+  "certificatesSection": {
     "title": "Title"
   },
   "decorativeStoneIdSection": {
@@ -24,10 +24,7 @@
   "gasBlocksSection": {
     "title": "Title"
   },
-  "homeAboutUsSection": {
-    "title": "Title"
-  },
-  "homeHeroSection": {
+   "homeHeroSection": {
     "title": "Title"
   },
   "homePartnersSection": {

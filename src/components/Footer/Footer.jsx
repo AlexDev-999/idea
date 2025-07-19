@@ -5,7 +5,7 @@ import styles from "./Footer.module.scss";
 
 const Footer = ({ lang, dictionary }) => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="contacts">
       <div className={`container ${styles.container}`}>
         <h4> {dictionary.policy}</h4>
         {/* <FooterNav lang={lang} customClass={styles.customFooterNav} />
