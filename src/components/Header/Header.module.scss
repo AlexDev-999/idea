@@ -1,1 +1,56 @@
 @use "@/app/variables";
+
+.header {
+  @include variables.sectionSidePadding;
+
+  & {
+    width: 100%;
+    max-width: 100%;
+
+    position: absolute;
+    z-index: 100;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+}
+
+.langSwitcherBtn {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  background: none;
+  border: none;
+  outline: none;
+
+  & svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 32px;
+    height: 32px;
+    margin-right: 56px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-right: 38px;
+  }
+}

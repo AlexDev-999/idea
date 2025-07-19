@@ -7,20 +7,24 @@ export const navLinksData = [
   {
     titleUk: "Продукція",
     titleEn: "Products",
-    // href: "/#products",
+    href: "/#products",
 
     productsId: [
+      {
+        titleUk: "Вапно",
+        titleEn: "Calx",
+        href: "/vapno",
+      },
+      {
+        titleUk: "Вапняк",
+        titleEn: "Calcite",
+        href: "/vapnyak",
+      },
       {
         titleUk: "Білий цемент",
         titleEn: "White cement",
         href: "/bilij-czement",
       },
-      {
-        titleUk: "Декоративний камінь",
-        titleEn: "Decorative stone",
-        href: "/dekorativnij-kamin",
-      },
-
       {
         titleUk: "Газоблоки",
         titleEn: "Gas blocks",
@@ -42,14 +46,9 @@ export const navLinksData = [
         href: "/skhodi",
       },
       {
-        titleUk: "Вапно",
-        titleEn: "Calx",
-        href: "/vapno",
-      },
-      {
-        titleUk: "Вапняк",
-        titleEn: "Calcite",
-        href: "/vapnyak",
+        titleUk: "Декоративний камінь",
+        titleEn: "Decorative stone",
+        href: "/dekorativnij-kamin",
       },
     ],
   },
@@ -62,6 +61,16 @@ export const navLinksData = [
     titleUk: "Питання-відповідь",
     titleEn: "FAQ",
     href: "/faq",
+  },
+  {
+    titleUk: "Контакти",
+    titleEn: "Contacts",
+    href: "/#contacts",
+  },
+  {
+    titleUk: "Сертифікати",
+    titleEn: "Certificates",
+    href: "/sertifikati",
   },
 ];
 

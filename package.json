@@ -2,7 +2,7 @@
   "name": "idea",
   "version": "0.1.0",
   "private": true,
-  "figma": "",
+  "figma": "https://www.figma.com/design/61BXdeSeEsaFcyDmx177vn/Idea-company-website?node-id=0-1&t=wG1xUsXCWjzSNRci-1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

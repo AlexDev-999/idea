@@ -1,7 +1,7 @@
 import styles from "./DecorativeStoneIdSection.module.scss";
 
 const DecorativeStoneIdSection = ({ lang, dictionary }) => {
-  return <section>DecorativeStoneIdSection</section>;
+  return <section className={styles.section}>DecorativeStoneIdSection</section>;
 };
 
 export default DecorativeStoneIdSection;

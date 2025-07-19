@@ -1,32 +1,28 @@
-// "use client";
-// import { usePathname } from "next/navigation";
-// import BurgerBtn from "../buttons/BurgerBtn/BurgerBtn";
-// import Logo from "../Logo/Logo";
-// import BurgerMenu from "./BurgerMenu/BurgerMenu";
-// import PhoneLink from "./PhoneLink/PhoneLink";
+import BurgerBtn from "../buttons/BurgerBtn/BurgerBtn";
+import Logo from "../Logo/Logo";
+import CallLinks from "./CallLink/CallLinks";
+import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import styles from "./Header.module.scss";
 
 const Header = ({ lang }) => {
-  //   const pathname = usePathname();
-  //   const isOnBlogPages = pathname.includes("/blog");
-
   return (
-    <header
-    //   className={
-    //     isOnBlogPages ? `${styles.header} ${styles.darkBg}` : styles.header
-    //   }
-    >
+    <header className={styles.header}>
       <div className={`container ${styles.container}`}>
-        <h4>header</h4>
-        {/* <Logo lang={lang} customClass="" />
+        <Logo lang={lang} customClass="" />
 
         <div className={styles.rightSide}>
-          <PhoneLink className={styles.phone} />
+          <CallLinks />
+          <button className={styles.langSwitcherBtn}>
+            <svg>
+              <use href="/sprite.svg#icon-language"></use>
+            </svg>
+          </button>
+
           <BurgerBtn />
-        </div> */}
+        </div>
       </div>
 
-      {/* <BurgerMenu lang={lang} /> */}
+      <BurgerMenu lang={lang} />
     </header>
   );
 };
