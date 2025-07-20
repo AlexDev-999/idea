@@ -47,7 +47,7 @@
 </symbol>
 
 <symbol id="icon-schevron_right" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M12 24l8-8-8-8"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1" d="M12 24l8-8-8-8"></path>
 </symbol>
 
 <symbol id="icon-viber" viewBox="0 0 32 32">
