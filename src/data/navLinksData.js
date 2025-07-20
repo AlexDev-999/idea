@@ -78,9 +78,9 @@ export const navLinksData = [
 //   return el.href !== "/services";
 // });
 
-// export const headerServices = navLinksData.find(
-//   (el) => el.href === "/services"
-// );
+export const headerProductsData = navLinksData.find(
+  (el) => el.titleEn === "Products"
+);
 
 // export const servicesHref = navLinksData
 //   .find((el) => el.titleEn === "Services")
