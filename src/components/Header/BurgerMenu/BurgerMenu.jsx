@@ -1,8 +1,6 @@
 "use client";
 import React, { useContext, useEffect } from "react";
 import { SiteContext } from "@/context/SiteContext";
-// import LangSwitcher from "@/components/LangSwitcher/LangSwitcher";
-// import SocialLinks from "@/components/SocialLinks/SocialLinks";
 import HeaderNav from "../HeaderNav/HeaderNav";
 import styles from "./BurgerMenu.module.scss";
 
@@ -32,13 +30,8 @@ const BurgerMenu = ({ lang }) => {
             : `${styles.burgerMenuSection} ${styles.burgerMenuSectionHidden}`
         }
       >
-        <div className={`container ${styles.container}`}>
-          <HeaderNav lang={lang} customClass={styles.customHeaderNav} />
-
-          {/* <div className={styles.langSwitcherAndSocLinksWrapper}>
-            <LangSwitcher lang={lang} />
-            <SocialLinks customClass="" dark />
-          </div> */}
+        <div className="container">
+          <HeaderNav lang={lang} />
         </div>
       </div>
     </div>
