@@ -58,7 +58,7 @@ export const navLinksData = [
     href: "/pro-nas",
   },
   {
-    titleUk: "Питання-відповідь",
+    titleUk: "FAQ",
     titleEn: "FAQ",
     href: "/faq",
   },

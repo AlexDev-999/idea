@@ -1,7 +1,12 @@
 @use "@/app/variables";
 
 .navBlock {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
   @media screen and (min-width: variables.$tablet) {
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -12,11 +17,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 12px;
-
-  @media screen and (min-width: variables.$tablet) {
-    margin-bottom: 0px;
-  }
 
   @media screen and (min-width: variables.$desktop) {
     gap: 16px;
@@ -44,6 +44,10 @@
   }
 }
 
+.productsItem {
+  font-weight: 700;
+}
+
 .productsTitle {
   @media screen and (min-width: variables.$tablet) {
     padding: 2px 4px 2px 2px;
@@ -51,7 +55,7 @@
     margin-bottom: 12px;
   }
 
-  @media screen and (min-width: variables.$tablet) {
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
   }
 }
@@ -80,6 +84,10 @@
   & svg {
     width: 24px;
     height: 24px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    gap: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {

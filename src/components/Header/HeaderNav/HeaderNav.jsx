@@ -8,7 +8,7 @@ import { useWindowResize } from "@/hooks/windowResize";
 import { navLinksData } from "@/data/navLinksData";
 import styles from "./HeaderNav.module.scss";
 
-const HeaderNav = ({ lang, customClass }) => {
+const HeaderNav = ({ lang }) => {
   const { setMobileMenu } = useContext(SiteContext);
 
   const [subMenu, setSubMenu] = useState(false);
@@ -31,7 +31,7 @@ const HeaderNav = ({ lang, customClass }) => {
   const path = isDefaultLang ? "" : `/${lang}`;
 
   return (
-    <nav className={`${styles.navBlock} ${customClass}`}>
+    <nav className={styles.navBlock}>
       {isMobile && (
         <ul className={styles.navLinks}>
           {navLinksData.map((el, i) => {
@@ -57,6 +57,7 @@ const HeaderNav = ({ lang, customClass }) => {
                   {/* при клике на products - открывается или закрывается подменю. при клике на ссылки других страниц - закрытие БургерМеню и переход на другую страницу */}
                   {isProductItem ? (
                     <span
+                      className={styles.productsItem}
                       onClick={() => {
                         setSubMenu(!subMenu);
                       }}
@@ -172,7 +173,7 @@ const HeaderNav = ({ lang, customClass }) => {
           </ul>
 
           <div className="">
-            <span className={styles.productsTitle}>
+            <span className={`${styles.productsTitle} ${styles.productsItem}`}>
               {lang === i18n.locales[0]
                 ? productsNavLink.titleUk
                 : productsNavLink.titleEn}
