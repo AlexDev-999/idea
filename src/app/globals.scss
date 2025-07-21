@@ -84,7 +84,7 @@ main {
 .section {
   width: 100%;
   @include variables.sectionSidePadding;
-  // @include variables.sectionTopBottomPadding;
+  @include variables.sectionTopBottomPadding;
 }
 
 .container {
@@ -115,6 +115,6 @@ ol {
   list-style: none;
 }
 
-#activePageLink{
+#activePageLink {
   border-bottom: solid 1px variables.$primary-900;
 }

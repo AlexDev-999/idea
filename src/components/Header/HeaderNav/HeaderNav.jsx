@@ -1,5 +1,5 @@
 "use client";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { SiteContext } from "@/context/SiteContext";
@@ -9,11 +9,13 @@ import { headerProductsData, navLinksData } from "@/data/navLinksData";
 import styles from "./HeaderNav.module.scss";
 
 const HeaderNav = ({ lang }) => {
-  const { setMobileMenu } = useContext(SiteContext);
-
-  const [subMenu, setSubMenu] = useState(false);
+  const { setMobileMenu, subMenu, setSubMenu } = useContext(SiteContext);
 
   const pathname = usePathname();
+
+  useEffect(() => {
+    setSubMenu(false);
+  }, [pathname]);
 
   const { isMobile } = useWindowResize();
 
@@ -59,7 +61,7 @@ const HeaderNav = ({ lang }) => {
                     <span
                       className={styles.productsItem}
                       onClick={() => {
-                        setSubMenu(!subMenu);
+                        setSubMenu(true);
                       }}
                     >
                       {lang === i18n.locales[0] ? el.titleUk : el.titleEn}
@@ -69,7 +71,6 @@ const HeaderNav = ({ lang }) => {
                       href={`${path}${el.href}`}
                       onClick={() => {
                         setMobileMenu(false);
-                        setSubMenu(!subMenu);
                       }}
                     >
                       {lang === i18n.locales[0] ? el.titleUk : el.titleEn}
@@ -78,13 +79,9 @@ const HeaderNav = ({ lang }) => {
 
                   {el.productsId && (
                     <svg
-                      className={
-                        subMenu
-                          ? `${styles.arrowStyles} ${styles.arrowStylesClicked}`
-                          : `${styles.arrowStyles}`
-                      }
+                      className={styles.arrowStyles}
                       onClick={() => {
-                        setSubMenu(!subMenu);
+                        setSubMenu(true);
                       }}
                     >
                       <use href="/sprite.svg#icon-schevron_right"></use>
@@ -104,7 +101,7 @@ const HeaderNav = ({ lang }) => {
             <span
               className={styles.productsItem}
               onClick={() => {
-                setSubMenu(!subMenu);
+                setSubMenu(false);
               }}
             >
               {lang === i18n.locales[0]
@@ -114,7 +111,7 @@ const HeaderNav = ({ lang }) => {
             <svg
               className={`${styles.arrowStyles} ${styles.arrowStylesClicked}`}
               onClick={() => {
-                setSubMenu(!subMenu);
+                setSubMenu(false);
               }}
             >
               <use href="/sprite.svg#icon-schevron_right"></use>
@@ -146,8 +143,8 @@ const HeaderNav = ({ lang }) => {
                   <Link
                     href={`${path}${el.href}`}
                     onClick={() => {
+                      setSubMenu(false);
                       setMobileMenu(false);
-                      setSubMenu(!subMenu);
                     }}
                   >
                     {lang === i18n.locales[0] ? el.titleUk : el.titleEn}
