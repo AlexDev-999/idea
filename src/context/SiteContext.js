@@ -5,6 +5,7 @@ export const SiteContext = createContext();
 
 export const SiteProvider = ({ children }) => {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [subMenu, setSubMenu] = useState(false);
   const [mobileMenuContent, setMobileMenuContent] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
   // const [servisType, setServisType] = useState("");
@@ -25,6 +26,8 @@ export const SiteProvider = ({ children }) => {
       value={{
         mobileMenu,
         setMobileMenu,
+        subMenu,
+        setSubMenu,
         mobileMenuContent,
         setMobileMenuContent,
         isModalOpen,

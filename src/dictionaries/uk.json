@@ -1,5 +1,8 @@
 {
   "lang": "uk",
+  "aboutUsSection": {
+    "title": "Title"
+  },
   "calciteSection": {
     "title": "Title"
   },
@@ -18,17 +21,20 @@
   "faqSection": {
     "title": "Title"
   },
+  "gardenProductsSection": {
+    "title": "Title"
+  },
   "gasBlocksSection": {
     "title": "Title"
   },
-   "homeHeroSection": {
+  "homeHeroSection": {
     "title": "Title"
   },
   "homePartnersSection": {
-    "title": "Title"
+    "title": "Наші партнери"
   },
   "homeProductsSection": {
-    "title": "Title"
+    "title": "Продукція"
   },
   "marbleCrumbSection": {
     "title": "Title"

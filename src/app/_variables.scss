@@ -40,22 +40,22 @@ $alertSystem: #230b82;
   }
 }
 
-// @mixin sectionTopBottomPadding {
-//   & {
-//     padding-top: 20px;
-//     padding-bottom: 20px;
-//   }
+@mixin sectionTopBottomPadding {
+  // & {
+  //   padding-top: 20px;
+  //   padding-bottom: 20px;
+  // }
 
-//   @media screen and (min-width: $tablet) {
-//     padding-top: 24px;
-//     padding-bottom: 24px;
-//   }
+  // @media screen and (min-width: $tablet) {
+  //   padding-top: 24px;
+  //   padding-bottom: 24px;
+  // }
 
-//   @media screen and (min-width: $desktop) {
-//     padding-top: 40px;
-//     padding-bottom: 40px;
-//   }
-// }
+  @media screen and (min-width: $desktop) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
 
 @mixin pageTopPadding {
   & {

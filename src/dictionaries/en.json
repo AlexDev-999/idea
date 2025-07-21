@@ -21,17 +21,20 @@
   "faqSection": {
     "title": "Title"
   },
+  "gardenProductsSection": {
+    "title": "Title"
+  },
   "gasBlocksSection": {
     "title": "Title"
   },
-   "homeHeroSection": {
+  "homeHeroSection": {
     "title": "Title"
   },
   "homePartnersSection": {
-    "title": "Title"
+    "title": "Our partners"
   },
   "homeProductsSection": {
-    "title": "Title"
+    "title": "Products"
   },
   "marbleCrumbSection": {
     "title": "Title"
