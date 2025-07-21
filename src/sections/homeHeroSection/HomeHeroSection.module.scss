@@ -1,9 +1,167 @@
-@use "@/app/variables";
+@use '@/app/variables';
 
 .section {
-  @include variables.pageTopPadding;
+  // @include variables.pageTopPadding;
 
   & {
+    width: 100%;
     height: 100dvh;
+    position: relative;
   }
+}
+
+.background {
+  @include variables.sectionSidePadding;
+  & {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding-top: 172px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -1;
+  }
+}
+
+.background.active {
+  opacity: 1;
+  z-index: 0;
+}
+
+.content {
+  width: 100%;
+  @media screen and (min-width: variables.$desktop) {
+    width: 80%;
+  }
+}
+
+.title {
+  // @include variables.title-h1;
+  & {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0%;
+    color: variables.$gray-0;
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.title-h1;
+    & {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.partners {
+  // @include variables.title-h3;
+  & {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0%;
+    color: variables.$gray-0;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.title-h3;
+  }
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+  margin-bottom: 28px;
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 16px;
+    margin-bottom: 60px;
+  }
+}
+
+.productsBtn {
+  @include variables.bodyText-Regular;
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    width: 100%;
+    height: 51px;
+    background-color: variables.$primary-900;
+    color: variables.$gray-0;
+    outline: none;
+    border: none;
+    &:hover,
+    &:focus {
+      border: 1px solid variables.$primary-900;
+      background-color: variables.$bgColor;
+      color: variables.$gray-900;
+    }
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 220px;
+    height: 51px;
+  }
+}
+
+.aboutAsBtn {
+  @include variables.bodyText-Regular;
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    width: 100%;
+    height: 51px;
+    border: 1px solid variables.$primary-900;
+    background-color: variables.$bgColor;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      border: none;
+      background-color: variables.$primary-900;
+      color: variables.$gray-0;
+    }
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 220px;
+    height: 51px;
+  }
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  column-gap: 4px;
+}
+
+.dot {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background-color: variables.$bgColor;
+}
+
+.activeDot {
+  background-color: variables.$primary-700;
 }
