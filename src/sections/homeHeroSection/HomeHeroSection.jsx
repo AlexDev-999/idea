@@ -44,7 +44,7 @@ const HomeHeroSection = ({ lang, dictionary }) => {
             backgroundImage: `linear-gradient(rgba(45, 48, 55, 0.45), rgba(45, 48, 55, 0.45)), url(${src})`,
           }}
         >
-          <div className={styles.content}>
+          <div className={`container`}>
             <h1 className={styles.title}>{dictionary.title}</h1>
             <h3 className={styles.partners}>
               &#8226; Calmit &#8226; Danucem &#8226; Xella &#8226; Cidemat
