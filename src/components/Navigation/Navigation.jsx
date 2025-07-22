@@ -6,9 +6,9 @@ import { SiteContext } from "@/context/SiteContext";
 import { i18n } from "@/dictionaries/i18n.config";
 import { useWindowResize } from "@/hooks/windowResize";
 import { headerProductsData, navLinksData } from "@/data/navLinksData";
-import styles from "./HeaderNav.module.scss";
+import styles from "./Navigation.module.scss";
 
-const HeaderNav = ({ lang }) => {
+const Navigation = ({ lang }) => {
   const { setMobileMenu, subMenu, setSubMenu } = useContext(SiteContext);
 
   const pathname = usePathname();
@@ -262,4 +262,4 @@ const HeaderNav = ({ lang }) => {
   );
 };
 
-export default HeaderNav;
+export default Navigation;

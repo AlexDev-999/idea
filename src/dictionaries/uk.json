@@ -3,12 +3,6 @@
   "aboutUsSection": {
     "title": "Title"
   },
-  "calciteSection": {
-    "title": "Title"
-  },
-  "calxSection": {
-    "title": "Title"
-  },
   "certificatesSection": {
     "title": "Title"
   },
@@ -37,6 +31,12 @@
   },
   "homeProductsSection": {
     "title": "Продукція"
+  },
+  "limeSection": {
+    "title": "Title"
+  },
+  "limeStoneSection": {
+    "title": "Title"
   },
   "marbleCrumbSection": {
     "title": "Title"

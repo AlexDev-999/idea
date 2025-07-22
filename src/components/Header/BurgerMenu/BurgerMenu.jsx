@@ -1,7 +1,7 @@
 "use client";
 import React, { useContext, useEffect } from "react";
 import { SiteContext } from "@/context/SiteContext";
-import HeaderNav from "../HeaderNav/HeaderNav";
+import Navigation from "@/components/Navigation/Navigation";
 import styles from "./BurgerMenu.module.scss";
 
 const BurgerMenu = ({ lang }) => {
@@ -31,7 +31,7 @@ const BurgerMenu = ({ lang }) => {
         }
       >
         <div className="container">
-          <HeaderNav lang={lang} />
+          <Navigation lang={lang} />
         </div>
       </div>
     </div>

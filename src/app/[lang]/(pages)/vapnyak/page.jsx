@@ -1,13 +1,13 @@
-import CalciteSection from "@/sections/calciteSection/CalciteSection";
+import LimeStoneSection from "@/sections/limeStoneSection/LimeStoneSection";
 import { getDictionary } from "@/helpers/getDictionary";
 
 const CalcitePage = async ({ params }) => {
   const { lang } = await params;
-  const { calciteSection } = await getDictionary(lang);
+  const { limeStoneSection } = await getDictionary(lang);
 
   return (
     <>
-      <CalciteSection lang={lang} dictionary={calciteSection} />
+      <LimeStoneSection lang={lang} dictionary={limeStoneSection} />
     </>
   );
 };
