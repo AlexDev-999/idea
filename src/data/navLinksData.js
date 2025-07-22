@@ -79,42 +79,6 @@ export const navLinksData = [
   },
 ];
 
-// export const headerNavigation = navLinksData.filter((el) => {
-//   return el.href !== "/services";
-// });
-
 export const headerProductsData = navLinksData.find(
   (el) => el.titleEn === "Products"
 );
-
-// export const servicesHref = navLinksData
-//   .find((el) => el.titleEn === "Services")
-//   .serviceId.find((item) => item.titleEn === "All services").href;
-
-// export const aboutUsHref = navLinksData.find(
-//   (el) => el.titleEn === "About us"
-// ).href;
-
-// export const portfolioHref = navLinksData.find(
-//   (el) => el.titleEn === "Portfolio"
-// ).href;
-
-// export const commercialDesignHref = navLinksData
-//   .find((el) => el.titleEn === "Services")
-//   .serviceId.find((item) => item.titleEn === "Commercial design")
-//   .href.slice(9);
-
-// export const houseDesignHref = navLinksData
-//   .find((el) => el.titleEn === "Services")
-//   .serviceId.find((item) => item.titleEn === "House design")
-//   .href.slice(9);
-
-// export const apartmentDesignHref = navLinksData
-//   .find((el) => el.titleEn === "Services")
-//   .serviceId.find((item) => item.titleEn === "Apartment design")
-//   .href.slice(9);
-
-// export const architecturalDesignHref = navLinksData
-//   .find((el) => el.titleEn === "Services")
-//   .serviceId.find((item) => item.titleEn === "Architectural design")
-//   .href.slice(9);
