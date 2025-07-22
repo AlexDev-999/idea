@@ -1,13 +1,13 @@
-import CalxSection from "@/sections/calxSection/CalxSection";
+import LimeSection from "@/sections/limeSection/LimeSection";
 import { getDictionary } from "@/helpers/getDictionary";
 
 const CalxPage = async ({ params }) => {
   const { lang } = await params;
-  const { calxSection } = await getDictionary(lang);
+  const { limeSection } = await getDictionary(lang);
 
   return (
     <>
-      <CalxSection lang={lang} dictionary={calxSection} />
+      <LimeSection lang={lang} dictionary={limeSection} />
     </>
   );
 };
