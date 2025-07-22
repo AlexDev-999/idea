@@ -30,15 +30,36 @@
     height: 384px;
     border: 1px solid variables.$gray-600;
     overflow: hidden;
+
+    // 👇 hover на карточку
+    &:hover .popupOverlay {
+      top: -50%;
+    }
   }
 }
 
-.cardTitle {
-  @include variables.subtitle2-Bold;
+.popupOverlay {
+  position: absolute;
+  top: 150%; // скрыт внизу
+  left: 0;
+  width: 100%;
+  height: 220%;
+  background-color: variables.$primary-700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: top 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
 
-  @media screen and (min-width: variables.$desktop) {
-    padding: 16px;
-  }
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+}
+
+.arrowIcon {
+  width: 72px;
+  height: 72px;
+  fill: none;
+  stroke: variables.$gray-0;
 }
 
 .pageLink {
@@ -47,6 +68,7 @@
 
 .imgWrapper {
   position: relative;
+  overflow: hidden;
 
   @media screen and (min-width: variables.$desktop) {
     position: relative;
@@ -59,5 +81,13 @@
   @media screen and (min-width: variables.$desktop) {
     display: block;
     object-fit: cover;
+  }
+}
+
+.cardTitle {
+  @include variables.subtitle2-Bold;
+
+  @media screen and (min-width: variables.$desktop) {
+    padding: 16px;
   }
 }

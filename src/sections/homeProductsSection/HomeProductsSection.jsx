@@ -26,6 +26,11 @@ const HomeProductsSection = ({ lang, dictionary }) => {
                     sizes="33vw"
                     fill={true}
                   />
+                  <div className={styles.popupOverlay}>
+                    <svg className={styles.arrowIcon}>
+                      <use href="/sprite.svg#icon-arrow-right"></use>
+                    </svg>
+                  </div>
                 </div>
                 <h3 className={styles.cardTitle}>
                   {lang === i18n.locales[0]
