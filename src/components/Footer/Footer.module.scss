@@ -1,1 +1,43 @@
 @use "@/app/variables";
+
+.footer {
+  @include variables.notification;
+  & {
+    padding: 20px;
+    border-top: 2px solid variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.bodyText-Regular;
+    & {
+      padding: 32px;
+    }
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    padding: 32px 24px 48px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: variables.$desktop) {
+    justify-content: normal;
+  }
+}
+
+#customLogoFooter {
+  width: 64px;
+  height: 43px;
+
+  @media screen and (min-width: variables.$tablet) {
+    min-width: 80px;
+    height: 54px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-right: 22px;
+  }
+}

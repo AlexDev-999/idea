@@ -1,0 +1,75 @@
+@use "@/app/variables";
+
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  @media screen and (min-width: variables.$tablet) {
+    row-gap: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: auto;
+    row-gap: 16px;
+  }
+}
+
+.contactLink {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+
+  @media screen and (min-width: variables.$tablet) {
+    column-gap: 8px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 12px;
+  }
+}
+
+.contactLink.phone_2 {
+  margin-left: 26px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-left: 40px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 44px;
+  }
+}
+
+.iconClass {
+  width: 24px;
+  height: 24px;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.iconClass.phone {
+  fill: none;
+  stroke: variables.$gray-900;
+}
+
+.iconClass.viber {
+  fill: variables.$gray-900;
+}
+
+.iconClass.whatsapp {
+  fill: variables.$gray-900;
+}
+
+.iconClass.email {
+  fill: variables.$gray-900;
+}
+
+.iconClass.location {
+  fill: transparent;
+  stroke: variables.$gray-900;
+}

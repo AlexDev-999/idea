@@ -1,27 +1,19 @@
-// import FooterNav from "./FooterNav/FooterNav";
-// import SocialLinks from "../SocialLinks/SocialLinks";
+"use client";
+import Logo from "../Logo/Logo";
+import HeaderNav from "../Header/HeaderNav/HeaderNav";
+import ContactsBlock from "../ContactsBlock/ContactsBlock";
+import { useWindowResize } from "@/hooks/windowResize";
 import styles from "./Footer.module.scss";
-// import Logo from "../Logo/Logo";
 
 const Footer = ({ lang, dictionary }) => {
+  const { isDesktop } = useWindowResize();
+
   return (
     <footer className={styles.footer} id="contacts">
       <div className={`container ${styles.container}`}>
-        <h4> {dictionary.policy}</h4>
-        {/* <FooterNav lang={lang} customClass={styles.customFooterNav} />
-
-        <div className={styles.socLinksAndPrivacyPolicyWrapper}>
-          <SocialLinks customClass={styles.customSocLinks} />
-          <a
-            className={styles.privacyPolicyLink}
-            href="/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {dictionary.policy}
-          </a>
-          <Logo lang={lang} customClass={styles.customLogoFooter} />
-        </div> */}
+        <Logo lang={lang} id={styles.customLogoFooter} />
+        {isDesktop && <HeaderNav lang={lang} />}
+        <ContactsBlock lang={lang} />
       </div>
     </footer>
   );

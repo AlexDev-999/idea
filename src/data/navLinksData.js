@@ -50,6 +50,11 @@ export const navLinksData = [
         titleEn: "Decorative stone",
         href: "/dekorativnij-kamin",
       },
+      {
+        titleUk: "Товари для саду",
+        titleEn: "Products for the garden",
+        href: "/tovari-dlya-sadu",
+      },
     ],
   },
   {
