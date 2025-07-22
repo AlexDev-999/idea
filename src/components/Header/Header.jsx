@@ -12,7 +12,7 @@ const Header = ({ lang }) => {
   console.log("pathname", pathname);
   // если язык по умолчанию, то убираем его из url (в нашем случае uk). Сделано для корректных адресов для ссылок в зависимости от текущего языка
   const isDefaultLang = lang === i18n.defaultLocale;
-  const homePath = isDefaultLang ? "" : `/${lang}`;
+  const homePath = isDefaultLang ? "/" : `/${lang}`;
   console.log("homePath", homePath);
   const isHomePage = pathname === homePath;
 
