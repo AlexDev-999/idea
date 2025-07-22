@@ -2,12 +2,13 @@
 
 .section {
   // @include variables.pageTopPadding;
-  width: 100%;
-  height: 100%;
-  padding-top: 140px;
-  padding-bottom: 40px;
-  padding-left: 120px;
-  padding-right: 120px;
+  @include variables.sectionSidePadding;
+  & {
+    width: 100%;
+    height: 100%;
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
 }
 
 .title {
@@ -19,9 +20,111 @@
 }
 
 .subtitle {
-  font-family: 'Gotham Pro', sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.3;
   color: #2d3037;
+  margin-bottom: 24px;
+}
+
+.faqItem {
+  border: none;
+  & li:nth-child(2n + 1) {
+    background-color: variables.$primary-900;
+  }
+
+  & li:nth-child(2n) {
+    background-color: #003cb6;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 996px;
+    margin-left: auto;
+  }
+}
+
+.faqTitle {
+  @include variables.subtitle2-Regular;
+
+  & {
+    padding: 12px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color: variables.$gray-0;
+
+    cursor: pointer;
+
+    & svg {
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    padding: 16px 12px;
+    gap: 16px;
+  }
+
+  @media screen and (min-width: variables.$laptop) {
+    &:hover svg,
+    &:focus svg {
+      transform: rotate(45deg);
+    }
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    padding: 24px 16px;
+    gap: 24px;
+  }
+}
+
+.isOpenSvg {
+  transform: rotate(45deg);
+}
+
+.isClosedSvg {
+  transform: rotate(0deg);
+}
+
+.answerWrapp {
+  interpolate-size: allow-keywords; //for chrome
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.4s ease;
+  padding-left: 8px;
+  padding-right: 40px;
+  background-color: variables.$gray-0;
+
+  @media screen and (min-width: variables.$tablet) {
+    padding-left: 12px;
+    padding-right: 52px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    padding-left: 16px;
+    padding-right: 64px;
+  }
+}
+
+.openedAnswerWrapp {
+  max-height: 300px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  @media screen and (min-width: variables.$tablet) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.answer {
+  @include variables.bodyText-Regular;
 }
