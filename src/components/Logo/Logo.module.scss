@@ -8,6 +8,7 @@
   & img {
     object-fit: contain;
   }
+
   @media screen and (min-width: variables.$tablet) {
     width: 118px;
     height: 80px;

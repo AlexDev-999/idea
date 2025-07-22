@@ -12,7 +12,7 @@ const CallLinks = ({ className }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <svg className={styles.callIcon}>
+            <svg className={`${styles.callIcon}  ${styles[item.name]}`}>
               <use href={item.icon}></use>
             </svg>
           </a>
