@@ -1,10 +1,11 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import { heroImages } from '@/data/heroImages';
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import { heroImages } from "@/data/heroImages";
 
-import styles from './HomeHeroSection.module.scss';
+import styles from "./HomeHeroSection.module.scss";
+import { i18n } from "@/dictionaries/i18n.config";
 
 const HomeHeroSection = ({ lang, dictionary }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,15 +19,18 @@ const HomeHeroSection = ({ lang, dictionary }) => {
   }, []);
 
   const handleScroll = () => {
-    const section = document.getElementById('products');
+    const section = document.getElementById("products");
     if (section) {
       const top = section.getBoundingClientRect().top + window.pageYOffset;
       window.scrollTo({
         top,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   };
+
+  const isDefaultLang = lang === i18n.defaultLocale;
+  const aboutUsPagePath = isDefaultLang ? "/pro-nas" : `/${lang}/pro-nas`;
 
   return (
     <section className={styles.section}>
@@ -34,7 +38,7 @@ const HomeHeroSection = ({ lang, dictionary }) => {
         <div
           key={index}
           className={`${styles.background} ${
-            index === currentIndex ? styles.active : ''
+            index === currentIndex ? styles.active : ""
           }`}
           style={{
             backgroundImage: `linear-gradient(rgba(45, 48, 55, 0.45), rgba(45, 48, 55, 0.45)), url(${src})`,
@@ -57,7 +61,7 @@ const HomeHeroSection = ({ lang, dictionary }) => {
               >
                 {dictionary.productsBtn}
               </button>
-              <Link href="/pro-nas" className={styles.aboutAsBtn}>
+              <Link href={aboutUsPagePath} className={styles.aboutAsBtn}>
                 {dictionary.aboutAsBtn}
               </Link>
             </div>
@@ -66,7 +70,7 @@ const HomeHeroSection = ({ lang, dictionary }) => {
                 <span
                   key={index}
                   className={`${styles.dot} ${
-                    index === currentIndex ? styles.activeDot : ''
+                    index === currentIndex ? styles.activeDot : ""
                   }`}
                   onClick={() => setCurrentIndex(index)}
                 ></span>
