@@ -1,21 +1,21 @@
-"use client";
-import { usePathname } from "next/navigation";
-import BurgerBtn from "../buttons/BurgerBtn/BurgerBtn";
-import Logo from "../Logo/Logo";
-import CallLinks from "./CallLink/CallLinks";
-import BurgerMenu from "./BurgerMenu/BurgerMenu";
-import { i18n } from "@/dictionaries/i18n.config";
-import styles from "./Header.module.scss";
+'use client';
+import { usePathname } from 'next/navigation';
+import BurgerBtn from '../buttons/BurgerBtn/BurgerBtn';
+import Logo from '../Logo/Logo';
+import CallLinks from './CallLink/CallLinks';
+import BurgerMenu from './BurgerMenu/BurgerMenu';
+import { i18n } from '@/dictionaries/i18n.config';
+import styles from './Header.module.scss';
 
 const Header = ({ lang }) => {
   const pathname = usePathname();
-  console.log("pathname", pathname);
+  console.log('pathname', pathname);
   // если язык по умолчанию, то убираем его из url (в нашем случае uk). Сделано для корректных адресов для ссылок в зависимости от текущего языка
   const isDefaultLang = lang === i18n.defaultLocale;
-  const homePath = isDefaultLang ? "/" : `/${lang}`;
-  console.log("homePath", homePath);
+  const homePath = isDefaultLang ? '/' : `/${lang}`;
+  console.log('homePath', homePath);
   const isHomePage = pathname === homePath;
-
+  console.log('pathname === homePath', pathname === homePath);
   return (
     <header
       className={

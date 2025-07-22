@@ -1,5 +1,6 @@
-import FaqSection from "@/sections/faqSection/FaqSection";
-import { getDictionary } from "@/helpers/getDictionary";
+import FaqSection from '@/sections/faqSection/FaqSection';
+import { getDictionary } from '@/helpers/getDictionary';
+import { FaqData } from '@/data/faqData.js';
 
 const FaqPage = async ({ params }) => {
   const { lang } = await params;
@@ -7,7 +8,7 @@ const FaqPage = async ({ params }) => {
 
   return (
     <>
-      <FaqSection lang={lang} dictionary={faqSection} />
+      <FaqSection lang={lang} dictionary={faqSection} data={FaqData} />
     </>
   );
 };
