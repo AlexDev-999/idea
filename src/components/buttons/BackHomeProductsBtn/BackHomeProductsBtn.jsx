@@ -2,7 +2,7 @@ import Link from "next/link";
 import { i18n } from "@/dictionaries/i18n.config";
 import styles from "./BackHomeProductsBtn.module.scss";
 
-const BackHomeProductsBtn = ({ lang }) => {
+const BackHomeProductsBtn = ({ lang, text }) => {
   const isDefaultLang = lang === i18n.defaultLocale;
   const path = isDefaultLang ? "/#products" : `/${lang}/#products`;
 
@@ -11,7 +11,7 @@ const BackHomeProductsBtn = ({ lang }) => {
       <svg className={styles.arrowIcon}>
         <use href="/sprite.svg#icon-arrow-right" />
       </svg>
-      {lang === i18n.locales[0] ? "НАЗАД" : "BACK"}
+      {text.toUpperCase()}
     </Link>
   );
 };

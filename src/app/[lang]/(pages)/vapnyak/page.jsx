@@ -1,15 +1,19 @@
 import LimeStoneSection from "@/sections/limeStoneSection/LimeStoneSection";
 import { getDictionary } from "@/helpers/getDictionary";
 
-const LimestonePage = async ({ params }) => {
+const LimeStonePage = async ({ params }) => {
   const { lang } = await params;
-  const { limeStoneSection } = await getDictionary(lang);
+  const { limeStoneSection, buttons } = await getDictionary(lang);
 
   return (
     <>
-      <LimeStoneSection lang={lang} dictionary={limeStoneSection} />
+      <LimeStoneSection
+        lang={lang}
+        dictionary={limeStoneSection}
+        buttons={buttons}
+      />
     </>
   );
 };
 
-export default LimestonePage;
+export default LimeStonePage;

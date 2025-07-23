@@ -3,11 +3,11 @@ import { getDictionary } from "@/helpers/getDictionary";
 
 const LimePage = async ({ params }) => {
   const { lang } = await params;
-  const { limeSection } = await getDictionary(lang);
+  const { limeSection, buttons } = await getDictionary(lang);
 
   return (
     <>
-      <LimeSection lang={lang} dictionary={limeSection} />
+      <LimeSection lang={lang} dictionary={limeSection} buttons={buttons} />
     </>
   );
 };
