@@ -1,5 +1,48 @@
-@use "@/app/variables";
+@use '@/app/variables';
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+  & {
+    width: 100%;
+  }
+}
+
+.container {
+}
+
+.title {
+  @include variables.title-h1;
+  & {
+    color: variables.$primary-900;
+    margin-bottom: 4px;
+  }
+}
+
+.subtitle {
+  @include variables.bodyText-Regular;
+  & {
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 386px;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 586px;
+    height: 586px;
+  }
 }

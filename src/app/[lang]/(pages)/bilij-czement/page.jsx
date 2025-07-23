@@ -1,13 +1,17 @@
-import WhiteCementSection from "@/sections/whiteCementSection/WhiteCementSection";
-import { getDictionary } from "@/helpers/getDictionary";
+import WhiteCementSection from '@/sections/whiteCementSection/WhiteCementSection';
+import { getDictionary } from '@/helpers/getDictionary';
 
 const WhiteCementPage = async ({ params }) => {
   const { lang } = await params;
-  const { whiteCementSection } = await getDictionary(lang);
+  const { whiteCementSection, buttons } = await getDictionary(lang);
 
   return (
     <>
-      <WhiteCementSection lang={lang} dictionary={whiteCementSection} />
+      <WhiteCementSection
+        lang={lang}
+        dictionary={whiteCementSection}
+        buttons={buttons}
+      />
     </>
   );
 };
