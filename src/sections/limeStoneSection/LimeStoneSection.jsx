@@ -1,8 +1,10 @@
 import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
+import CalmitTable from "@/components/tables/CalmitTable/CalmitTable";
 import { i18n } from "@/dictionaries/i18n.config";
-import styles from "./LimeStoneSection.module.scss";
 import { limeStoneData } from "@/data/products/limeStoneData";
+import styles from "./LimeStoneSection.module.scss";
+import FlorakalkTable from "@/components/tables/FlorakalkTable/FlorakalkTable";
 
 const LimeStoneSection = ({ lang, dictionary, buttons }) => {
   return (
@@ -82,6 +84,8 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                       </li>
                     ))}
                   </ul>
+                  {item.slug === "calmit" && <CalmitTable lang={lang} />}
+                  {item.slug === "florakalk" && <FlorakalkTable lang={lang} />}
                 </div>
               </li>
             );
