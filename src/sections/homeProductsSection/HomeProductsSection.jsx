@@ -8,7 +8,7 @@ const HomeProductsSection = ({ lang, dictionary }) => {
   return (
     <section className="section" id="products">
       <div className="container">
-        <h2 className={styles.title}>{dictionary.title}</h2>
+        <h2 className={styles.title}>{dictionary.title.toUpperCase()}</h2>
         <ul className={styles.productsList}>
           {productsData.map((item) => (
             <li key={item.homeCardTitleUk} className={styles.productItem}>

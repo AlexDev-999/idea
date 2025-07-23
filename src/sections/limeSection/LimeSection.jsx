@@ -7,15 +7,15 @@ import { i18n } from "@/dictionaries/i18n.config";
 import { limeData } from "@/data/products/limeData";
 import styles from "./LimeSection.module.scss";
 
-const LimeSection = ({ lang, dictionary }) => {
+const LimeSection = ({ lang, dictionary, buttons }) => {
   return (
     <section className={`section ${styles.section}`}>
       <div className="container">
-        <BackHomeProductsBtn lang={lang}/>
+        <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} />
         <h1 className={styles.title}>{dictionary.title}</h1>
         <p className={styles.subscription}>{dictionary.subscription}</p>
         <ul>
-          {limeData.map((item) => {
+          {limeData.map((item, index) => {
             const applicationList =
               lang === i18n.locales[0]
                 ? item.applicationListUk
@@ -37,6 +37,7 @@ const LimeSection = ({ lang, dictionary }) => {
                       // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
                       sizes="50vw"
                       fill={true}
+                      priority={index === 0 ? true : false}
                     />
                   </div>
                   <div className={styles.infoWrapper}>
@@ -70,8 +71,13 @@ const LimeSection = ({ lang, dictionary }) => {
                       ))}
                     </ul>
                     <div className={styles.techInfoWrapper}>
-                      <span className={styles.techInfoSubTitle}>{dictionary.techInfo}</span>
-                      <DownloadBtn href={item.pdfPath} text={dictionary.downloadBtn}/>
+                      <span className={styles.techInfoSubTitle}>
+                        {dictionary.techInfo}
+                      </span>
+                      <DownloadBtn
+                        href={item.pdfPath}
+                        text={buttons.downloadBtn}
+                      />
                     </div>
                   </div>
                 </div>

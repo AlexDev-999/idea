@@ -38,11 +38,21 @@
     "subscription": "MPP «Idea» is a certified partner of Calmit in Ukraine, you can purchase the following products of this company from us:",
     "application": "Application:",
     "delivery": "Possible delivery options:",
-    "techInfo": "Technical information:",
-    "downloadBtn": "Download Pdf"
+    "techInfo": "Technical information:"
   },
   "limeStoneSection": {
-    "title": "Title"
+    "title": "Limestone",
+    "subscription": "Pure limestone of various sizes. Fractions depend on the plant.",
+    "mainApplication": "Application:",
+    "mainApplicationList": [
+      "in industrial applications",
+      "in construction as a filler for asphalt and in road construction",
+      "in animal husbandry as an additive to feed and water disinfection",
+      "in agriculture for soil liming"
+    ],
+    "compositionSubTitle": "Composition:",
+    "application": "Application:",
+    "delivery": "Possible delivery options:"
   },
   "marbleCrumbSection": {
     "title": "Title"
@@ -61,5 +71,9 @@
   },
   "footer": {
     "policy": "Privacy policy"
+  },
+  "buttons": {
+    "backHomeProductsBtn": "Back",
+    "downloadBtn": "Download Pdf"
   }
 }

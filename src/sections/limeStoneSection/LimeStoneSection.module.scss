@@ -1,5 +1,244 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 4px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 4px;
+    color: variables.$primary-900;
+  }
+}
+
+.subscription {
+  @include variables.subtitle2-Regular;
+
+  & {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.mainApplicationSubTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.mainApplicationList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 16px;
+  list-style: outside;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: outside;
+  }
+}
+
+.mainApplicationItem {
+  margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+  }
+}
+
+.productItem:not(:last-child) {
+  margin-bottom: 40px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 40px;
+  }
+}
+
+.imgWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 586 / 586;
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    position: relative;
+    width: 50%;
+    aspect-ratio: 586 / 586;
+  }
+}
+
+.img {
+  @media screen and (min-width: variables.$desktop) {
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.infoWrapper {
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+}
+
+.productTitle {
+  @include variables.subtitle1-Bold;
+
+  & {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+}
+
+.compositiontionSubTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 4px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 4px;
+  }
+}
+
+.compositionList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 16px;
+  list-style: outside;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: outside;
+  }
+}
+
+.compositionItem {
+  margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
+}
+
+.applicationSubTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.applicationList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 16px;
+  list-style: outside;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: outside;
+  }
+}
+
+.applicationItem {
+  margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
+}
+
+.deliverySubTitle {
+  @include variables.subtitle2-Bold;
+  & {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.deliveryList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-bottom: 16px;
+  list-style: decimal;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: decimal;
+  }
+}
+
+.deliveryItem {
+  margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
 }
