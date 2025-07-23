@@ -1,7 +1,7 @@
 import LimeSection from "@/sections/limeSection/LimeSection";
 import { getDictionary } from "@/helpers/getDictionary";
 
-const CalxPage = async ({ params }) => {
+const LimePage = async ({ params }) => {
   const { lang } = await params;
   const { limeSection } = await getDictionary(lang);
 
@@ -12,4 +12,4 @@ const CalxPage = async ({ params }) => {
   );
 };
 
-export default CalxPage;
+export default LimePage;

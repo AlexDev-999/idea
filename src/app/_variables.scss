@@ -67,6 +67,22 @@ $alertSystem: #230b82;
   }
 }
 
+@mixin onlySectionWithBreadCrumbsPaddings {
+    // исправить
+  & {
+     padding: 100px 20px 20px;
+    }
+
+  @media screen and (min-width: $tablet) {
+   //  исправить
+  padding: 124px 32px 24px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 124px 120px 40px;
+  }
+}
+
 // стили текста. использование, например, - @include variables.title-h1
 
 // H/H1

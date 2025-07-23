@@ -34,7 +34,12 @@
     "title": "Products"
   },
   "limeSection": {
-    "title": "Title"
+    "title": "Lime",
+    "subscription": "MPP «Idea» is a certified partner of Calmit in Ukraine, you can purchase the following products of this company from us:",
+    "application": "Application:",
+    "delivery": "Possible delivery options:",
+    "techInfo": "Technical information:",
+    "downloadBtn": "Download Pdf"
   },
   "limeStoneSection": {
     "title": "Title"
