@@ -34,7 +34,12 @@
     "title": "Продукція"
   },
   "limeSection": {
-    "title": "Title"
+    "title": "Вапно",
+    "subscription": "МПП «Ідея» є сертифікованим партнером Calmit в Україні, в нас ви можете придбати таку продукцію цієї компанії:",
+    "application": "Застосування:",
+    "delivery": "Можливі варіанти поставок:",
+    "techInfo": "Технічна інформація:",
+    "downloadBtn": "Завантажити Pdf"
   },
   "limeStoneSection": {
     "title": "Title"

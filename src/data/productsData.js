@@ -1,13 +1,13 @@
 export const productsData = [
   {
     homeCardTitleUk: "Вапно",
-    homeCardTitleEn: "Calx",
+    homeCardTitleEn: "Lime",
     homeCardImg: "/webp/homeProducts/vapno.webp",
     pageLink: "/vapno",
   },
   {
     homeCardTitleUk: "Вапняк",
-    homeCardTitleEn: "Calcite",
+    homeCardTitleEn: "Limestone",
     homeCardImg: "/webp/homeProducts/vapnyak.webp",
     pageLink: "/vapnyak",
   },

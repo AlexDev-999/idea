@@ -1,5 +1,179 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 12px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+    color: variables.$primary-900;
+  }
+}
+
+.subscription {
+  @include variables.subtitle2-Regular;
+
+  &{margin-bottom: 16px;}
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+}
+
+.productItem:not(:last-child) {
+   margin-bottom: 40px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 40px;
+  }
+}
+.contentWrapper {
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+.imgWrapper {
+  position: relative;
+  overflow: hidden;
+
+  @media screen and (min-width: variables.$desktop) {
+    position: relative;
+    width: 50%;
+    aspect-ratio: 586 / 586;
+  }
+}
+
+.img {
+  @media screen and (min-width: variables.$desktop) {
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.infoWrapper {
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+}
+
+.productTitle {
+  @include variables.subtitle1-Bold;
+
+  & {
+      margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+}
+
+.productDescription {
+  @include variables.bodyText-Regular;
+
+  &{  margin-bottom: 16px;}
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.applicationSubTitle {
+  @include variables.subtitle2-Bold;
+
+  &{    margin-bottom: 12px;}
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.applicationList {
+  display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: outside;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: outside;
+  }
+}
+
+.applicationItem {
+      margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
+}
+
+.deliverySubTitle {
+  @include variables.subtitle2-Bold;
+  &{ margin-bottom: 12px;}
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.deliveryList {
+      display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: decimal;
+
+  @media screen and (min-width: variables.$desktop) {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-bottom: 16px;
+    list-style: decimal;
+  }
+}
+
+.deliveryItem {
+    margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
+}
+
+.techInfoWrapper{
+    
+
+  @media screen and (min-width: variables.$desktop) {
+    display:flex;
+    column-gap:12px;
+  }
+}
+
+.techInfoSubTitle{
+  @include variables.subtitle2-Bold;
 }

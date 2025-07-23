@@ -2,11 +2,11 @@
 
 .tableWrapper {
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .table {
-  width: 100%;
+  width: 650px;
   border-collapse: collapse;
   text-align: left;
 }

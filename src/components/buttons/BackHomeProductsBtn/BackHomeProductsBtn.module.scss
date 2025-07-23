@@ -1,0 +1,48 @@
+@use "@/app/variables";
+
+.button {
+  @include variables.bodyText-Bold;
+
+  & {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    padding: 2px;
+    border: none;
+    border-bottom: solid 1px variables.$gray-900;
+    color: variables.$gray-900;
+    cursor: pointer;
+    margin-bottom: 24px;
+
+    &:hover,
+    &:focus {
+      border-color: variables.$primary-900;
+      color: variables.$primary-900;
+    }
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    column-gap: 8px;
+  }
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: variables.$gray-900;
+  stroke-width: 1.5px;
+  rotate: 180deg;
+
+  &:hover,
+  &:focus {
+    stroke: variables.$primary-900;
+  }
+}
+
+.button:hover .arrowIcon,
+.button:focus .arrowIcon {
+  stroke: variables.$primary-900;
+}

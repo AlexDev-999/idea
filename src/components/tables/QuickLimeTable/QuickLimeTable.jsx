@@ -1,6 +1,6 @@
 // негашене вапно
 import { i18n } from "@/dictionaries/i18n.config";
-import { quickLimeTableData } from "@/data/quickLimeTableData";
+import { quickLimeTableData } from "@/data/products/quickLimeTableData";
 import styles from "./QuickLimeTable.module.scss";
 
 const QuickLimeTable = ({ lang }) => {
@@ -29,37 +29,75 @@ const QuickLimeTable = ({ lang }) => {
 
         <tbody className={styles.tableBody}>
           {quickLimeTableData.infoItems?.map((item) => {
-            if(item.sub){
-              return <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
-              <td>
-                {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}<sub>{item.sub}</sub>
-              </td>
-              <td>{item.threshold}</td>
-              <td>{item.value}</td>
-              <td>
-                {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
-              </td>
-            </tr>} else 
-              if(item.sup) { return <tr key={item.propertyEn_1} scope="row" className={styles.tableRow}>
-              <td>                
-                 {lang === i18n.locales[0] ? <span>{item.propertyUk_1}<sup>{item.sup}</sup>{item.propertyUk_2}</span> : <span>{item.propertyEn_1}<sup>{item.sup}</sup>{item.propertyEn_2}</span>}
-              </td>
-              <td>{item.threshold}</td>
-              <td>{item.value}</td>
-              <td>
-                {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
-              </td>
-            </tr>}else return <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
-              <td>
-                {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}
-              </td>
-              <td>{item.threshold}</td>
-              <td>{item.value}</td>
-              <td>
-                {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
-              </td>
-            </tr>}
-          )}
+            if (item.sub) {
+              return (
+                <tr
+                  key={item.propertyEn}
+                  scope="row"
+                  className={styles.tableRow}
+                >
+                  <td>
+                    {lang === i18n.locales[0]
+                      ? item.propertyUk
+                      : item.propertyEn}
+                    <sub>{item.sub}</sub>
+                  </td>
+                  <td>{item.threshold}</td>
+                  <td>{item.value}</td>
+                  <td>
+                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                  </td>
+                </tr>
+              );
+            } else if (item.sup) {
+              return (
+                <tr
+                  key={item.propertyEn_1}
+                  scope="row"
+                  className={styles.tableRow}
+                >
+                  <td>
+                    {lang === i18n.locales[0] ? (
+                      <span>
+                        {item.propertyUk_1}
+                        <sup>{item.sup}</sup>
+                        {item.propertyUk_2}
+                      </span>
+                    ) : (
+                      <span>
+                        {item.propertyEn_1}
+                        <sup>{item.sup}</sup>
+                        {item.propertyEn_2}
+                      </span>
+                    )}
+                  </td>
+                  <td>{item.threshold}</td>
+                  <td>{item.value}</td>
+                  <td>
+                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                  </td>
+                </tr>
+              );
+            } else
+              return (
+                <tr
+                  key={item.propertyEn}
+                  scope="row"
+                  className={styles.tableRow}
+                >
+                  <td>
+                    {lang === i18n.locales[0]
+                      ? item.propertyUk
+                      : item.propertyEn}
+                  </td>
+                  <td>{item.threshold}</td>
+                  <td>{item.value}</td>
+                  <td>
+                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                  </td>
+                </tr>
+              );
+          })}
         </tbody>
       </table>
     </div>

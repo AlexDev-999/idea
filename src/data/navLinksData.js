@@ -12,12 +12,12 @@ export const navLinksData = [
     productsId: [
       {
         titleUk: "Вапно",
-        titleEn: "Calx",
+        titleEn: "Lime",
         href: "/vapno",
       },
       {
         titleUk: "Вапняк",
-        titleEn: "Calcite",
+        titleEn: "Limestone",
         href: "/vapnyak",
       },
       {
