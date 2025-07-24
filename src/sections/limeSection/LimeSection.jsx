@@ -13,7 +13,7 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
       <div className="container">
         <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} />
         <h1 className={styles.title}>{dictionary.title}</h1>
-        <p className={styles.subscription}>{dictionary.subscription}</p>
+        <p className={styles.description}>{dictionary.description}</p>
         <ul>
           {limeData.map((item, index) => {
             const applicationList =

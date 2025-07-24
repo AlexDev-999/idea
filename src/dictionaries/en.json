@@ -20,7 +20,10 @@
     "title": "Title"
   },
   "gasBlocksSection": {
-    "title": "Title"
+    "title": "Gas blocks",
+    "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
+    "description_2": "We are a certified partner of Xella in Ukraine, Xella is the largest producer of aerated concrete in the world, we offer the following sizes of blocks of the Ytong brand:",
+    "anotherProductsSubTitle":"We also present blocks from the Ternopil manufacturer Gazobet"
   },
   "homeHeroSection": {
     "title": "Idea - Certified Partner in Ukraine:",
@@ -35,14 +38,14 @@
   },
   "limeSection": {
     "title": "Lime",
-    "subscription": "MPP «Idea» is a certified partner of Calmit in Ukraine, you can purchase the following products of this company from us:",
+    "description": "MPP «Idea» is a certified partner of Calmit in Ukraine, you can purchase the following products of this company from us:",
     "application": "Application:",
     "delivery": "Possible delivery options:",
     "techInfo": "Technical information:"
   },
   "limeStoneSection": {
     "title": "Limestone",
-    "subscription": "Pure limestone of various sizes. Fractions depend on the plant.",
+    "description": "Pure limestone of various sizes. Fractions depend on the plant.",
     "mainApplication": "Application:",
     "mainApplicationList": [
       "in industrial applications",
