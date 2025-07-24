@@ -98,25 +98,34 @@
   width: 100%;
   aspect-ratio: 586 / 586;
 
-  @media screen and (min-width: variables.$desktop) {
+  @media screen and (min-width: variables.$tablet) {
     width: 50%;
+    height: fit-content;
   }
 
   @media screen and (min-width: variables.$desktop) {
-    position: relative;
-    width: 50%;
-    aspect-ratio: 586 / 586;
+    // position: relative;
+    // width: 50%;
+    // aspect-ratio: 586 / 586;
   }
 }
 
 .img {
-  @media screen and (min-width: variables.$desktop) {
-    display: block;
-    object-fit: cover;
-  }
+  display: block;
+  object-fit: cover;
+
+  // @media screen and (min-width: variables.$desktop) {
+  //   display: block;
+  //   object-fit: cover;
+  // }
 }
 
 .infoWrapper {
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+  }
   @media screen and (min-width: variables.$desktop) {
     width: 50%;
   }
