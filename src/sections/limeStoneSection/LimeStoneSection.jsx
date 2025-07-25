@@ -1,10 +1,10 @@
 import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import CalmitTable from "@/components/tables/CalmitTable/CalmitTable";
+import FlorakalkTable from "@/components/tables/FlorakalkTable/FlorakalkTable";
 import { i18n } from "@/dictionaries/i18n.config";
 import { limeStoneData } from "@/data/products/limeStoneData";
 import styles from "./LimeStoneSection.module.scss";
-import FlorakalkTable from "@/components/tables/FlorakalkTable/FlorakalkTable";
 
 const LimeStoneSection = ({ lang, dictionary, buttons }) => {
   return (
@@ -12,7 +12,7 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
       <div className="container">
         <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} />
         <h1 className={styles.title}>{dictionary.title}</h1>
-        <p className={styles.subscription}>{dictionary.subscription}</p>
+        <p className={styles.description}>{dictionary.description}</p>
         <p className={styles.mainApplicationSubTitle}>
           {dictionary.mainApplication}
         </p>

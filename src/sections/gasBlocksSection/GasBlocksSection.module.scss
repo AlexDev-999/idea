@@ -1,5 +1,162 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 4px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 4px;
+    color: variables.$primary-900;
+  }
+}
+
+.description {
+  @include variables.bodyText-Regular;
+
+  & {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+}
+
+.description:not(:last-child) {
+  margin-bottom: 4px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 4px;
+  }
+}
+
+.description:last-of-type {
+  margin-bottom: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.productsList{
+  margin-bottom: 24px;
+}
+
+.productItem {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+  }
+}
+
+// .productItem:not(:last-child) {
+//   margin-bottom: 40px;
+
+//   @media screen and (min-width: variables.$desktop) {
+//     margin-bottom: 40px;
+//   }
+// }
+
+.imgWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 586 / 586;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    height: fit-content;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    // position: relative;
+    // width: 50%;
+    // aspect-ratio: 586 / 586;
+  }
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+
+  // @media screen and (min-width: variables.$desktop) {
+  //   display: block;
+  //   object-fit: cover;
+  // }
+}
+
+.infoWrapper {
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+}
+
+.productTitle {
+  @include variables.subtitle1-Bold;
+
+  & {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+}
+
+.productDescription {
+  @include variables.bodyText-Regular;
+
+  & {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.anotherProductsSubTitle{
+    @include variables.subtitle1-Bold;
+
+    & {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
 }

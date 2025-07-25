@@ -5,7 +5,6 @@ import styles from "./CalmitTable.module.scss";
 
 const CalmitTable = ({ lang }) => {
   return (
-    // <div className={styles.tableWrapper}>
     <table className={styles.table}>
       <tbody className={styles.tableBody}>
         {calmitTableData.infoItems?.map((item, index) => {
@@ -33,7 +32,6 @@ const CalmitTable = ({ lang }) => {
         })}
       </tbody>
     </table>
-    // </div>
   );
 };
 
