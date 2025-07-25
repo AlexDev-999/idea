@@ -1,6 +1,6 @@
 import styles from "./GardenProductsSection.module.scss";
 
-const GardenProductsSection = ({ lang, dictionary }) => {
+const GardenProductsSection = ({ lang, dictionary, buttons }) => {
   return <section className={styles.section}>GardenProductsSection</section>;
 };
 

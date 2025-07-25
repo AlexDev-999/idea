@@ -1,5 +1,199 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 12px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+    color: variables.$primary-900;
+  }
+}
+
+.description {
+  @include variables.subtitle2-Regular;
+
+  & {
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+    margin-bottom: 24px;
+  }
+}
+
+// .productsList{
+//   margin-bottom: 24px;
+// }
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.card {
+  width: 100%;
+  background-color: variables.$gray-0;
+  border: 1px solid variables.$gray-600;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: calc((100% - 32px) / 3);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: calc((100% - 48px) / 3);
+  }
+}
+
+.cardImgWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 382/383;
+
+  @media screen and (min-width: variables.$tablet) {
+    aspect-ratio: 382/383;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    aspect-ratio: 382/383;
+  }
+}
+
+.cardImg {
+  display: block;
+  object-fit: cover;
+}
+
+.cardTitleAndLinkWrapper {
+  min-height: 134px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    padding: 16px;
+    min-height: 134px;
+  }
+}
+
+.cardTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 4px;
+    color: variables.$gray-900;
+  }
+}
+
+.cardSubTitle {
+  @include variables.bodyText-Regular;
+
+  & {
+    color: variables.$gray-900;
+  }
+}
+
+.customLink {
+  margin-top: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-left: auto;
+  }
+}
+
+.productionSubTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.exampleText {
+  @include variables.subtitle2-Regular;
+
+  & {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
+}
+
+.exampleList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    gap: 24px;
+  }
+}
+
+.exampleImgWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 282/282;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: calc((100% - 16px) / 2);
+    aspect-ratio: 282/282;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: calc((100% - 72px) / 4);
+    aspect-ratio: 282/282;
+  }
+}
+
+.exampleImg {
+  display: block;
+  object-fit: cover;
 }
