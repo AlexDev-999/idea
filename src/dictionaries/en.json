@@ -58,7 +58,8 @@
     "delivery": "Possible delivery options:"
   },
   "marbleCrumbSection": {
-    "title": "Title"
+    "title": "Marble crumbs",
+    "subTitle": "Available factions:"
   },
   "stairsSection": {
     "title": "Title"
@@ -68,9 +69,9 @@
   },
   "terrazzoTilesSection": {
     "title": "Terrazzo Tiles",
-    "description":"Terrazzo is a mixture of cement, crushed precious stone (marble, etc.), and pigments used in stone masonry to create surfaces that imitate stone.",
-    "productionSubTitle":"It is possible to manufacture tiles of various patterns and shapes to order according to your wishes!",
-    "exampleText":"Example:"
+    "description": "Terrazzo is a mixture of cement, crushed precious stone (marble, etc.), and pigments used in stone masonry to create surfaces that imitate stone.",
+    "productionSubTitle": "It is possible to manufacture tiles of various patterns and shapes to order according to your wishes!",
+    "exampleText": "Example:"
   },
   "whiteCementSection": {
     "title": "White cement",
