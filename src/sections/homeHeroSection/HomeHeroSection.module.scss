@@ -29,6 +29,12 @@
     justify-content: space-between;
     z-index: -1;
   }
+  @media screen and (min-width: variables.$tablet) {
+    padding-bottom: 64px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    padding-bottom: 32px;
+  }
 }
 
 .background.active {
@@ -49,9 +55,12 @@
   @media screen and (min-width: variables.$tablet) {
     @include variables.title-h1;
     & {
-      margin-bottom: 4px;
-      width: 80%;
+      margin-bottom: 2px;
     }
+  }
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 4px;
+    width: 80%;
   }
 }
 
@@ -79,6 +88,9 @@
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
     column-gap: 16px;
+    margin-bottom: 40px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 60px;
   }
 }
@@ -104,6 +116,10 @@
     }
   }
   @media screen and (min-width: variables.$tablet) {
+    width: 158px;
+    height: 40px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     width: 220px;
     height: 51px;
   }
@@ -130,6 +146,10 @@
     }
   }
   @media screen and (min-width: variables.$tablet) {
+    width: 158px;
+    height: 40px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     width: 220px;
     height: 51px;
   }

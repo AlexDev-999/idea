@@ -23,7 +23,7 @@
     "title": "Gas blocks",
     "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
     "description_2": "We are a certified partner of Xella in Ukraine, Xella is the largest producer of aerated concrete in the world, we offer the following sizes of blocks of the Ytong brand:",
-    "anotherProductsSubTitle":"We also present blocks from the Ternopil manufacturer Gazobet"
+    "anotherProductsSubTitle": "We also present blocks from the Ternopil manufacturer Gazobet"
   },
   "homeHeroSection": {
     "title": "Idea - Certified Partner in Ukraine:",
@@ -71,7 +71,12 @@
   },
   "whiteCementSection": {
     "title": "White cement",
-    "description": "White Portland cement is added as a binder in the production of white and colored plasters and concretes. Concrete made from this Portland cement does not require plastering. The material can be painted white, or a suitable dye can be added to turn white concrete into another color."
+    "description": "White Portland cement is added as a binder in the production of white and colored plasters and concretes. Concrete made from this Portland cement does not require plastering. The material can be painted white, or a suitable dye can be added to turn white concrete into another color.",
+    "clinkerTitle": "Clinker:",
+    "blastFurnaceSlagTitle": "Blast furnace slag:",
+    "limestoneTitle": "Limestone:",
+    "additivesTitle": "Additives:",
+    "deliveryOptions": "Possible delivery options:"
   },
   "footer": {
     "policy": "Privacy policy"
