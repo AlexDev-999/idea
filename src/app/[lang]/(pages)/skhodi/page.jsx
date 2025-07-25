@@ -3,11 +3,11 @@ import { getDictionary } from "@/helpers/getDictionary";
 
 const StairsPage = async ({ params }) => {
   const { lang } = await params;
-  const { stairsSection } = await getDictionary(lang);
+  const { stairsSection, buttons } = await getDictionary(lang);
 
   return (
     <>
-      <StairsSection lang={lang} dictionary={stairsSection} />
+      <StairsSection lang={lang} dictionary={stairsSection} buttons={buttons} />
     </>
   );
 };

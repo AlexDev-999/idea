@@ -3,7 +3,7 @@ import { getDictionary } from "@/helpers/getDictionary";
 
 const GardenProductsPage = async ({ params }) => {
   const { lang } = await params;
-  const { gardenProductsSection } = await getDictionary(lang);
+  const { gardenProductsSection, buttons } = await getDictionary(lang);
 
   return (
     <>

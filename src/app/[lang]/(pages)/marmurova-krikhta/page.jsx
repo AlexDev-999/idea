@@ -3,11 +3,11 @@ import { getDictionary } from "@/helpers/getDictionary";
 
 const MarbleCrumbPage = async ({ params }) => {
   const { lang } = await params;
-  const { marbleCrumbSection } = await getDictionary(lang);
+  const { marbleCrumbSection, buttons } = await getDictionary(lang);
 
   return (
     <>
-      <MarbleCrumbSection lang={lang} dictionary={marbleCrumbSection} />
+      <MarbleCrumbSection lang={lang} dictionary={marbleCrumbSection} buttons={buttons}/>
     </>
   );
 };

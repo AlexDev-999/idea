@@ -36,7 +36,7 @@ export const navLinksData = [
         href: "/marmurova-krikhta",
       },
       {
-        titleUk: "Плитка терацо",
+        titleUk: "Плитка Терацо",
         titleEn: "Terrazzo tiles",
         href: "/plitka-teraczo",
       },
