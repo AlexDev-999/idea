@@ -1,5 +1,127 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 24px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px;
+    color: variables.$primary-900;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+  }
+}
+
+.imgWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 586 / 586;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    margin-bottom: 0;
+    // height: fit-content;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    // position: relative;
+    // width: 50%;
+    // aspect-ratio: 586 / 586;
+  }
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+}
+
+.infoWrapper {
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+}
+
+.productTitle {
+  @include variables.subtitle1-Bold;
+
+  & {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+}
+
+.productDescription {
+  @include variables.bodyText-Regular;
+}
+
+.productDescription:not(:last-of-type) {
+  & {
+    margin-bottom: 4px;
+  }
+}
+
+.productDescription.lastDescription {
+  & {
+    margin-bottom: 16px;
+  }
+}
+
+.factionsSubTitle {
+  @include variables.subtitle2-Bold;
+
+  & {
+    margin-bottom: 12px;
+  }
+}
+
+.factionsList {
+  list-style: outside;
+
+  @media screen and (min-width: variables.$desktop) {
+    list-style: outside;
+  }
+}
+
+.factionItem {
+  margin-left: 24px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-left: 24px;
+  }
 }
