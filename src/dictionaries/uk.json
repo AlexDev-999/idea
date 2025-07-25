@@ -17,7 +17,8 @@
     "subtitle": "Часті питання:"
   },
   "gardenProductsSection": {
-    "title": "Title"
+    "title": "ТОВАРИ ДЛЯ САДУ",
+    "more": "БІЛЬШЕ"
   },
   "gasBlocksSection": {
     "title": "Газоблоки",
@@ -62,7 +63,9 @@
     "subTitle": "Доступні фракції:"
   },
   "stairsSection": {
-    "title": "Title"
+    "title": "Сходи",
+    "subtitle": "Cidemat може виготовити готові бетонні сходи на замовлення.",
+    "weight": "ВАГА"
   },
   "terrazzoTilesIdSection": {
     "title": "Title"

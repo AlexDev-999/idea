@@ -73,11 +73,19 @@
   }
 }
 
+.contentSubtitleRetreat {
+  margin-bottom: 12px;
+}
+
 .contentDesc {
   @include variables.bodyText-Regular;
   & {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
+}
+
+.contentDescText {
+  margin-bottom: 16px;
 }
 
 .contentDeliveryOptions {

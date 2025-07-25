@@ -1,5 +1,5 @@
-import GardenProductsSection from "@/sections/gardenProductsSection/GardenProductsSection";
-import { getDictionary } from "@/helpers/getDictionary";
+import GardenProductsSection from '@/sections/gardenProductsSection/GardenProductsSection';
+import { getDictionary } from '@/helpers/getDictionary';
 
 const GardenProductsPage = async ({ params }) => {
   const { lang } = await params;
@@ -7,7 +7,11 @@ const GardenProductsPage = async ({ params }) => {
 
   return (
     <>
-      <GardenProductsSection lang={lang} dictionary={gardenProductsSection} />
+      <GardenProductsSection
+        lang={lang}
+        dictionary={gardenProductsSection}
+        buttons={buttons}
+      />
     </>
   );
 };
