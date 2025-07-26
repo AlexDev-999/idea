@@ -17,7 +17,8 @@
     "subtitle": "Frequently asked questions:"
   },
   "gardenProductsSection": {
-    "title": "Title"
+    "title": "GARDEN PRODUCTS",
+    "more": "MORE"
   },
   "gasBlocksSection": {
     "title": "Gas blocks",
@@ -62,7 +63,9 @@
     "subTitle": "Available factions:"
   },
   "stairsSection": {
-    "title": "Title"
+    "title": "Stairs",
+    "subtitle": "Cidemat can manufacture prefabricated concrete stairs to order.",
+    "weight": "WEIGHT"
   },
   "terrazzoTilesIdSection": {
     "title": "Title"
