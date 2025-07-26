@@ -73,8 +73,15 @@
     "weight": "WEIGHT"
   },
   "terrazzoTilesIdSection": {
-    "title": "Title"
-  },
+    "terrazzoTilesWallStrips": { 
+    "title": "Wall strips",
+    "description": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
+    "sizes":"Sizes",
+    "measurement":"mm",
+    "opportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
+    "opportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius."
+    }
+  }, 
   "terrazzoTilesSection": {
     "title": "Terrazzo Tiles",
     "description": "Terrazzo is a mixture of cement, crushed precious stone (marble, etc.), and pigments used in stone masonry to create surfaces that imitate stone.",

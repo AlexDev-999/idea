@@ -4,7 +4,7 @@ import { getDictionary } from "@/helpers/getDictionary";
 
 const TerrazzoTilesIdPage = async ({ params }) => {
   const { lang, slug } = await params;
-  const { terrazzoTilesIdSection } = await getDictionary(lang);
+  const { terrazzoTilesIdSection, buttons } = await getDictionary(lang);
 
   // const blogIdData = arrOfBlogs.find((item) => item.slug === slug);
 
@@ -14,6 +14,8 @@ const TerrazzoTilesIdPage = async ({ params }) => {
         lang={lang}
         dictionary={terrazzoTilesIdSection}
         // data={blogIdData}
+        buttons={buttons}
+        slug={slug}
       />
     </>
   );

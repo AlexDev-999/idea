@@ -1,5 +1,9 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
 }
