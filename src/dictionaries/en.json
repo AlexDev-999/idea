@@ -20,6 +20,11 @@
     "title": "GARDEN PRODUCTS",
     "more": "MORE"
   },
+  "gardenProductsIdSection": {
+    "diameter": "diameter",
+    "height": "height",
+    "weight": "weight"
+  },
   "gasBlocksSection": {
     "title": "Gas blocks",
     "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
