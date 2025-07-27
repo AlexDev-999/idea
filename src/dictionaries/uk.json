@@ -17,13 +17,52 @@
   },
   "gardenProductsSection": {
     "title": "ТОВАРИ ДЛЯ САДУ",
-    "more": "БІЛЬШЕ"
-  },
-  "gardenProductsIdSection": {
+    "more": "БІЛЬШЕ",
     "diameter": "діаметр",
     "height": "висота",
-    "weight": "вага"
+    "weight": "вага",
+    "productsData": [
+      {
+        "slug": "terrazzo-circles",
+        "title": "Тераццо кола",
+        "image": "/webp/gardenProductsPage/TerrazzoCircles.webp",
+        "description": "Спеціально для екстер'єрів - садів, дитячих майданчиків, громадських просторів - для цікавого вирішення відкритих зон ми розпочали виробництво садових кіл з тераццо. Коло можна укладати в траву, в гравійне підстилку або в напівсухий бетон.",
+        "images": [
+          "/webp/gardenProductsPage/TerrazzoCircles-TK 40.webp",
+          "/webp/gardenProductsPage/TerrazzoCircles-TK 60.webp"
+        ],
+        "titles": ["TK 40", "TK 60"],
+        "diameter": "400/600 мм",
+        "height": "5см 27мм/38мм",
+        "weight": "8,5 кг/24 кг"
+      },
+      {
+        "slug": "concrete-circles",
+        "title": "Бетонні кола",
+        "image": "/webp/gardenProductsPage/ConcreteCircles.webp",
+        "description": "Спеціально для екстер'єрів - садів, дитячих майданчиків, громадських просторів - для цікавого вирішення відкритих зон ми розпочали виробництво садових кіл з бетону. Коло можна укладати в траву, в гравійне підстилку або в напівсухий бетон.",
+        "images": [
+          "/webp/gardenProductsPage/ConcreteCircles-BK 601.webp",
+          "/webp/gardenProductsPage/ConcreteCircles-BK 602.webp"
+        ],
+        "titles": ["BK 601", "BK 602"],
+        "diameter": "600 мм",
+        "height": "5 см 40 мм ",
+        "weight": "28 кг"
+      },
+      {
+        "slug": "concrete-garden-steps",
+        "title": "Бетонні садові сходинки",
+        "image": "/webp/gardenProductsPage/ConcreteGardenSteps.webp",
+        "description": "Бетонні сходинки з рельєфом використовуються для будівництва садових сходів, тротуарів або як окремі зовнішні сходинки.",
+        "images": [
+          "/webp/gardenProductsPage/ConcreteGardenSteps-1.webp",
+          "/webp/gardenProductsPage/ConcreteGardenSteps-2.webp"
+        ]
+      }
+    ]
   },
+
   "gasBlocksSection": {
     "title": "Газоблоки",
     "description_1": "Газобетон – унікальний будівельний матеріал, що поєднує в собі високу міцність та легкість. Забезпчує відмінні ізоляційні властивості, простоту укладання та обробки. Все це надає йому значну перевагу перед іншими будівельними матеріалами.",
@@ -40,52 +79,53 @@
   },
   "homeProductsSection": {
     "title": "Продукція",
-    "productsData": [  {
-    "homeCardTitle": "Вапно",
-    "homeCardImg": "/webp/homeProducts/vapno.webp",
-    "pageLink": "/vapno"
-  },
-  {
-    "homeCardTitle": "Вапняк",
-    "homeCardImg": "/webp/homeProducts/vapnyak.webp",
-    "pageLink": "/vapnyak"
-  },
-  {
-    "homeCardTitle": "Білий цемент",
-    "homeCardImg": "/webp/homeProducts/bilij-czement.webp",
-    "pageLink": "/bilij-czement"
-  },
-  {
-    "homeCardTitle": "Газоблоки",
-    "homeCardImg": "/webp/homeProducts/gazobloki.webp",
-    "pageLink": "/gazobloki"
-  },
-  {
-    "homeCardTitle": "Мармурова крихта",
-    "homeCardImg": "/webp/homeProducts/marmurova-krikhta.webp",
-    "pageLink": "/marmurova-krikhta"
-  },
-  {
-    "homeCardTitle": "Плитка Терацо",
-    "homeCardImg": "/webp/homeProducts/plitka-teraczo.webp",
-    "pageLink": "/plitka-teraczo"
-  },
-  {
-    "homeCardTitle": "Сходи",
-    "homeCardImg": "/webp/homeProducts/skhodi.webp",
-    "pageLink": "/skhodi"
-  },
-  {
-    "homeCardTitle": "Декоративні камені",
-    "homeCardImg": "/webp/homeProducts/dekorativnij-kamin.webp",
-    "pageLink": "/dekorativnij-kamin"
-  },
-  {
-    "homeCardTitle": "Товари для саду",
-    "homeCardImg": "/webp/homeProducts/sad.webp",
-    "pageLink": "/tovari-dlya-sadu"
-  }
-]
+    "productsData": [
+      {
+        "homeCardTitle": "Вапно",
+        "homeCardImg": "/webp/homeProducts/vapno.webp",
+        "pageLink": "/vapno"
+      },
+      {
+        "homeCardTitle": "Вапняк",
+        "homeCardImg": "/webp/homeProducts/vapnyak.webp",
+        "pageLink": "/vapnyak"
+      },
+      {
+        "homeCardTitle": "Білий цемент",
+        "homeCardImg": "/webp/homeProducts/bilij-czement.webp",
+        "pageLink": "/bilij-czement"
+      },
+      {
+        "homeCardTitle": "Газоблоки",
+        "homeCardImg": "/webp/homeProducts/gazobloki.webp",
+        "pageLink": "/gazobloki"
+      },
+      {
+        "homeCardTitle": "Мармурова крихта",
+        "homeCardImg": "/webp/homeProducts/marmurova-krikhta.webp",
+        "pageLink": "/marmurova-krikhta"
+      },
+      {
+        "homeCardTitle": "Плитка Терацо",
+        "homeCardImg": "/webp/homeProducts/plitka-teraczo.webp",
+        "pageLink": "/plitka-teraczo"
+      },
+      {
+        "homeCardTitle": "Сходи",
+        "homeCardImg": "/webp/homeProducts/skhodi.webp",
+        "pageLink": "/skhodi"
+      },
+      {
+        "homeCardTitle": "Декоративні камені",
+        "homeCardImg": "/webp/homeProducts/dekorativnij-kamin.webp",
+        "pageLink": "/dekorativnij-kamin"
+      },
+      {
+        "homeCardTitle": "Товари для саду",
+        "homeCardImg": "/webp/homeProducts/sad.webp",
+        "pageLink": "/tovari-dlya-sadu"
+      }
+    ]
   },
   "limeSection": {
     "title": "Вапно",
@@ -115,92 +155,200 @@
   "stairsSection": {
     "title": "Сходи",
     "subtitle": "Cidemat може виготовити готові бетонні сходи на замовлення.",
-    "weight": "ВАГА"
+    "image": "/webp/stairsPage/stairs.webp",
+    "sizesData": {
+      "title": "ВАГА",
+      "value": "≈ 30 кг/п.м. (погонний метр)"
+    },
+    "description_1": "Величезною перевагою терацо-сходів є не лише широкий вибір варіантів, але й їх специфічне виробництво. Cidemat може запропонувати точні форми та візерунки відповідно до потреб кожної будівлі.",
+    "description_2": "Сходи та інші терацо-вироби виготовляються та постачаються відповідно до стандарту ČSN EN 13 748 - 1.2.",
+    "description_3": "Вироби можуть бути виготовлені з сірого та білого цементу, забарвленого відповідно до вимог маси.",
+    "description_4": "Вироби можуть бути виготовлені у спеціальних візерунках з терацо відповідно до специфікацій замовника - підтвердження фізичних зразків."
   },
   "terrazzoTilesSection": {
     "title": "Плитка Терацо",
     "description": "Терацо — це суміш цементу, щебеню благородного каменю (мармуру тощо) та барвників, що використовуються в кам'яній кладці для створення поверхонь, що імітують камінь.",
     "productionSubTitle": "Можливе виготовлення плитки різних візерунків і форм під замовлення за вашим бажанням!",
     "exampleText": "Приклад:",
-    "productsData":[
+    "productsData": [
       {
-    "slug":"tereza",
-    "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
-    "cardTitle": "Tereza",
-    "cardSubTitle": "Плитка Терацо"
-  },
-     {
-    "slug":"margita",
-    "cardImg": "/webp/terrazzoTilesPage/margita.webp",
-    "cardTitle": "Margita",
-    "cardSubTitle": "Плитка Терацо"
-    },
-    {
-    "slug":"radka",
-    "cardImg": "/webp/terrazzoTilesPage/radka.webp",
-    "cardTitle": "Radka",
-    "cardSubTitle": "Плитка Терацо"
-  },
-    {
-    "slug":"xena",
-    "cardImg": "/webp/terrazzoTilesPage/xena.webp",
-    "cardTitle": "Xena",
-    "cardSubTitle": "Плитка Терацо"
-  },
-    {
-    "slug":"ornela",
-    "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
-    "cardTitle": "Ornela",
-    "cardSubTitle": "Плитка Терацо"
-  },
-    {
-    "slug":"flooring-strips",
-    "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
-    "cardTitle": "Террацові підлогові стрічки",
-    "cardSubTitleUk": "",
-    
-    "idTitle":"Террацові підлогові стрічки",
-    "idText":"Террацові підлогові стрічки виготовляються з двошарової террацової плитки.",
-    "idMainImg":"/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
-    "idSizes":[{ 
-    "title":"Розміри",
-    "value":"300x98x24 мм"}, { 
-    "title":"Розміри",
-    "value":"300x98x30 мм"}, { 
-    "title":"Розміри",
-    "value":"400x98x27 мм"}],
-    "idImages":[
-      {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_1.webp", "altImg":"Террацові підлогові стрічки 1"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_2.webp", "altImg":"Террацові підлогові стрічки 2"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_3.webp", "altImg":"Террацові підлогові стрічки 3"}
-  ]
-  },
-    {
-    "slug":"beatrix",
-    "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
-    "cardTitle": "Beatrix",
-    "cardSubTitle": "Бетонне покриття"
-  },
-    {
-    "slug":"beatrix-large",
-    "cardImg": "/webp/terrazzoTilesPage/beatrix-large.webp",
-    "cardTitle": "Beatrix",
-    "cardSubTitle": "Великоплощинне бетонне покриття"
-  },
-    {
-    "slug":"wall-strips",
-    "cardImg": "/webp/terrazzoTilesPage/wall-strips.webp",
-    "cardTitle": "Стінові планки",
-    "cardSubTitle": "",
+        "slug": "tereza",
+        "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
+        "imgCode": "TA101",
+        "cardTitle": "Tereza",
+        "cardSubTitle": "Плитка Терацо",
+        "cardDescription": [
+          "– терацо плитка з гладкою поверхнею.",
+          "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
+          "Нижній основний шар складається з річкового гравію та портландцементу, верхній шар протектора - з мармурової або тераццо крихти різних кольорів та фракцій. Як сполучна речовина в протекторному шарі використовується портландцемент білий або сірий. Цей шар можна забарвити відповідними кольоровими пігментами.",
+          "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
+        ],
+        "images": [
+          "/webp/terrazzoTielsTereza/Tereza-TA102.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA103.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA104.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA105.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA215.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA218.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA220.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA221.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA225.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA227.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA234.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA236.webp",
+          "/webp/terrazzoTielsTereza/Tereza-TA239.webp"
+        ],
+        "imagesValue": [
+          "TA102",
+          "TA103",
+          "TA104",
+          "TA105",
+          "TA215",
+          "TA218",
+          "TA220",
+          "TA221",
+          "TA225",
+          "TA227",
+          "TA234",
+          "TA236",
+          "TA239"
+        ]
+      },
+      {
+        "slug": "margita",
+        "cardImg": "/webp/terrazzoTilesPage/margita.webp",
+        "imgCode": "MA105",
+        "cardTitle": "Margita",
+        "cardSubTitle": "Плитка Терацо",
+        "cardDescription": [
+          "– терацо плитка з гладкою поверхнею.",
+          "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
+          "Нижній основний шар складається з річкового гравію та портландцементу, верхній шар протектора - з мармурової або тераццо крихти різних кольорів та фракцій. Як сполучна речовина в протекторному шарі використовується портландцемент білий або сірий. Цей шар можна забарвити відповідними кольоровими пігментами.",
+          "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
+        ],
+        "images": [
+          "/webp/terrazzoTielsMargita/margita-MA104.webp",
+          "/webp/terrazzoTielsMargita/Margita-MA221.webp"
+        ],
+        "imagesValue": ["MA104", "MA221"]
+      },
+      {
+        "slug": "radka",
+        "cardImg": "/webp/terrazzoTilesPage/radka.webp",
+        "imgCode": "RB119",
+        "cardTitle": "Radka",
+        "cardSubTitle": "Плитка Терацо",
+        "cardDescription": [
+          "– терацо плитка з гладкою поверхнею.",
+          "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
+          "Нижній основний шар складається з річкового гравію та портландцементу, верхній шар протектора - з мармурової або тераццо крихти різних кольорів та фракцій. Як сполучна речовина в протекторному шарі використовується портландцемент білий або сірий. Цей шар можна забарвити відповідними кольоровими пігментами.",
+          "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
+        ],
+        "images": [
+          "/webp/terrazzoTielsRadka/Radka-RB103.webp",
+          "/webp/terrazzoTielsRadka/Radka-RB217.webp",
+          "/webp/terrazzoTielsRadka/Radka-RB219.webp"
+        ],
+        "imagesValue": ["RB103", "RB217", "RB219"]
+      },
+      {
+        "slug": "xena",
+        "cardImg": "/webp/terrazzoTilesPage/xena.webp",
+        "imgCode": "XC116",
+        "cardTitle": "Xena",
+        "cardSubTitle": "Плитка Терацо",
+        "cardDescription": [
+          "– шліфована плитка террацо великої площі.",
+          "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
+          "Нижній основний шар складається з річкового гравію та портландцементу, верхній шар протектора - з мармурової або тераццо крихти різних кольорів та фракцій. Як сполучна речовина в протекторному шарі використовується портландцемент білий або сірий. Цей шар можна забарвити відповідними кольоровими пігментами.",
+          "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
+        ],
+        "images": ["/webp/terrazzoTielsXena/Xena-XC216.webp"],
+        "imagesValue": ["XC216"]
+      },
+      {
+        "slug": "ornela",
+        "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
+        "imgCode": "OA102K",
+        "cardTitle": "Ornela",
+        "cardSubTitle": "Плитка Терацо",
+        "cardDescription": [
+          "– терацо плитка з рельєфом, використовується на терасах, входах до будівель, басейнах, відкритих терасах та інших поверхнях."
+        ],
+        "images": [
+          "/webp/terrazzoTielsOrnela/Ornela-OA101K.webp",
+          "/webp/terrazzoTielsOrnela/Ornela-OA201K.webp"
+        ],
+        "imagesValue": ["OA101K", "OA201K"]
+      },
+      {
+        "slug": "flooring-strips",
+        "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
+        "cardTitle": "Террацові підлогові стрічки",
+        "cardSubTitleUk": "",
 
-    "title": "Стінові планки",
-      "description": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
-      "sizesData":[{
-        "title":"Розміри",
-      "value":"300(400)x60x12 мм"}
-    ],
-      "opportunityText": "За потреби замовника можливо виготовити стінову планку висотою 70, 80, 90, 100 мм, товщиною 12 мм або стінову планку «top-of-the-box».",
-      "opportunitySubTitle": "За потреби замовника можна виготовити стінові планки зі скошеним верхнім краєм або верхнім радіусом."
-  }
-]
+        "idTitle": "Террацові підлогові стрічки",
+        "idText": "Террацові підлогові стрічки виготовляються з двошарової террацової плитки.",
+        "idMainImg": "/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "300x98x24 мм"
+          },
+          {
+            "title": "Розміри",
+            "value": "300x98x30 мм"
+          },
+          {
+            "title": "Розміри",
+            "value": "400x98x27 мм"
+          }
+        ],
+        "idImages": [
+          {
+            "path": "/webp/terrazzoTilesFlooringStrips/flooring-strips_1.webp",
+            "altImg": "Террацові підлогові стрічки 1"
+          },
+          {
+            "path": "/webp/terrazzoTilesFlooringStrips/flooring-strips_2.webp",
+            "altImg": "Террацові підлогові стрічки 2"
+          },
+          {
+            "path": "/webp/terrazzoTilesFlooringStrips/flooring-strips_3.webp",
+            "altImg": "Террацові підлогові стрічки 3"
+          }
+        ]
+      },
+      {
+        "slug": "beatrix",
+        "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
+        "cardTitle": "Beatrix",
+        "cardSubTitle": "Бетонне покриття"
+      },
+      {
+        "slug": "beatrix-large",
+        "cardImg": "/webp/terrazzoTilesPage/beatrix-large.webp",
+        "cardTitle": "Beatrix",
+        "cardSubTitle": "Великоплощинне бетонне покриття"
+      },
+      {
+        "slug": "wall-strips",
+        "cardImg": "/webp/terrazzoTilesPage/wall-strips.webp",
+        "cardTitle": "Стінові планки",
+        "cardSubTitle": "",
+
+        "title": "Стінові планки",
+        "description": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
+        "sizesData": [
+          {
+            "title": "Розміри",
+            "value": "300(400)x60x12 мм"
+          }
+        ],
+        "opportunityText": "За потреби замовника можливо виготовити стінову планку висотою 70, 80, 90, 100 мм, товщиною 12 мм або стінову планку «top-of-the-box».",
+        "opportunitySubTitle": "За потреби замовника можна виготовити стінові планки зі скошеним верхнім краєм або верхнім радіусом."
+      }
+    ]
   },
   "whiteCementSection": {
     "title": "Білий цемент",
@@ -209,7 +357,47 @@
     "blastFurnaceSlagTitle": "Доменний шлак:",
     "limestoneTitle": "Вапняк:",
     "additivesTitle": "Добавки:",
-    "deliveryOptions": "Можливі варіанти поставок:"
+    "deliveryOptions": "Можливі варіанти поставок:",
+    "productsData": [
+      {
+        "image": "/webp/whiteCement/portlandСement.webp",
+        "title": "CEM I 52.5 N Портландцемент",
+        "clinker": "95 - 100 %",
+        "additives": "0 - 5 %",
+        "description": "Білий портландцемент, виготовлений з чистого клінкеру, ідеально підходить для конструкцій, верхніх покриттів та бетонних швів на видимих поверхнях. Цей продукт дозволяє реалізувати свої творчі здібності до форм, форм та кольорів, забезпечуючи при цьому виняткову міцність. Він також служить чудовою основою для високоефективних бетонів.",
+        "deliveryOptions": [
+          "Насипом в автоцистерні.",
+          "В мішках по 25кг (48 мішків на палеті).",
+          "В біг-бегах по 1т."
+        ]
+      },
+      {
+        "image": "/webp/whiteCement/portlandSlag.webp",
+        "title": "CEM II/A-S 52.5 N Портландський шлаковий",
+        "clinker": "80 - 94 %",
+        "blastFurnaceSlag": "6 - 20 %",
+        "additives": "0 - 5 %",
+        "description": "Білий портландцемент пропонує поєднання високої початкової міцності та постійного нарощування міцності завдяки додаванню шлаку. Його внутрішня структура підвищує довговічність, що робить його чудовим вибором для оздоблення цивільних конструкцій, виготовлених з високоміцного бетону, навіть у кольоровому виконанні.",
+        "deliveryOptions": [
+          "In bulk in a tanker truck.",
+          "In 25kg bags (48 bags on a pallet).",
+          "In big-bags for 1t."
+        ]
+      },
+      {
+        "image": "/webp/whiteCement/portlandLimestoneCement.webp",
+        "title": "CEM II/A-LL 42.5 R Портлендський вапняковий цемент",
+        "clinker": "80 - 94 %",
+        "limestone": "6 - 20 %",
+        "additives": "0 - 5 %",
+        "description": "Білий портландцемент з вапняком добре підходить для конструкцій та самоущільнювального бетону на видимих поверхнях. Він створює гладкі, індивідуальні поверхні, що дозволяють створювати різноманітні форми та кольори. Цей продукт також забезпечує надійну структурну міцність.",
+        "deliveryOptions": [
+          "In bulk in a tanker truck.",
+          "In 25kg bags (48 bags on a pallet).",
+          "In big-bags for 1t."
+        ]
+      }
+    ]
   },
   "footer": {
     "policy": "Політика конфіденційності"
