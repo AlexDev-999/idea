@@ -26,10 +26,12 @@ const TerrazzoTilesWallStrips = ({lang, dictionary, buttons}) => {
             <p className={styles.description}>
               {dictionary.description}
             </p>      
-            <div className={styles.sizesWrapper}>
-                <p className={styles.sizesText}>{dictionary.sizes.toUpperCase()}</p>
-                <p className={styles.sizesValue}>{`300(400)x60x12 ${dictionary.measurement}`}</p>
-            </div>    
+            <ul className={styles.sizesWrapper}>{dictionary.sizesData.map((item, index)=>
+              <li key={index} className={styles.sizesItem}>
+                <p className={styles.sizesText}>{item.title.toUpperCase()}</p>
+                <p className={styles.sizesValue}>{item.value}</p>
+                </li>)}                
+            </ul>    
             <p className={styles.opportunityText}>{dictionary.opportunityText}</p>
             <ul className={styles.highStripsList}>
               {terrazzoTilesWallStripsData.highStripsImgs.map((item) => (

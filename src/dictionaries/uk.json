@@ -1,5 +1,4 @@
 {
-  "lang": "uk",
   "aboutUsSection": {
     "title": "Title"
   },
@@ -40,7 +39,53 @@
     "title": "Наші партнери"
   },
   "homeProductsSection": {
-    "title": "Продукція"
+    "title": "Продукція",
+    "productsData": [  {
+    "homeCardTitle": "Вапно",
+    "homeCardImg": "/webp/homeProducts/vapno.webp",
+    "pageLink": "/vapno"
+  },
+  {
+    "homeCardTitle": "Вапняк",
+    "homeCardImg": "/webp/homeProducts/vapnyak.webp",
+    "pageLink": "/vapnyak"
+  },
+  {
+    "homeCardTitle": "Білий цемент",
+    "homeCardImg": "/webp/homeProducts/bilij-czement.webp",
+    "pageLink": "/bilij-czement"
+  },
+  {
+    "homeCardTitle": "Газоблоки",
+    "homeCardImg": "/webp/homeProducts/gazobloki.webp",
+    "pageLink": "/gazobloki"
+  },
+  {
+    "homeCardTitle": "Мармурова крихта",
+    "homeCardImg": "/webp/homeProducts/marmurova-krikhta.webp",
+    "pageLink": "/marmurova-krikhta"
+  },
+  {
+    "homeCardTitle": "Плитка Терацо",
+    "homeCardImg": "/webp/homeProducts/plitka-teraczo.webp",
+    "pageLink": "/plitka-teraczo"
+  },
+  {
+    "homeCardTitle": "Сходи",
+    "homeCardImg": "/webp/homeProducts/skhodi.webp",
+    "pageLink": "/skhodi"
+  },
+  {
+    "homeCardTitle": "Декоративні камені",
+    "homeCardImg": "/webp/homeProducts/dekorativnij-kamin.webp",
+    "pageLink": "/dekorativnij-kamin"
+  },
+  {
+    "homeCardTitle": "Товари для саду",
+    "homeCardImg": "/webp/homeProducts/sad.webp",
+    "pageLink": "/tovari-dlya-sadu"
+  }
+]
   },
   "limeSection": {
     "title": "Вапно",
@@ -72,21 +117,90 @@
     "subtitle": "Cidemat може виготовити готові бетонні сходи на замовлення.",
     "weight": "ВАГА"
   },
-  "terrazzoTilesIdSection": {
-    "terrazzoTilesWallStrips": { 
-      "title": "Стінові планки",
-      "description": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
-      "sizes":"Розміри",
-      "measurement":"мм",
-      "opportunityText": "За потреби замовника можливо виготовити стінову планку висотою 70, 80, 90, 100 мм, товщиною 12 мм або стінову планку «top-of-the-box».",
-      "opportunitySubTitle": "За потреби замовника можна виготовити стінові планки зі скошеним верхнім краєм або верхнім радіусом."
-    }
-  },    
   "terrazzoTilesSection": {
     "title": "Плитка Терацо",
     "description": "Терацо — це суміш цементу, щебеню благородного каменю (мармуру тощо) та барвників, що використовуються в кам'яній кладці для створення поверхонь, що імітують камінь.",
     "productionSubTitle": "Можливе виготовлення плитки різних візерунків і форм під замовлення за вашим бажанням!",
-    "exampleText": "Приклад:"
+    "exampleText": "Приклад:",
+    "productsData":[
+      {
+    "slug":"tereza",
+    "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
+    "cardTitle": "Tereza",
+    "cardSubTitle": "Плитка Терацо"
+  },
+     {
+    "slug":"margita",
+    "cardImg": "/webp/terrazzoTilesPage/margita.webp",
+    "cardTitle": "Margita",
+    "cardSubTitle": "Плитка Терацо"
+    },
+    {
+    "slug":"radka",
+    "cardImg": "/webp/terrazzoTilesPage/radka.webp",
+    "cardTitle": "Radka",
+    "cardSubTitle": "Плитка Терацо"
+  },
+    {
+    "slug":"xena",
+    "cardImg": "/webp/terrazzoTilesPage/xena.webp",
+    "cardTitle": "Xena",
+    "cardSubTitle": "Плитка Терацо"
+  },
+    {
+    "slug":"ornela",
+    "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
+    "cardTitle": "Ornela",
+    "cardSubTitle": "Плитка Терацо"
+  },
+    {
+    "slug":"flooring-strips",
+    "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
+    "cardTitle": "Террацові підлогові стрічки",
+    "cardSubTitleUk": "",
+    
+    "idTitle":"Террацові підлогові стрічки",
+    "idText":"Террацові підлогові стрічки виготовляються з двошарової террацової плитки.",
+    "idMainImg":"/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
+    "idSizes":[{ 
+    "title":"Розміри",
+    "value":"300x98x24 мм"}, { 
+    "title":"Розміри",
+    "value":"300x98x30 мм"}, { 
+    "title":"Розміри",
+    "value":"400x98x27 мм"}],
+    "idImages":[
+      {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_1.webp", "altImg":"Террацові підлогові стрічки 1"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_2.webp", "altImg":"Террацові підлогові стрічки 2"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_3.webp", "altImg":"Террацові підлогові стрічки 3"}
+  ]
+  },
+    {
+    "slug":"beatrix",
+    "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
+    "cardTitle": "Beatrix",
+    "cardSubTitle": "Бетонне покриття"
+  },
+    {
+    "slug":"beatrix-large",
+    "cardImg": "/webp/terrazzoTilesPage/beatrix-large.webp",
+    "cardTitle": "Beatrix",
+    "cardSubTitle": "Великоплощинне бетонне покриття"
+  },
+    {
+    "slug":"wall-strips",
+    "cardImg": "/webp/terrazzoTilesPage/wall-strips.webp",
+    "cardTitle": "Стінові планки",
+    "cardSubTitle": "",
+
+    "title": "Стінові планки",
+      "description": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
+      "sizesData":[{
+        "title":"Розміри",
+      "value":"300(400)x60x12 мм"}
+    ],
+      "opportunityText": "За потреби замовника можливо виготовити стінову планку висотою 70, 80, 90, 100 мм, товщиною 12 мм або стінову планку «top-of-the-box».",
+      "opportunitySubTitle": "За потреби замовника можна виготовити стінові планки зі скошеним верхнім краєм або верхнім радіусом."
+  }
+]
   },
   "whiteCementSection": {
     "title": "Білий цемент",
@@ -102,7 +216,7 @@
   },
   "buttons": {
     "backHomeProductsBtn": "Назад",
-    "downloadBtn": "Завантажити Pdf",
+    "openPdfBtn": "Відкрити Pdf",
     "moreBtn": "Більше"
   }
 }

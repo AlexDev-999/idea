@@ -17,6 +17,7 @@
 .contentWrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 24px;
 
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
@@ -73,13 +74,16 @@
 }
 
 .sizesWrapper{
+    margin-bottom: 16px;
+}
+
+.sizesItem{
     display: flex; 
     flex-direction: column;
     align-items: center;
     row-gap: 8px;
     width: fit-content;
     padding: 4px 40px;
-    margin-bottom: 16px;
     box-shadow: -4px 4px 12px 0 #2D303740;
     
     @media screen and (min-width: variables.$desktop) {

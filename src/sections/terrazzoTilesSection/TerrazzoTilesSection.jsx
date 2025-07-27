@@ -2,11 +2,13 @@ import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import CustomLink from "@/components/CustomLink/CustomLink";
 import { i18n } from "@/dictionaries/i18n.config";
-import { terrazzoTilesData } from "@/data/products/terrazzoTilesData";
+// import { terrazzoTilesData } from "@/data/products/terrazzoTilesData";
 import { terrazzoTilesExamplesData } from "@/data/products/terrazzoTilesExamplesData";
 import styles from "./TerrazzoTilesSection.module.scss";
 
 const TerrazzoTilesSection = ({ lang, dictionary, buttons }) => {
+  const terrazzoTilesData = dictionary.productsData;
+
   return (
     <section className={`section ${styles.section}`}>
       <div className="container">
@@ -20,11 +22,7 @@ const TerrazzoTilesSection = ({ lang, dictionary, buttons }) => {
                 <Image
                   className={styles.cardImg}
                   src={item.cardImg}
-                  alt={
-                    lang === i18n.locales[0]
-                      ? item.cardTitleUk
-                      : item.cardTitleEn
-                  }
+                  alt={item.cardTitle}
                   // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 30vw, 384px"
                   // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 30vw, 1200px"
                   sizes="33vw"
@@ -34,14 +32,10 @@ const TerrazzoTilesSection = ({ lang, dictionary, buttons }) => {
 
               <div className={styles.cardTitleAndLinkWrapper}>
                 <p className={styles.cardTitle}>
-                  {lang === i18n.locales[0]
-                    ? item.cardTitleUk
-                    : item.cardTitleEn}
+                  {item.cardTitle}
                 </p>
                 <p className={styles.cardSubTitle}>
-                  {lang === i18n.locales[0]
-                    ? item.cardSubTitleUk
-                    : item.cardSubTitleEn}
+                  {item.cardSubTitle}
                 </p>
                 <CustomLink
                   linkCustomClass={styles.customLink}

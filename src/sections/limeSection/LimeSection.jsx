@@ -1,6 +1,6 @@
 import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
-import DownloadBtn from "@/components/buttons/DownloadBtn/DownloadBtn";
+import OpenPdfBtn from "@/components/buttons/OpenPdfBtn/OpenPdfBtn";
 import QuickLimeTable from "@/components/tables/QuickLimeTable/QuickLimeTable";
 import SlakedLimeTable from "@/components/tables/SlakedLimeTable/SlakedLimeTable";
 import { i18n } from "@/dictionaries/i18n.config";
@@ -74,9 +74,9 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                       <span className={styles.techInfoSubTitle}>
                         {dictionary.techInfo}
                       </span>
-                      <DownloadBtn
+                      <OpenPdfBtn
                         href={item.pdfPath}
-                        text={buttons.downloadBtn}
+                        text={buttons.openPdfBtn}
                       />
                     </div>
                   </div>
