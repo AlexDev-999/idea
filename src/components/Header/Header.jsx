@@ -14,9 +14,17 @@ const Header = ({ lang }) => {
   const isDefaultLang = lang === i18n.defaultLocale;
   const homePath = isDefaultLang ? "/" : `/${lang}`;
 
-  console.log("homePath", homePath);
-  const isHomePage = pathname === homePath;
-  console.log("pathname === homePath", pathname === homePath);
+  // console.log("homePath", homePath);
+  // const isHomePage = pathname === homePath;
+  // console.log("pathname === homePath", pathname === homePath);
+
+  const normalizedPath = pathname.replace(/\/+$/, ""); // убираем завершающие слэши
+const normalizedHome = homePath.replace(/\/+$/, "");
+  console.log("normalizedPath", normalizedPath);
+  console.log("normalizedHome", normalizedHome);
+
+const isHomePage = normalizedPath === normalizedHome;
+  console.log("isHomePage", isHomePage);
 
   return (
     <header

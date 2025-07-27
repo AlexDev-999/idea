@@ -2,9 +2,12 @@ import TerrazzoTilesWallStrips from "@/components/TerrazzoTilesWallStrips/Terraz
 import styles from "./TerrazzoTilesIdSection.module.scss";
 
 
-const TerrazzoTilesIdSection = ({ lang, dictionary, buttons,slug }) => {
+const TerrazzoTilesIdSection = ({ lang, dictionary, buttons }) => {
+  console.log('dictionary', dictionary);
+
   return <section className={`section ${styles.section}`}>        
-        {slug === "wall-strips" && <TerrazzoTilesWallStrips lang={lang} dictionary={dictionary.terrazzoTilesWallStrips} buttons={buttons}/>}
+  {/* unique markup for TerrazzoTilesWallStrips */}
+        {dictionary.slug === "wall-strips" && <TerrazzoTilesWallStrips lang={lang} dictionary={dictionary} buttons={buttons}/>}
   </section>;
 };
 

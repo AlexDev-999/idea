@@ -1,5 +1,4 @@
 {
-  "lang": "en",
   "aboutUsSection": {
     "title": "Title"
   },
@@ -39,8 +38,54 @@
   "homePartnersSection": {
     "title": "Our partners"
   },
-  "homeProductsSection": {
-    "title": "Products"
+ "homeProductsSection": {
+    "title": "Products",
+    "productsData": [  {
+    "homeCardTitle": "Lime",
+    "homeCardImg": "/webp/homeProducts/vapno.webp",
+    "pageLink": "/vapno"
+  },
+  {
+    "homeCardTitle": "Limestone",
+    "homeCardImg": "/webp/homeProducts/vapnyak.webp",
+    "pageLink": "/vapnyak"
+  },
+  {
+    "homeCardTitle": "White cement",
+    "homeCardImg": "/webp/homeProducts/bilij-czement.webp",
+    "pageLink": "/bilij-czement"
+  },
+  {
+    "homeCardTitle": "Gasblocks",
+    "homeCardImg": "/webp/homeProducts/gazobloki.webp",
+    "pageLink": "/gazobloki"
+  },
+  {
+    "homeCardTitle": "Marble crumb",
+    "homeCardImg": "/webp/homeProducts/marmurova-krikhta.webp",
+    "pageLink": "/marmurova-krikhta"
+  },
+  {
+    "homeCardTitle": "Terrazzo Tiles",
+    "homeCardImg": "/webp/homeProducts/plitka-teraczo.webp",
+    "pageLink": "/plitka-teraczo"
+  },
+  {
+    "homeCardTitle": "Stairs",
+    "homeCardImg": "/webp/homeProducts/skhodi.webp",
+    "pageLink": "/skhodi"
+  },
+  {
+    "homeCardTitle": "Decorative stones",
+    "homeCardImg": "/webp/homeProducts/dekorativnij-kamin.webp",
+    "pageLink": "/dekorativnij-kamin"
+  },
+  {
+    "homeCardTitle": "Products for the garden",
+    "homeCardImg": "/webp/homeProducts/sad.webp",
+    "pageLink": "/tovari-dlya-sadu"
+  }
+]
   },
   "limeSection": {
     "title": "Lime",
@@ -71,22 +116,91 @@
     "title": "Stairs",
     "subtitle": "Cidemat can manufacture prefabricated concrete stairs to order.",
     "weight": "WEIGHT"
-  },
-  "terrazzoTilesIdSection": {
-    "terrazzoTilesWallStrips": { 
-    "title": "Wall strips",
-    "description": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
-    "sizes":"Sizes",
-    "measurement":"mm",
-    "opportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
-    "opportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius."
-    }
-  }, 
-  "terrazzoTilesSection": {
+  },  
+ "terrazzoTilesSection": {
     "title": "Terrazzo Tiles",
     "description": "Terrazzo is a mixture of cement, crushed precious stone (marble, etc.), and pigments used in stone masonry to create surfaces that imitate stone.",
     "productionSubTitle": "It is possible to manufacture tiles of various patterns and shapes to order according to your wishes!",
-    "exampleText": "Example:"
+    "exampleText": "Example:",
+    "productsData":[
+      {
+    "slug":"tereza",
+    "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
+    "cardTitle": "Tereza",    
+    "cardSubTitle": "Terrazzo Tiles"    
+  },
+     {
+    "slug":"margita",
+    "cardImg": "/webp/terrazzoTilesPage/margita.webp",
+    "cardTitle": "Margita",    
+    "cardSubTitle": "Terrazzo Tiles"   
+  },
+    {
+    "slug":"radka",
+    "cardImg": "/webp/terrazzoTilesPage/radka.webp",
+    "cardTitle": "Radka",    
+    "cardSubTitle": "Terrazzo Tiles"    
+  },
+    {
+    "slug":"xena",
+    "cardImg": "/webp/terrazzoTilesPage/xena.webp",
+    "cardTitle": "Xena",    
+    "cardSubTitle": "Terrazzo Tiles"   
+  },
+    {
+    "slug":"ornela",
+    "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
+    "cardTitle": "Ornela",    
+    "cardSubTitle": "Terrazzo Tiles"    
+  },
+    {
+    "slug":"flooring-strips",
+    "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
+    "cardTitle": "Terrazzo flooring strips",    
+    "cardSubTitle": "",    
+    
+    "idTitle":"Terrazzo flooring strips",
+    "idText":"Terrazzo floor strips are made of two-layer terrazzo tiles.",
+    "idMainImg":"/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
+    "idSizes":[{ 
+    "title":"Sizes",
+    "value":"300x98x24 mm"}, { 
+    "title":"Sizes",
+    "value":"300x98x30 mm"}, { 
+    "title":"Sizes",
+    "value":"400x98x27 mm"}],
+    "idImages":[
+      {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_1.webp", "altImg":"Terrazzo flooring strips 1"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_2.webp", "altImg":"Terrazzo flooring strips 2"}, {"path":"/webp/terrazzoTilesFlooringStrips/flooring-strips_3.webp", "altImg":"Terrazzo flooring strips 3"}
+  ]
+  },
+    {
+    "slug":"beatrix",
+    "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
+    "cardTitle": "Beatrix",    
+    "cardSubTitle": "Concrete coating"  
+  },
+    {
+    "slug":"beatrix-large",
+    "cardImg": "/webp/terrazzoTilesPage/beatrix-large.webp",
+    "cardTitle": "Beatrix",    
+    "cardSubTitle": "Large-area concrete coating"   
+  },
+    {
+    "slug":"wall-strips",
+    "cardImg": "/webp/terrazzoTilesPage/wall-strips.webp",
+    "cardTitle": "Wall strips",    
+    "cardSubTitle": "",
+
+    "title": "Wall strips",
+    "description": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
+   "sizesData":[{ 
+    "title":"Sizes",
+    "value":"300(400)x60x12 mm"}
+  ],
+    "opportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
+    "opportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius."
+  }
+]
   },
   "whiteCementSection": {
     "title": "White cement",
@@ -102,7 +216,7 @@
   },
   "buttons": {
     "backHomeProductsBtn": "Back",
-    "downloadBtn": "Download Pdf",
+    "openPdfBtn": "Open Pdf",
     "moreBtn": "Details"
   }
 }
