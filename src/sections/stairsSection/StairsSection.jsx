@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { i18n } from '@/dictionaries/i18n.config';
 import BackHomeProductsBtn from '@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn';
-import { stairsData } from '@/data/products/stairsData';
 import styles from './StairsSection.module.scss';
 
 const StairsSection = ({ lang, dictionary, buttons }) => {
@@ -15,37 +14,17 @@ const StairsSection = ({ lang, dictionary, buttons }) => {
 
         <div className={styles.container}>
           <figure className={styles.imgContainer}>
-            <Image src={stairsData.image} alt={dictionary.title} fill={true} />
+            <Image src={dictionary.image} alt={dictionary.title} fill={true} />
           </figure>
           <ul className={styles.list}>
-            <li className={styles.desc}>
-              {lang === i18n.locales[0]
-                ? stairsData.descriptionUk_1
-                : stairsData.descriptionEn_1}
-            </li>
-            <li className={styles.desc}>
-              {lang === i18n.locales[0]
-                ? stairsData.descriptionUk_2
-                : stairsData.descriptionEn_2}
-            </li>
+            <li className={styles.desc}>{dictionary.description_1}</li>
+            <li className={styles.desc}>{dictionary.description_2}</li>
             <li className={styles.weightContainer}>
-              <h3>{dictionary.weight}</h3>
-              <p>
-                {lang === i18n.locales[0]
-                  ? stairsData.weightUk
-                  : stairsData.weightEn}
-              </p>
+              <h3>{dictionary.sizesData.title}</h3>
+              <p>{dictionary.sizesData.value}</p>
             </li>
-            <li className={styles.desc}>
-              {lang === i18n.locales[0]
-                ? stairsData.descriptionUk_3
-                : stairsData.descriptionEn_3}
-            </li>
-            <li className={styles.desc}>
-              {lang === i18n.locales[0]
-                ? stairsData.descriptionUk_4
-                : stairsData.descriptionEn_4}
-            </li>
+            <li className={styles.desc}>{dictionary.description_3}</li>
+            <li className={styles.desc}>{dictionary.description_4}</li>
           </ul>
         </div>
       </div>

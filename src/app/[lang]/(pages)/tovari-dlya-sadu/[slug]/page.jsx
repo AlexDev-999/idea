@@ -1,12 +1,11 @@
-import { gardenProductsData } from '@/data/products/gardenProductsData';
 import { getDictionary } from '@/helpers/getDictionary';
 import GardenProductsIdSection from '@/sections/GardenProductsIdSection/GardenProductsIdSection';
 
 const GardenProductsIdPage = async ({ params }) => {
   const { lang, slug } = await params;
-  const { gardenProductsIdSection, buttons } = await getDictionary(lang);
+  const { gardenProductsSection, buttons } = await getDictionary(lang);
 
-  const gardenProductsIdData = gardenProductsData.find(
+  const gardenProductsIdData = gardenProductsSection.productsData.find(
     (item) => item.slug === slug
   );
 
@@ -14,7 +13,7 @@ const GardenProductsIdPage = async ({ params }) => {
     <>
       <GardenProductsIdSection
         lang={lang}
-        dictionary={gardenProductsIdSection}
+        dictionary={gardenProductsSection}
         buttons={buttons}
         data={gardenProductsIdData}
       />

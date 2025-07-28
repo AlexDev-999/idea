@@ -16,13 +16,25 @@
 }
 
 .list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
   row-gap: 24px;
+  width: 100%;
+
   @media screen and (min-width: variables.$tablet) {
-    flex-direction: row;
-    column-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

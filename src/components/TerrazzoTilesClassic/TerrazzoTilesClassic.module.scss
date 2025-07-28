@@ -1,0 +1,109 @@
+@use '@/app/variables';
+
+.section {
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  @media screen and (min-width: variables.$desktop) {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 286px;
+
+  flex-shrink: 0;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 586px;
+    height: 586px;
+  }
+}
+
+.imgValue {
+  @include variables.subtitle1-Regular;
+  & {
+    position: absolute;
+    bottom: 0;
+    border: 0.2px solid variables.$gray-900;
+    width: 100%;
+    padding: 2px 0;
+    background-color: variables.$gray-0;
+    text-align: center;
+  }
+}
+
+.title {
+  @include variables.subtitle1-Bold;
+  & {
+    color: variables.$primary-900;
+  }
+}
+
+.descList {
+  @include variables.bodyText-Regular;
+  & {
+    & li {
+      display: flex;
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}
+
+.subtitle {
+  @include variables.bodyText-Bold;
+}
+
+.imgListContainer {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+  row-gap: 24px;
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.imgList {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 282px;
+  box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
+  flex-shrink: 0;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 282px;
+    height: 282px;
+  }
+}
