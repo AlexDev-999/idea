@@ -1,10 +1,15 @@
 import Image from 'next/image';
+import BreadCrumbs from '../buttons/BreadCrumbs/BreadCrumbs';
 import styles from './TerrazzoTilesClassic.module.scss';
 
 const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
   return (
     <div className={`container`}>
       <div className={styles.container}>
+        <BreadCrumbs
+          backTitle={dictionary.cardSubTitle}
+          nowtitle={dictionary.cardTitle}
+        />
         <figure className={styles.imgContainer}>
           <Image
             src={dictionary.cardImg}
@@ -20,10 +25,9 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
           <ul className={styles.descList}>
             {dictionary.cardDescription.map((desc, index) => (
               <li key={index}>
-                {index === 0 && (
-                  <h3 className={styles.subtitle}>{dictionary.cardTitle}</h3>
-                )}
-                {desc}
+                <p className={styles.subtitle}>
+                  {index === 0 && dictionary.cardTitle} {desc}
+                </p>
               </li>
             ))}
           </ul>
