@@ -5,11 +5,11 @@ import styles from './TerrazzoTilesClassic.module.scss';
 const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
   return (
     <div className={`container`}>
+      <BreadCrumbs
+        backTitle={dictionary.cardSubTitle}
+        nowtitle={dictionary.cardTitle}
+      />
       <div className={styles.container}>
-        <BreadCrumbs
-          backTitle={dictionary.cardSubTitle}
-          nowtitle={dictionary.cardTitle}
-        />
         <figure className={styles.imgContainer}>
           <Image
             src={dictionary.cardImg}
@@ -18,16 +18,27 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
           />
           <p className={styles.imgValue}>{dictionary.imgCode}</p>
         </figure>
-        <div>
+        <div className={styles.contentWrapper}>
           <h1 className={styles.title}>
             {dictionary.cardSubTitle} {dictionary.cardTitle}
           </h1>
           <ul className={styles.descList}>
             {dictionary.cardDescription.map((desc, index) => (
               <li key={index}>
-                <p className={styles.subtitle}>
-                  {index === 0 && dictionary.cardTitle} {desc}
+                <p>
+                  <span className={styles.subtitle}>
+                    {index === 0 && dictionary.cardTitle}{' '}
+                  </span>
+                  {desc}
                 </p>
+              </li>
+            ))}
+          </ul>
+          <ul className={styles.idSizesContainer}>
+            {dictionary.idSizes.map(({ title, value }, index) => (
+              <li key={index} className={styles.idSizesItem}>
+                <h3>{title.toUpperCase()}</h3>
+                <p>{value.toUpperCase()}</p>
               </li>
             ))}
           </ul>

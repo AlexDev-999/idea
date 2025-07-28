@@ -68,317 +68,316 @@
     "description_1": "Газобетон – унікальний будівельний матеріал, що поєднує в собі високу міцність та легкість. Забезпчує відмінні ізоляційні властивості, простоту укладання та обробки. Все це надає йому значну перевагу перед іншими будівельними матеріалами.",
     "description_2": "Ми є сертифікованим партнером Xella в Україні, Xella- найбільший виробник газобетону в світі, в нас представлені наступні розміри блоків торгової марки Ytong:",
     "anotherProductsSubTitle": "Також в нас представлені блоки тернопільского виробника Gazobet",
-    "productsData":[
-  {
-    "slug": "ytong",
-    "img": "/webp/gasBlocksPage/ytong.webp",
-    "title": "Газоблоки Ytong",
-    "description":
-      "Ytong – це широкий асортимент газобетонних виробів, які характеризуються високою теплоізоляцією. Для їх виробництва використовується тільки натуральна сировина: пісок, вапно і вода. Вироби Ytong мають пористу структуру – тисячі бульбашок повітря ускладнюють вихід тепла за межі будівлі. Система дозволяє будувати енергоефективні одно- та багатоквартирні будинки, а також комунальні будинки та промислові цехи.",
-       "tableData": {
-  "headItems": [
-    { "name": "Розміри" },
-    { "name": "Блок" },
-    { "name": "Піддон" }
-  ],
-  "infoItems": [
-    {
-      "destination": "Призначення",
-      "size": "Розмір",
-      "blockCubicMeter": "Куб.м.",
-      "blockSquareMeter": "Кв.м.",
-      "palletCubicMeter": "Куб.м.",
-      "palletSquareMeter": "Кв.м.",
-      "pieces": "штук"
-    },
+    "productsData": [
+      {
+        "slug": "ytong",
+        "img": "/webp/gasBlocksPage/ytong.webp",
+        "title": "Газоблоки Ytong",
+        "description": "Ytong – це широкий асортимент газобетонних виробів, які характеризуються високою теплоізоляцією. Для їх виробництва використовується тільки натуральна сировина: пісок, вапно і вода. Вироби Ytong мають пористу структуру – тисячі бульбашок повітря ускладнюють вихід тепла за межі будівлі. Система дозволяє будувати енергоефективні одно- та багатоквартирні будинки, а також комунальні будинки та промислові цехи.",
+        "tableData": {
+          "headItems": [
+            { "name": "Розміри" },
+            { "name": "Блок" },
+            { "name": "Піддон" }
+          ],
+          "infoItems": [
+            {
+              "destination": "Призначення",
+              "size": "Розмір",
+              "blockCubicMeter": "Куб.м.",
+              "blockSquareMeter": "Кв.м.",
+              "palletCubicMeter": "Куб.м.",
+              "palletSquareMeter": "Кв.м.",
+              "pieces": "штук"
+            },
 
-    {
-      "destination": "підмуровка",
-      "size": "600*200*050",
-      "blockCubicMeter": "0,006",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "28,80",
-      "pieces": "240"
-    },
+            {
+              "destination": "підмуровка",
+              "size": "600*200*050",
+              "blockCubicMeter": "0,006",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "28,80",
+              "pieces": "240"
+            },
 
-    {
-      "destination": "підмуровка",
-      "size": "600*200*075",
-      "blockCubicMeter": "0,009",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "19,20",
-      "pieces": "160"
-    },
+            {
+              "destination": "підмуровка",
+              "size": "600*200*075",
+              "blockCubicMeter": "0,009",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "19,20",
+              "pieces": "160"
+            },
 
-    {
-      "destination": "перегородки",
-      "size": "600*200*100",
-      "blockCubicMeter": "0,012",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "14,40",
-      "pieces": "120"
-    },
+            {
+              "destination": "перегородки",
+              "size": "600*200*100",
+              "blockCubicMeter": "0,012",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "14,40",
+              "pieces": "120"
+            },
 
-    {
-      "destination": "міжстінові",
-      "size": "600*200*125",
-      "blockCubicMeter": "0,015",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "11,52",
-      "pieces": "96"
-    },
+            {
+              "destination": "міжстінові",
+              "size": "600*200*125",
+              "blockCubicMeter": "0,015",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "11,52",
+              "pieces": "96"
+            },
 
-    {
-      "destination": "міжстінові",
-      "size": "600*200*150",
-      "blockCubicMeter": "0,018",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "9,60",
-      "pieces": "80"
-    },
+            {
+              "destination": "міжстінові",
+              "size": "600*200*150",
+              "blockCubicMeter": "0,018",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "9,60",
+              "pieces": "80"
+            },
 
-    {
-      "destination": "несучі",
-      "size": "600*200*200",
-      "blockCubicMeter": "0,024",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "7,20",
-      "pieces": "60"
-    },
+            {
+              "destination": "несучі",
+              "size": "600*200*200",
+              "blockCubicMeter": "0,024",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "7,20",
+              "pieces": "60"
+            },
 
-    {
-      "destination": "несучі",
-      "size": "600*200*250",
-      "blockCubicMeter": "0,030",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "5,76",
-      "pieces": "48"
-    },
+            {
+              "destination": "несучі",
+              "size": "600*200*250",
+              "blockCubicMeter": "0,030",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "5,76",
+              "pieces": "48"
+            },
 
-    {
-      "destination": "зовнішні",
-      "size": "600*200*300",
-      "blockCubicMeter": "0,036",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "4,80",
-      "pieces": "40"
-    },
+            {
+              "destination": "зовнішні",
+              "size": "600*200*300",
+              "blockCubicMeter": "0,036",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "4,80",
+              "pieces": "40"
+            },
 
-    {
-      "destination": "зовнішні(теплі)",
-      "size": "600*200*375",
-      "blockCubicMeter": "0,045",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "3,84",
-      "pieces": "32"
+            {
+              "destination": "зовнішні(теплі)",
+              "size": "600*200*375",
+              "blockCubicMeter": "0,045",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "3,84",
+              "pieces": "32"
+            }
+          ]
+        }
+      }
+    ],
+    "gazobetTableData": {
+      "headItems": [
+        { "name": "НАЗВА" },
+        { "name": "Марка за середньою густиною" },
+        { "name": "Розмір (ШхВхД)" },
+        { "name": "Об'єм 1 шт" },
+        { "name": "Об'єм піддона" },
+        { "name": "Вага 1 піддона" },
+        { "name": "К-сть на піддоні" },
+        { "name": "Площа стіни з одного піддона" }
+      ],
+      "headSubItems": [
+        { "name": "" },
+        { "name": "" },
+        { "name": "мм" },
+        { "name": "м. куб." },
+        { "name": "м. куб." },
+        { "name": "тонн." },
+        { "name": "шт" },
+        { "name": "м. кв." }
+      ],
+      "infoItems": [
+        {
+          "name": "Gazobet 5/10",
+          "brand": "D500",
+          "size": "50х240х600",
+          "pieceVolume": "0,007",
+          "palletVolume": "1,152",
+          "weight": "0,79",
+          "quantity": "160",
+          "wallArea": "23,04"
+        },
+        {
+          "name": "",
+          "brand": "D500",
+          "size": "100х240х600",
+          "pieceVolume": "0,014",
+          "palletVolume": "1,115",
+          "weight": "",
+          "quantity": "8",
+          "wallArea": "1,15"
+        },
+        {
+          "name": "Gazobet 7,5",
+          "brand": "D500",
+          "size": "75х240х600",
+          "pieceVolume": "0,011",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "160",
+          "wallArea": "23,04"
+        },
+        {
+          "name": "Gazobet 10",
+          "brand": "D500",
+          "size": "100х240х600",
+          "pieceVolume": "0,014",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "120",
+          "wallArea": "17,28"
+        },
+        {
+          "name": "Gazobet 10/19",
+          "brand": "D500",
+          "size": "100х190х600",
+          "pieceVolume": "0,011",
+          "palletVolume": "1,71",
+          "weight": "1,02",
+          "quantity": "150",
+          "wallArea": "17,10"
+        },
+        {
+          "name": "Gazobet 12",
+          "brand": "D500",
+          "size": "120х240х600",
+          "pieceVolume": "0,017",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "96",
+          "wallArea": "13,83"
+        },
+        {
+          "name": "Gazobet 15",
+          "brand": "D500",
+          "size": "150х240х600",
+          "pieceVolume": "0,022",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "80",
+          "wallArea": "11,52"
+        },
+        {
+          "name": "Gazobet 16",
+          "brand": "D500",
+          "size": "160х240х600",
+          "pieceVolume": "0,023",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "80",
+          "wallArea": "11,52"
+        },
+        {
+          "name": "Gazobet 18",
+          "brand": "D500",
+          "size": "180х240х600",
+          "pieceVolume": "0,026",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "64",
+          "wallArea": "9,22"
+        },
+        {
+          "name": "Gazobet 20",
+          "brand": "D500",
+          "size": "200х240х600",
+          "pieceVolume": "0,029",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "64",
+          "wallArea": "9,22"
+        },
+        {
+          "name": "Gazobet 20/19",
+          "brand": "D500",
+          "size": "200х190х600",
+          "pieceVolume": "0,023",
+          "palletVolume": "1,824",
+          "weight": "1,09",
+          "quantity": "80",
+          "wallArea": "9,12"
+        },
+        {
+          "name": "Gazobet 24",
+          "brand": "D500",
+          "size": "240х240х600",
+          "pieceVolume": "0,035",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "48",
+          "wallArea": "6,91"
+        },
+        {
+          "name": "Gazobet 25",
+          "brand": "D500",
+          "size": "250х240х600",
+          "pieceVolume": "0,036",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "48",
+          "wallArea": "6,91"
+        },
+        {
+          "name": "Gazobet 30",
+          "brand": "D500",
+          "size": "300х240х600",
+          "pieceVolume": "0,043",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "40",
+          "wallArea": "5,76"
+        },
+        {
+          "name": "Gazobet 30/19",
+          "brand": "D500",
+          "size": "300х190х600",
+          "pieceVolume": "0,034",
+          "palletVolume": "1,71",
+          "weight": "1,02",
+          "quantity": "50",
+          "wallArea": "5,70"
+        },
+        {
+          "name": "Gazobet 36",
+          "brand": "D500",
+          "size": "360х240х600",
+          "pieceVolume": "0,052",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "32",
+          "wallArea": "4,61"
+        },
+        {
+          "name": "Gazobet 40",
+          "brand": "D500",
+          "size": "400х240х600",
+          "pieceVolume": "0,058",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "32",
+          "wallArea": "4,61"
+        }
+      ]
     }
-  ]
-}
-  }
-],
-"gazobetTableData": {  
-  "headItems": [
-    { "name": "НАЗВА" },
-    { "name": "Марка за середньою густиною" },
-    { "name": "Розмір (ШхВхД)"},
-     { "name": "Об'єм 1 шт" },
-    { "name": "Об'єм піддона" },
-    { "name": "Вага 1 піддона" },
-     { "name": "К-сть на піддоні" },
-    { "name": "Площа стіни з одного піддона" }    
-  ],
-  "headSubItems": [
-    { "name": "" },
-    { "name": "" },
-    { "name": "мм" },
-     { "name": "м. куб." },
-    { "name": "м. куб."},
-    { "name": "тонн." },
-     { "name": "шт" },
-    { "name": "м. кв." }    
-  ],
-  "infoItems": [
-    {
-      "name": "Gazobet 5/10",
-      "brand": "D500",
-      "size": "50х240х600",
-      "pieceVolume": "0,007",
-      "palletVolume": "1,152",
-      "weight": "0,79",
-      "quantity": "160",
-      "wallArea": "23,04"     
-    },
-     {
-      "name": "",
-      "brand": "D500",
-      "size": "100х240х600",
-      "pieceVolume": "0,014",
-      "palletVolume": "1,115",
-      "weight": "",
-      "quantity": "8",
-      "wallArea": "1,15"     
-    },
-     {
-      "name": "Gazobet 7,5",
-      "brand": "D500",
-      "size": "75х240х600",
-      "pieceVolume": "0,011",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "160",
-      "wallArea": "23,04"     
-    },
-     {
-      "name": "Gazobet 10",
-      "brand": "D500",
-      "size": "100х240х600",
-      "pieceVolume": "0,014",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "120",
-      "wallArea": "17,28"    
-    },
-     {
-      "name": "Gazobet 10/19",
-      "brand": "D500",
-      "size": "100х190х600",
-      "pieceVolume": "0,011",
-      "palletVolume": "1,71",
-      "weight": "1,02",
-      "quantity": "150",
-      "wallArea": "17,10"     
-    }, 
-    {
-      "name": "Gazobet 12",
-      "brand": "D500",
-      "size": "120х240х600",
-      "pieceVolume": "0,017",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "96",
-      "wallArea": "13,83"     
-    },
-     {
-      "name": "Gazobet 15",
-      "brand": "D500",
-      "size": "150х240х600",
-      "pieceVolume": "0,022",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "80",
-      "wallArea": "11,52"     
-    },
-     {
-      "name": "Gazobet 16",
-      "brand": "D500",
-      "size": "160х240х600",
-      "pieceVolume": "0,023",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "80",
-      "wallArea": "11,52"    
-    }, 
-    {
-      "name": "Gazobet 18",
-      "brand": "D500",
-      "size": "180х240х600",
-      "pieceVolume": "0,026",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "64",
-      "wallArea": "9,22"     
-    },
-     {
-      "name": "Gazobet 20",
-      "brand": "D500",
-      "size": "200х240х600",
-      "pieceVolume": "0,029",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "64",
-      "wallArea": "9,22"     
-    },
-     {
-      "name": "Gazobet 20/19",
-      "brand": "D500",
-      "size": "200х190х600",
-      "pieceVolume": "0,023",
-      "palletVolume": "1,824",
-      "weight": "1,09",
-      "quantity": "80",
-      "wallArea": "9,12"    
-    },
-     {
-      "name": "Gazobet 24",
-      "brand": "D500",
-      "size": "240х240х600",
-      "pieceVolume": "0,035",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "48",
-      "wallArea": "6,91"     
-    }, 
-    {
-      "name": "Gazobet 25",
-      "brand": "D500",
-      "size": "250х240х600",
-      "pieceVolume": "0,036",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "48",
-      "wallArea": "6,91"     
-    }, 
-    {
-      "name": "Gazobet 30",
-      "brand": "D500",
-      "size": "300х240х600",
-      "pieceVolume": "0,043",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "40",
-      "wallArea": "5,76"   
-    },
-     {
-      "name": "Gazobet 30/19",
-      "brand": "D500",
-      "size": "300х190х600",
-      "pieceVolume": "0,034",
-      "palletVolume": "1,71",
-      "weight": "1,02",
-      "quantity": "50",
-      "wallArea": "5,70"     
-    }, 
-    {
-      "name": "Gazobet 36",
-      "brand": "D500",
-      "size": "360х240х600",
-      "pieceVolume": "0,052",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "32",
-      "wallArea": "4,61"    
-    },
-     {
-      "name": "Gazobet 40",
-      "brand": "D500",
-      "size": "400х240х600",
-      "pieceVolume": "0,058",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "32",
-      "wallArea": "4,61"    
-    }
-  ]
-}
   },
   "homeHeroSection": {
     "title": "Ідея - Сертифікований партнер в Україні:",
@@ -444,172 +443,170 @@
     "application": "Застосування:",
     "delivery": "Можливі варіанти поставок:",
     "techInfo": "Технічна інформація:",
-    "productsData" : [
-  {
-    "slug": "quicklime",
-    "img": "/webp/limePage/quicklime.webp",
-    "title": "Вапно негашене дрібнозернисте CL 90",
-    "description":
-      "Дрібнозернисте вапно CL 90 виробляється відповідно до EN 459-1 з високочистого грудкового вапна шляхом подрібнення.",
-    "applicationList": [
-      "у будівництві",
-      "для стабілізації ґрунту",
-      "в екологічному секторі для очищення димових газів",
-      "для очищення стічних вод та нейтралізації кислих стічних вод",
-      "у сільському господарстві як добриво та дезінфікуючий засіб"
-    ],
-    "deliveryList": [
-      "Насипом в автоцистерні.",
-      "В мішках по 25кг (48 мішків на палеті)"
-    ],
-    "pdfPath": "/pdf/quicklime.pdf",
-       "tableData": {
-  "headItems": [
-    { "name": "Параметр" },
-    {
-      "name": "Стандарт EN 459-1 CL 90-Q"
-    },
-    { "name": "Досягнуті" }
-  ],
-  "infoItems": [
-    {
-      "property": "CaO + MgO",
-      "threshold": "min %",
-      "value": "90 %",
-      "result": "понад 93,5 %"
-    },
-    {
-      "property": "з цього MgO",
-      "threshold": "max %",
-      "value": "5 %",
-      "result": "до 2,5 %"
-    },
-    {
-      "property": "CO",
-      "sub": "2",
-      "threshold": "max %",
-      "value": "4 %",
-      "result": "до 3,3 %"
-    },
-    {
-      "property": "Вологість",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "до 0,9 %"
-    },
-    {
-      "property": "SO",
-      "sub": "3",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "до 0,35 %"
-    },
-    {
-      "property_1": "Вихід (дм",
-      "sup": "3",
-      "property_2": "/10 кг мін)",
-      "threshold": "min %",
-      "value": "26",
-      "result": "28"
-    },
-    {
-      "property": "Залишок на ситі 0,2 мм",
-      "threshold": "max %",
-      "value": "-",
-      "result": "6 %"
-    },
-    {
-      "property": "Залишок на ситі 0,09 мм",
-      "threshold": "max %",
-      "value": "-",
-      "result": "16,00 %"
-    }
-  ]
-}
-  },
+    "productsData": [
+      {
+        "slug": "quicklime",
+        "img": "/webp/limePage/quicklime.webp",
+        "title": "Вапно негашене дрібнозернисте CL 90",
+        "description": "Дрібнозернисте вапно CL 90 виробляється відповідно до EN 459-1 з високочистого грудкового вапна шляхом подрібнення.",
+        "applicationList": [
+          "у будівництві",
+          "для стабілізації ґрунту",
+          "в екологічному секторі для очищення димових газів",
+          "для очищення стічних вод та нейтралізації кислих стічних вод",
+          "у сільському господарстві як добриво та дезінфікуючий засіб"
+        ],
+        "deliveryList": [
+          "Насипом в автоцистерні.",
+          "В мішках по 25кг (48 мішків на палеті)"
+        ],
+        "pdfPath": "/pdf/quicklime.pdf",
+        "tableData": {
+          "headItems": [
+            { "name": "Параметр" },
+            {
+              "name": "Стандарт EN 459-1 CL 90-Q"
+            },
+            { "name": "Досягнуті" }
+          ],
+          "infoItems": [
+            {
+              "property": "CaO + MgO",
+              "threshold": "min %",
+              "value": "90 %",
+              "result": "понад 93,5 %"
+            },
+            {
+              "property": "з цього MgO",
+              "threshold": "max %",
+              "value": "5 %",
+              "result": "до 2,5 %"
+            },
+            {
+              "property": "CO",
+              "sub": "2",
+              "threshold": "max %",
+              "value": "4 %",
+              "result": "до 3,3 %"
+            },
+            {
+              "property": "Вологість",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "до 0,9 %"
+            },
+            {
+              "property": "SO",
+              "sub": "3",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "до 0,35 %"
+            },
+            {
+              "property_1": "Вихід (дм",
+              "sup": "3",
+              "property_2": "/10 кг мін)",
+              "threshold": "min %",
+              "value": "26",
+              "result": "28"
+            },
+            {
+              "property": "Залишок на ситі 0,2 мм",
+              "threshold": "max %",
+              "value": "-",
+              "result": "6 %"
+            },
+            {
+              "property": "Залишок на ситі 0,09 мм",
+              "threshold": "max %",
+              "value": "-",
+              "result": "16,00 %"
+            }
+          ]
+        }
+      },
 
-  {
-    "slug": "slaked-lime",
-    "img": "/webp/limePage/slaked-lime.webp",
-    "title": "Гашене вапно",
-    "description":
-      "Гашене вапно - це вапно гідратизоване з високоякісного дрібного вапна, яке можна негайно переробляти. Гашене вапно отримують шляхом гасіння негашеного вапна водою та характеризується дуже високим ступенем білизни. Гашене вапно виробляється відповідно до EN 459-1, CL 90-S.",
-    "applicationList": [
-      "у цивільному будівництві для виробництва розчину для стін та штукатурок, а також для фарб",
-      "у будівництві як наповнювач для асфальту та для стабілізації ґрунту",
-      "у екологічному секторі для очищення димових газів, очищення води та нейтралізації кислих стічних вод",
-      "у сільському господарстві як добриво та дезінфікуючий засіб"
-    ],
-    "deliveryList": [
-      "Насипом в автоцистерні.",
-      "В мішках по 25кг (40 мішків на палеті)."
-    ],
-    "pdfPath": "/pdf/slaked-lime.pdf",
-    "tableData" : {
-  "headItems": [
-    { "name": "Параметр" },
-    {
-      "name": "Стандарт EN 459-1 CL 90-Q"      
-    },
-    { "name": "Досягнуті" }
-  ],
-  "infoItems": [
-    {
-      "property": "CaO + MgO",
-      "threshold": "min %",
-      "value": "90 %",
-      "result": "понад 93 %"
-    },
-    {
-      "property": "з цього MgO",
-      "threshold": "max %",
-      "value": "5 %",
-      "result": "до 2,5 %"
-    },
-    {
-      "property": "CO",
-      "sub": "2",
-      "threshold": "max %",
-      "value": "4 %",
-      "result": "до 2,8 %"
-    },
-    {
-      "property": "Вологість",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "до 0,9 %"
-    },
-    {
-      "property": "SO",
-      "sub": "3",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "до 0,2 %"
-    },
-    {
-      "property_1": "Питома вага (г/см",
-      "sup": "3",
-      "property_2": ")",
-      "threshold": "-",
-      "value": "-",
-      "result": "0,46 - 0,51"
-    },
-    {
-      "property": "Залишок на ситі 0,2 мм",
-      "threshold": "max %",
-      "value": "-",
-      "result": "0,2 %"
-    },
-    {
-      "property": "Залишок на ситі 0,09 мм",
-      "threshold": "max %",
-      "value": "-",
-      "result": "2,8 %"
-    }
-  ]
-}
-  }
-]
+      {
+        "slug": "slaked-lime",
+        "img": "/webp/limePage/slaked-lime.webp",
+        "title": "Гашене вапно",
+        "description": "Гашене вапно - це вапно гідратизоване з високоякісного дрібного вапна, яке можна негайно переробляти. Гашене вапно отримують шляхом гасіння негашеного вапна водою та характеризується дуже високим ступенем білизни. Гашене вапно виробляється відповідно до EN 459-1, CL 90-S.",
+        "applicationList": [
+          "у цивільному будівництві для виробництва розчину для стін та штукатурок, а також для фарб",
+          "у будівництві як наповнювач для асфальту та для стабілізації ґрунту",
+          "у екологічному секторі для очищення димових газів, очищення води та нейтралізації кислих стічних вод",
+          "у сільському господарстві як добриво та дезінфікуючий засіб"
+        ],
+        "deliveryList": [
+          "Насипом в автоцистерні.",
+          "В мішках по 25кг (40 мішків на палеті)."
+        ],
+        "pdfPath": "/pdf/slaked-lime.pdf",
+        "tableData": {
+          "headItems": [
+            { "name": "Параметр" },
+            {
+              "name": "Стандарт EN 459-1 CL 90-Q"
+            },
+            { "name": "Досягнуті" }
+          ],
+          "infoItems": [
+            {
+              "property": "CaO + MgO",
+              "threshold": "min %",
+              "value": "90 %",
+              "result": "понад 93 %"
+            },
+            {
+              "property": "з цього MgO",
+              "threshold": "max %",
+              "value": "5 %",
+              "result": "до 2,5 %"
+            },
+            {
+              "property": "CO",
+              "sub": "2",
+              "threshold": "max %",
+              "value": "4 %",
+              "result": "до 2,8 %"
+            },
+            {
+              "property": "Вологість",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "до 0,9 %"
+            },
+            {
+              "property": "SO",
+              "sub": "3",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "до 0,2 %"
+            },
+            {
+              "property_1": "Питома вага (г/см",
+              "sup": "3",
+              "property_2": ")",
+              "threshold": "-",
+              "value": "-",
+              "result": "0,46 - 0,51"
+            },
+            {
+              "property": "Залишок на ситі 0,2 мм",
+              "threshold": "max %",
+              "value": "-",
+              "result": "0,2 %"
+            },
+            {
+              "property": "Залишок на ситі 0,09 мм",
+              "threshold": "max %",
+              "value": "-",
+              "result": "2,8 %"
+            }
+          ]
+        }
+      }
+    ]
   },
   "limeStoneSection": {
     "title": "Вапняк",
@@ -625,110 +622,104 @@
     "application": "Застосування:",
     "delivery": "Можливі варіанти поставок:",
     "productsData": [
-  {
-    "slug": "calmit",
-    "img": "/webp/limeStonePage/calmit.webp",
-    "title": "Вапняк дуже тонкого помолу Calmit",
-    "compositionList": ["Карбонат кальцію"],
-    "applicationList": [
-      "для виробництва будівельних сумішей",
-      "асфальтових сумішей",
-      "у хімічній, гумовій та папероробній промисловості",
-      "у сільському господарстві як кормова сировина",
-      "для зміни рН ґрунту та поліпшення живлення рослин"
-    ],
-    "deliveryList": [
-      "Насипом в автоцистерні.",
-      "В мішках по 40кг (35 мішків на палеті)."
-    ],
-    "tableData": [
-    {
-      "property": "Вміст карбонатів",
-      "value": "95 %"
-    },
-    {
-      "property": "Питома вага",
-      "value": "2,7 мг/м",
-      "sup": "3"
-    },
-    {
-      "property": "Вміст води",
-      "value": "0,18 %"
-    },
-    {
-      "property": "Загальний вміст сірки",
-      "value": "0,01 %"
-    }
-  ]
-  },
+      {
+        "slug": "calmit",
+        "img": "/webp/limeStonePage/calmit.webp",
+        "title": "Вапняк дуже тонкого помолу Calmit",
+        "compositionList": ["Карбонат кальцію"],
+        "applicationList": [
+          "для виробництва будівельних сумішей",
+          "асфальтових сумішей",
+          "у хімічній, гумовій та папероробній промисловості",
+          "у сільському господарстві як кормова сировина",
+          "для зміни рН ґрунту та поліпшення живлення рослин"
+        ],
+        "deliveryList": [
+          "Насипом в автоцистерні.",
+          "В мішках по 40кг (35 мішків на палеті)."
+        ],
+        "tableData": [
+          {
+            "property": "Вміст карбонатів",
+            "value": "95 %"
+          },
+          {
+            "property": "Питома вага",
+            "value": "2,7 мг/м",
+            "sup": "3"
+          },
+          {
+            "property": "Вміст води",
+            "value": "0,18 %"
+          },
+          {
+            "property": "Загальний вміст сірки",
+            "value": "0,01 %"
+          }
+        ]
+      },
 
-  {
-    "slug": "florakalk",
-    "img": "/webp/limeStonePage/florakalk.webp",
-    "title": "Суміш ФлораКалк",
-    "compositionList": [
-      "карбонат кальцію", 
-      "карбонат магнію", 
-      "домішки"
-    ],
-    "applicationList": [
-      "додаткове вапнякове добриво для технічних та декоративних городів",
-      "фруктових садів,сільськогосподарських полів",
-      "газонів для полегшення важких ґрунтів",
-      "для нейтралізації кислих ґрунтів"
-    ],
-    "deliveryList": ["В мішках по 25кг (48 мішків на палеті)."],
-    "tableData": [
-    {
-      "property_1": "CaCO",
-      "property_2": " + MgCO",
-      "sub": 3,
-      "value": "87 %"
-    },
-    {
-      "property": "В тому числі MgCO",
-      "sub": 3,
-      "value": "1,5 %"
-    },
-    {
-      "property": "Вологість",
-      "value": "1 %"
-    },
-    {
-      "property": "Залишок на ситі 0,5 мм",
-      "value": "0,05 %"
-    }
-  ]
-  }
-]
+      {
+        "slug": "florakalk",
+        "img": "/webp/limeStonePage/florakalk.webp",
+        "title": "Суміш ФлораКалк",
+        "compositionList": ["карбонат кальцію", "карбонат магнію", "домішки"],
+        "applicationList": [
+          "додаткове вапнякове добриво для технічних та декоративних городів",
+          "фруктових садів,сільськогосподарських полів",
+          "газонів для полегшення важких ґрунтів",
+          "для нейтралізації кислих ґрунтів"
+        ],
+        "deliveryList": ["В мішках по 25кг (48 мішків на палеті)."],
+        "tableData": [
+          {
+            "property_1": "CaCO",
+            "property_2": " + MgCO",
+            "sub": 3,
+            "value": "87 %"
+          },
+          {
+            "property": "В тому числі MgCO",
+            "sub": 3,
+            "value": "1,5 %"
+          },
+          {
+            "property": "Вологість",
+            "value": "1 %"
+          },
+          {
+            "property": "Залишок на ситі 0,5 мм",
+            "value": "0,05 %"
+          }
+        ]
+      }
+    ]
   },
   "marbleCrumbSection": {
     "title": "Мармурова крихта",
     "subTitle": "Доступні фракції:",
-    "productData" : {
-  "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
-  "title": "Мармурова крихта CALCILIT® KA",
-  "description_1":
-    "Високочистий білий гранульований карбонат кальцію з промитого та висушеного меленого натурального мармуру - без чорних плям.",
-  "description_2":
-    "Використовуться для штукатурок внутрішніх та зовнішніх, вирівнювальних сумішей, герметиків шпаклівок та наповнювачів.",
-  "factionsList": [
-    "0-0,2 мм",
-    "0-0,3 мм",
-    "0,1-0,5 мм",
-    "0,2-0,3 мм",
-    "0,3-0,5 мм",
-    "0,4-0,7 мм",
-    "0,5-1,0 мм",
-    "0,7-1,2 мм",
-    "1,0-1,5 мм",
-    "1,4-1,8 мм",
-    "1,5-2,0 мм",
-    "1,8-2,5 мм",
-    "2,0-2,5 мм",
-    "2,5-4,5 мм"
-  ]
-}
+    "productData": {
+      "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
+      "title": "Мармурова крихта CALCILIT® KA",
+      "description_1": "Високочистий білий гранульований карбонат кальцію з промитого та висушеного меленого натурального мармуру - без чорних плям.",
+      "description_2": "Використовуться для штукатурок внутрішніх та зовнішніх, вирівнювальних сумішей, герметиків шпаклівок та наповнювачів.",
+      "factionsList": [
+        "0-0,2 мм",
+        "0-0,3 мм",
+        "0,1-0,5 мм",
+        "0,2-0,3 мм",
+        "0,3-0,5 мм",
+        "0,4-0,7 мм",
+        "0,5-1,0 мм",
+        "0,7-1,2 мм",
+        "1,0-1,5 мм",
+        "1,4-1,8 мм",
+        "1,5-2,0 мм",
+        "1,8-2,5 мм",
+        "2,0-2,5 мм",
+        "2,5-4,5 мм"
+      ]
+    }
   },
   "stairsSection": {
     "title": "Сходи",
@@ -749,23 +740,23 @@
     "productionSubTitle": "Можливе виготовлення плитки різних візерунків і форм під замовлення за вашим бажанням!",
     "exampleText": "Приклад:",
     "examplesList": [
-  {
-    "img": "/webp/terrazzoTilesPage/example-glassPaving_1.webp",
-    "altImg": "Скляна бруківка 1"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-glassPaving_2.webp",
-    "altImg": "Скляна бруківка 2"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-newDrawing.webp",
-    "altImg": "Новий малюнок"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-possibilitiesPolygon.webp",
-    "altImg": "Багатокутник можливостей"
-  }
-],
+      {
+        "img": "/webp/terrazzoTilesPage/example-glassPaving_1.webp",
+        "altImg": "Скляна бруківка 1"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-glassPaving_2.webp",
+        "altImg": "Скляна бруківка 2"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-newDrawing.webp",
+        "altImg": "Новий малюнок"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-possibilitiesPolygon.webp",
+        "altImg": "Багатокутник можливостей"
+      }
+    ],
     "productsData": [
       {
         "slug": "tereza",
@@ -773,6 +764,16 @@
         "imgCode": "TA101",
         "cardTitle": "Tereza",
         "cardSubTitle": "Плитка Терацо",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "300×300×30 мм"
+          },
+          {
+            "title": "Вага",
+            "value": "6,0 кг"
+          }
+        ],
         "cardDescription": [
           "– терацо плитка з гладкою поверхнею.",
           "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
@@ -816,6 +817,16 @@
         "imgCode": "MA105",
         "cardTitle": "Margita",
         "cardSubTitle": "Плитка Терацо",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "300×300×24 mm"
+          },
+          {
+            "title": "Вага",
+            "value": "5.0 kg"
+          }
+        ],
         "cardDescription": [
           "– терацо плитка з гладкою поверхнею.",
           "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
@@ -834,6 +845,16 @@
         "imgCode": "RB119",
         "cardTitle": "Radka",
         "cardSubTitle": "Плитка Терацо",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "400x400x27 mm"
+          },
+          {
+            "title": "Вага",
+            "value": "10 kg"
+          }
+        ],
         "cardDescription": [
           "– терацо плитка з гладкою поверхнею.",
           "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
@@ -853,6 +874,16 @@
         "imgCode": "XC116",
         "cardTitle": "Xena",
         "cardSubTitle": "Плитка Терацо",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "600×600×40 mm"
+          },
+          {
+            "title": "Вага",
+            "value": "31 kg"
+          }
+        ],
         "cardDescription": [
           "– шліфована плитка террацо великої площі.",
           "Високоякісне покриття яке витримує високе точкове експлуатаційне навантаження. Плитка терраццо двошарова.",
@@ -868,6 +899,16 @@
         "imgCode": "OA102K",
         "cardTitle": "Ornela",
         "cardSubTitle": "Плитка Терацо",
+        "idSizes": [
+          {
+            "title": "Розміри",
+            "value": "300x300x33 mm"
+          },
+          {
+            "title": "Вага",
+            "value": "6.5 kg"
+          }
+        ],
         "cardDescription": [
           "– терацо плитка з рельєфом, використовується на терасах, входах до будівель, басейнах, відкритих терасах та інших поверхнях."
         ],
@@ -921,7 +962,7 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Бетонне покриття",
 
-        "idTitle": "Бетонне покриття Beatrix гладке",        
+        "idTitle": "Бетонне покриття Beatrix гладке",
         "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
         "idSizes": [
           {
@@ -929,7 +970,7 @@
             "sizesValue": "300×300/400×400/600×600 мм",
             "weightTitle": "Вага",
             "weightValue": "7,0 / 10 / 32 кг"
-          }      
+          }
         ],
         "idImages": [
           {
@@ -939,7 +980,7 @@
           {
             "path": "/webp/terrazzoTilesBeatrix/concrete-coating_2.webp",
             "altImg": "Бетонне покриття Beatrix гладке 2"
-          }        
+          }
         ]
       },
       {
@@ -948,23 +989,25 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Великоплощинне бетонне покриття",
 
-        
-        "idTitle": "Великоплощинне бетонне покриття Beatrix рельєфне",        
+        "idTitle": "Великоплощинне бетонне покриття Beatrix рельєфне",
         "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
-        "idDescriptionList":["Це велике покриття використовується для будівництва терас сімейних будинків, відкритих атріумів, тротуарів, доріжок та паркових зон, без руху автомобілів та вантажівок.", "Покриття можна укладати на гравійне покриття, бетонне покриття або поліпропіленові постаменти."],
+        "idDescriptionList": [
+          "Це велике покриття використовується для будівництва терас сімейних будинків, відкритих атріумів, тротуарів, доріжок та паркових зон, без руху автомобілів та вантажівок.",
+          "Покриття можна укладати на гравійне покриття, бетонне покриття або поліпропіленові постаменти."
+        ],
         "idSizes": [
           {
             "sizesTitle": "Розміри",
             "sizesValue": "600x600x40 мм",
             "weightTitle": "Вага",
             "weightValue": "32 кг"
-          }      
+          }
         ],
         "idImages": [
           {
             "path": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large_1.webp",
             "altImg": "Великоплощинне бетонне покриття 1"
-          }     
+          }
         ]
       },
       {
@@ -974,7 +1017,7 @@
         "cardSubTitle": "",
 
         "idTitle": "Стінові планки",
-        "idMainImg":"/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
+        "idMainImg": "/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
         "idDescription": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
         "idSizes": [
           {
@@ -983,9 +1026,27 @@
           }
         ],
         "idOpportunityText": "За потреби замовника можливо виготовити стінову планку висотою 70, 80, 90, 100 мм, товщиною 12 мм або стінову планку «top-of-the-box».",
-         "idHighStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/high-strips-1.webp", "altImg":"Високі стінові планки 1"}, {"img":"/webp/terrazzoTilesWallStripsPage/high-strips-2.webp", "altImg":"Високі стінові планки 2"}],
+        "idHighStripsImgs": [
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/high-strips-1.webp",
+            "altImg": "Високі стінові планки 1"
+          },
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/high-strips-2.webp",
+            "altImg": "Високі стінові планки 2"
+          }
+        ],
         "idOpportunitySubTitle": "За потреби замовника можна виготовити стінові планки зі скошеним верхнім краєм або верхнім радіусом.",
-    "idRoundedStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-1.webp", "altImg":"Заокруглені стінові планки 1"},{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-2.webp", "altImg":"Заокруглені стінові планки 2"}]
+        "idRoundedStripsImgs": [
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/rounded-strips-1.webp",
+            "altImg": "Заокруглені стінові планки 1"
+          },
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/rounded-strips-2.webp",
+            "altImg": "Заокруглені стінові планки 2"
+          }
+        ]
       }
     ]
   },
