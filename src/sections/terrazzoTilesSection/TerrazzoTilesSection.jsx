@@ -1,9 +1,6 @@
 import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import CustomLink from "@/components/CustomLink/CustomLink";
-import { i18n } from "@/dictionaries/i18n.config";
-// import { terrazzoTilesData } from "@/data/products/terrazzoTilesData";
-import { terrazzoTilesExamplesData } from "@/data/products/terrazzoTilesExamplesData";
 import styles from "./TerrazzoTilesSection.module.scss";
 
 const TerrazzoTilesSection = ({ lang, dictionary, buttons }) => {
@@ -52,12 +49,12 @@ const TerrazzoTilesSection = ({ lang, dictionary, buttons }) => {
         </p>
         <p className={styles.exampleText}>{dictionary.exampleText}</p>
         <ul className={styles.exampleList}>
-          {terrazzoTilesExamplesData.map((item) => (
-            <li key={item.slug} className={styles.exampleImgWrapper}>
+          {dictionary.examplesList.map((item) => (
+            <li key={item.altImg} className={styles.exampleImgWrapper}>
               <Image
                 className={styles.exampleImg}
                 src={item.img}
-                alt={item.slug}
+                alt={item.altImg}
                 // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 30vw, 384px"
                 // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 30vw, 1200px"
                 sizes="25vw"

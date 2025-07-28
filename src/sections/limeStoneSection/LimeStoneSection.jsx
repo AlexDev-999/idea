@@ -3,7 +3,7 @@ import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHo
 import CalmitTable from "@/components/tables/CalmitTable/CalmitTable";
 import FlorakalkTable from "@/components/tables/FlorakalkTable/FlorakalkTable";
 import { i18n } from "@/dictionaries/i18n.config";
-import { limeStoneData } from "@/data/products/limeStoneData";
+// import { limeStoneData } from "@/data/products/limeStoneData";
 import styles from "./LimeStoneSection.module.scss";
 
 const LimeStoneSection = ({ lang, dictionary, buttons }) => {
@@ -24,26 +24,15 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
           ))}
         </ul>
         <ul>
-          {limeStoneData.map((item, index) => {
-            const applicationList =
-              lang === i18n.locales[0]
-                ? item.applicationListUk
-                : item.applicationListEn;
-            const deliveryList =
-              lang === i18n.locales[0]
-                ? item.deliveryListUk
-                : item.deliveryListEn;
-            const compositionList =
-              lang === i18n.locales[0]
-                ? item.compositionListUk
-                : item.compositionListEn;
+          {dictionary.productsData.map((item, index) => {         
+           
             return (
               <li key={item.slug} className={styles.productItem}>
                 <div className={styles.imgWrapper}>
                   <Image
                     className={styles.img}
                     src={item.img}
-                    alt={lang === i18n.locales[0] ? item.titleUk : item.titleEn}
+                    alt={ item.title}
                     // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
                     sizes="50vw"
                     fill={true}
@@ -52,13 +41,13 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                 </div>
                 <div className={styles.infoWrapper}>
                   <h2 className={styles.productTitle}>
-                    {lang === i18n.locales[0] ? item.titleUk : item.titleEn}
+                    {item.title}
                   </h2>
                   <p className={styles.compositiontionSubTitle}>
                     {dictionary.compositionSubTitle}
                   </p>
                   <ul className={styles.compositionList}>
-                    {compositionList.map((el, index) => (
+                    {item.compositionList.map((el, index) => (
                       <li key={index} className={styles.compositionItem}>
                         {el}
                       </li>
@@ -68,7 +57,7 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                     {dictionary.application}
                   </p>
                   <ul className={styles.applicationList}>
-                    {applicationList.map((el, index) => (
+                    {item.applicationList.map((el, index) => (
                       <li key={index} className={styles.applicationItem}>
                         {el}
                       </li>
@@ -78,7 +67,7 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                     {dictionary.delivery}
                   </p>
                   <ul className={styles.deliveryList}>
-                    {deliveryList.map((el, index) => (
+                    {item.deliveryList.map((el, index) => (
                       <li key={index} className={styles.deliveryItem}>
                         {el}
                       </li>
