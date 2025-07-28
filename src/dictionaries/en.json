@@ -68,317 +68,316 @@
     "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
     "description_2": "We are a certified partner of Xella in Ukraine, Xella is the largest producer of aerated concrete in the world, we offer the following sizes of blocks of the Ytong brand:",
     "anotherProductsSubTitle": "We also present blocks from the Ternopil manufacturer Gazobet",
-    "productsData":[
-  {
-    "slug": "ytong",
-    "img": "/webp/gasBlocksPage/ytong.webp",
-    "title": "Ytong gas blocks",
-    "description":
-      "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops.",
-      "tableData": {
-  "headItems": [
-    { "name": "Sizes" },
-    {  "name": "Block" },
-    {  "name": "Pallet" }
-  ],
-  "infoItems": [
-    {
-      "destination": "Destination",
-      "size": "Size",
-      "blockCubicMeter": "Cub.m.",
-      "blockSquareMeter": "Sq.m.",
-      "palletCubicMeter": "Cub.m.",
-      "palletSquareMeter": "Sq.m.",
-      "pieces": "pieces"
-    },
+    "productsData": [
+      {
+        "slug": "ytong",
+        "img": "/webp/gasBlocksPage/ytong.webp",
+        "title": "Ytong gas blocks",
+        "description": "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops.",
+        "tableData": {
+          "headItems": [
+            { "name": "Sizes" },
+            { "name": "Block" },
+            { "name": "Pallet" }
+          ],
+          "infoItems": [
+            {
+              "destination": "Destination",
+              "size": "Size",
+              "blockCubicMeter": "Cub.m.",
+              "blockSquareMeter": "Sq.m.",
+              "palletCubicMeter": "Cub.m.",
+              "palletSquareMeter": "Sq.m.",
+              "pieces": "pieces"
+            },
 
-    {
-      "destination": "foundation",
-      "size": "600*200*050",
-      "blockCubicMeter": "0,006",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "28,80",
-      "pieces": "240"
-    },
+            {
+              "destination": "foundation",
+              "size": "600*200*050",
+              "blockCubicMeter": "0,006",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "28,80",
+              "pieces": "240"
+            },
 
-    {
-      "destination": "foundation",
-      "size": "600*200*075",
-      "blockCubicMeter": "0,009",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "19,20",
-      "pieces": "160"
-    },
+            {
+              "destination": "foundation",
+              "size": "600*200*075",
+              "blockCubicMeter": "0,009",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "19,20",
+              "pieces": "160"
+            },
 
-    {
-      "destination": "partitions",
-      "size": "600*200*100",
-      "blockCubicMeter": "0,012",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "14,40",
-      "pieces": "120"
-    },
+            {
+              "destination": "partitions",
+              "size": "600*200*100",
+              "blockCubicMeter": "0,012",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "14,40",
+              "pieces": "120"
+            },
 
-    {
-      "destination": "interstitial",
-      "size": "600*200*125",
-      "blockCubicMeter": "0,015",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "11,52",
-      "pieces": "96"
-    },
+            {
+              "destination": "interstitial",
+              "size": "600*200*125",
+              "blockCubicMeter": "0,015",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "11,52",
+              "pieces": "96"
+            },
 
-    {
-      "destination": "interstitial",
-      "size": "600*200*150",
-      "blockCubicMeter": "0,018",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "9,60",
-      "pieces": "80"
-    },
+            {
+              "destination": "interstitial",
+              "size": "600*200*150",
+              "blockCubicMeter": "0,018",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "9,60",
+              "pieces": "80"
+            },
 
-    {
-      "destination": "bearing",
-      "size": "600*200*200",
-      "blockCubicMeter": "0,024",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "7,20",
-      "pieces": "60"
-    },
+            {
+              "destination": "bearing",
+              "size": "600*200*200",
+              "blockCubicMeter": "0,024",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "7,20",
+              "pieces": "60"
+            },
 
-    {
-      "destination": "bearing",
-      "size": "600*200*250",
-      "blockCubicMeter": "0,030",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "5,76",
-      "pieces": "48"
-    },
+            {
+              "destination": "bearing",
+              "size": "600*200*250",
+              "blockCubicMeter": "0,030",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "5,76",
+              "pieces": "48"
+            },
 
-    {
-      "destination": "external",
-      "size": "600*200*300",
-      "blockCubicMeter": "0,036",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "4,80",
-      "pieces": "40"
-    },
+            {
+              "destination": "external",
+              "size": "600*200*300",
+              "blockCubicMeter": "0,036",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "4,80",
+              "pieces": "40"
+            },
 
-    {
-      "destination": "external(warm)",
-      "size": "600*200*375",
-      "blockCubicMeter": "0,045",
-      "blockSquareMeter": "0,12",
-      "palletCubicMeter": "1,44",
-      "palletSquareMeter": "3,84",
-      "pieces": "32"
+            {
+              "destination": "external(warm)",
+              "size": "600*200*375",
+              "blockCubicMeter": "0,045",
+              "blockSquareMeter": "0,12",
+              "palletCubicMeter": "1,44",
+              "palletSquareMeter": "3,84",
+              "pieces": "32"
+            }
+          ]
+        }
+      }
+    ],
+    "gazobetTableData": {
+      "headItems": [
+        { "name": "NAME" },
+        { "name": "Brand by average density" },
+        { "name": "Size (WxHxD)" },
+        { "name": "Volume 1 pc." },
+        { "name": "Pallet volume" },
+        { "name": "Weight of 1 pallet" },
+        { "name": "Quantity per pallet" },
+        { "name": "Wall area from one pallet" }
+      ],
+      "headSubItems": [
+        { "name": "" },
+        { "name": "" },
+        { "name": "mm" },
+        { "name": "cub. m." },
+        { "name": "cub. m." },
+        { "name": "tons" },
+        { "name": "piece" },
+        { "name": "sq. m." }
+      ],
+      "infoItems": [
+        {
+          "name": "Gazobet 5/10",
+          "brand": "D500",
+          "size": "50х240х600",
+          "pieceVolume": "0,007",
+          "palletVolume": "1,152",
+          "weight": "0,79",
+          "quantity": "160",
+          "wallArea": "23,04"
+        },
+        {
+          "name": "",
+          "brand": "D500",
+          "size": "100х240х600",
+          "pieceVolume": "0,014",
+          "palletVolume": "1,115",
+          "weight": "",
+          "quantity": "8",
+          "wallArea": "1,15"
+        },
+        {
+          "name": "Gazobet 7,5",
+          "brand": "D500",
+          "size": "75х240х600",
+          "pieceVolume": "0,011",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "160",
+          "wallArea": "23,04"
+        },
+        {
+          "name": "Gazobet 10",
+          "brand": "D500",
+          "size": "100х240х600",
+          "pieceVolume": "0,014",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "120",
+          "wallArea": "17,28"
+        },
+        {
+          "name": "Gazobet 10/19",
+          "brand": "D500",
+          "size": "100х190х600",
+          "pieceVolume": "0,011",
+          "palletVolume": "1,71",
+          "weight": "1,02",
+          "quantity": "150",
+          "wallArea": "17,10"
+        },
+        {
+          "name": "Gazobet 12",
+          "brand": "D500",
+          "size": "120х240х600",
+          "pieceVolume": "0,017",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "96",
+          "wallArea": "13,83"
+        },
+        {
+          "name": "Gazobet 15",
+          "brand": "D500",
+          "size": "150х240х600",
+          "pieceVolume": "0,022",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "80",
+          "wallArea": "11,52"
+        },
+        {
+          "name": "Gazobet 16",
+          "brand": "D500",
+          "size": "160х240х600",
+          "pieceVolume": "0,023",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "80",
+          "wallArea": "11,52"
+        },
+        {
+          "name": "Gazobet 18",
+          "brand": "D500",
+          "size": "180х240х600",
+          "pieceVolume": "0,026",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "64",
+          "wallArea": "9,22"
+        },
+        {
+          "name": "Gazobet 20",
+          "brand": "D500",
+          "size": "200х240х600",
+          "pieceVolume": "0,029",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "64",
+          "wallArea": "9,22"
+        },
+        {
+          "name": "Gazobet 20/19",
+          "brand": "D500",
+          "size": "200х190х600",
+          "pieceVolume": "0,023",
+          "palletVolume": "1,824",
+          "weight": "1,09",
+          "quantity": "80",
+          "wallArea": "9,12"
+        },
+        {
+          "name": "Gazobet 24",
+          "brand": "D500",
+          "size": "240х240х600",
+          "pieceVolume": "0,035",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "48",
+          "wallArea": "6,91"
+        },
+        {
+          "name": "Gazobet 25",
+          "brand": "D500",
+          "size": "250х240х600",
+          "pieceVolume": "0,036",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "48",
+          "wallArea": "6,91"
+        },
+        {
+          "name": "Gazobet 30",
+          "brand": "D500",
+          "size": "300х240х600",
+          "pieceVolume": "0,043",
+          "palletVolume": "1,728",
+          "weight": "1,03",
+          "quantity": "40",
+          "wallArea": "5,76"
+        },
+        {
+          "name": "Gazobet 30/19",
+          "brand": "D500",
+          "size": "300х190х600",
+          "pieceVolume": "0,034",
+          "palletVolume": "1,71",
+          "weight": "1,02",
+          "quantity": "50",
+          "wallArea": "5,70"
+        },
+        {
+          "name": "Gazobet 36",
+          "brand": "D500",
+          "size": "360х240х600",
+          "pieceVolume": "0,052",
+          "palletVolume": "1,659",
+          "weight": "0,99",
+          "quantity": "32",
+          "wallArea": "4,61"
+        },
+        {
+          "name": "Gazobet 40",
+          "brand": "D500",
+          "size": "400х240х600",
+          "pieceVolume": "0,058",
+          "palletVolume": "1,843",
+          "weight": "1,10",
+          "quantity": "32",
+          "wallArea": "4,61"
+        }
+      ]
     }
-  ]
-}
-  }
-],
- "gazobetTableData": {  
-  "headItems": [
-    { "name": "NAME" },
-    { "name": "Brand by average density" },
-    { "name": "Size (WxHxD)" },
-     { "name": "Volume 1 pc." },
-    { "name": "Pallet volume" },
-    {  "name": "Weight of 1 pallet" },
-     {  "name": "Quantity per pallet" },
-    {  "name": "Wall area from one pallet" }    
-  ],
-  "headSubItems": [
-    { "name": "" },
-    { "name": "" },
-    { "name": "mm" },
-     { "name": "cub. m." },
-    { "name": "cub. m." },
-    { "name": "tons" },
-     { "name": "piece" },
-    { "name": "sq. m." }    
-  ],
-  "infoItems": [
-    {
-      "name": "Gazobet 5/10",
-      "brand": "D500",
-      "size": "50х240х600",
-      "pieceVolume": "0,007",
-      "palletVolume": "1,152",
-      "weight": "0,79",
-      "quantity": "160",
-      "wallArea": "23,04"     
-    },
-     {
-      "name": "",
-      "brand": "D500",
-      "size": "100х240х600",
-      "pieceVolume": "0,014",
-      "palletVolume": "1,115",
-      "weight": "",
-      "quantity": "8",
-      "wallArea": "1,15"     
-    },
-     {
-      "name": "Gazobet 7,5",
-      "brand": "D500",
-      "size": "75х240х600",
-      "pieceVolume": "0,011",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "160",
-      "wallArea": "23,04"     
-    },
-     {
-      "name": "Gazobet 10",
-      "brand": "D500",
-      "size": "100х240х600",
-      "pieceVolume": "0,014",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "120",
-      "wallArea": "17,28"    
-    },
-     {
-      "name": "Gazobet 10/19",
-      "brand": "D500",
-      "size": "100х190х600",
-      "pieceVolume": "0,011",
-      "palletVolume": "1,71",
-      "weight": "1,02",
-      "quantity": "150",
-      "wallArea": "17,10"     
-    }, 
-    {
-      "name": "Gazobet 12",
-      "brand": "D500",
-      "size": "120х240х600",
-      "pieceVolume": "0,017",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "96",
-      "wallArea": "13,83"     
-    },
-     {
-      "name": "Gazobet 15",
-      "brand": "D500",
-      "size": "150х240х600",
-      "pieceVolume": "0,022",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "80",
-      "wallArea": "11,52"     
-    },
-     {
-      "name": "Gazobet 16",
-      "brand": "D500",
-      "size": "160х240х600",
-      "pieceVolume": "0,023",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "80",
-      "wallArea": "11,52"    
-    }, 
-    {
-      "name": "Gazobet 18",
-      "brand": "D500",
-      "size": "180х240х600",
-      "pieceVolume": "0,026",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "64",
-      "wallArea": "9,22"     
-    },
-     {
-      "name": "Gazobet 20",
-      "brand": "D500",
-      "size": "200х240х600",
-      "pieceVolume": "0,029",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "64",
-      "wallArea": "9,22"     
-    },
-     {
-      "name": "Gazobet 20/19",
-      "brand": "D500",
-      "size": "200х190х600",
-      "pieceVolume": "0,023",
-      "palletVolume": "1,824",
-      "weight": "1,09",
-      "quantity": "80",
-      "wallArea": "9,12"    
-    },
-     {
-      "name": "Gazobet 24",
-      "brand": "D500",
-      "size": "240х240х600",
-      "pieceVolume": "0,035",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "48",
-      "wallArea": "6,91"     
-    }, 
-    {
-      "name": "Gazobet 25",
-      "brand": "D500",
-      "size": "250х240х600",
-      "pieceVolume": "0,036",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "48",
-      "wallArea": "6,91"     
-    }, 
-    {
-      "name": "Gazobet 30",
-      "brand": "D500",
-      "size": "300х240х600",
-      "pieceVolume": "0,043",
-      "palletVolume": "1,728",
-      "weight": "1,03",
-      "quantity": "40",
-      "wallArea": "5,76"   
-    },
-     {
-      "name": "Gazobet 30/19",
-      "brand": "D500",
-      "size": "300х190х600",
-      "pieceVolume": "0,034",
-      "palletVolume": "1,71",
-      "weight": "1,02",
-      "quantity": "50",
-      "wallArea": "5,70"     
-    }, 
-    {
-      "name": "Gazobet 36",
-      "brand": "D500",
-      "size": "360х240х600",
-      "pieceVolume": "0,052",
-      "palletVolume": "1,659",
-      "weight": "0,99",
-      "quantity": "32",
-      "wallArea": "4,61"    
-    },
-     {
-      "name": "Gazobet 40",
-      "brand": "D500",
-      "size": "400х240х600",
-      "pieceVolume": "0,058",
-      "palletVolume": "1,843",
-      "weight": "1,10",
-      "quantity": "32",
-      "wallArea": "4,61"    
-    }
-  ]
-}
   },
   "homeHeroSection": {
     "title": "Idea - Certified Partner in Ukraine:",
@@ -444,172 +443,170 @@
     "application": "Application:",
     "delivery": "Possible delivery options:",
     "techInfo": "Technical information:",
-    "productsData" : [
-  {
-    "slug": "quicklime",
-    "img": "/webp/limePage/quicklime.webp",
-    "title": "Fine-grained quicklime CL 90",
-    "description":
-      "Fine-grained lime CL 90 is produced in accordance with EN 459-1 from high-purity lump lime by grinding.",
-    "applicationList": [
-      "in construction",
-      "for soil stabilization",
-      "in the environmental sector for flue gas purification",
-      "for wastewater purification and neutralization of acidic wastewater",
-      "in agriculture as a fertilizer and disinfectant"
-    ],
-    "deliveryList": [
-      "In bulk in tankers.",
-      "In 25kg bags (48 bags on a pallet)"
-    ],
-    "pdfPath": "/pdf/quicklime.pdf",
-    "tableData": {
-  "headItems": [
-    { "name": "Parameter" },
-    {      
-      "name": "Standard EN 459-1 CL 90-Q"
-    },
-    { "name": "Achieved" }
-  ],
-  "infoItems": [
-    {
-      "property": "CaO + MgO",
-      "threshold": "min %",
-      "value": "90 %",
-      "result": "over 93,5 %"
-    },
-    {
-      "property": "from this MgO",
-      "threshold": "max %",
-      "value": "5 %",
-      "result": "up to 2,5 %"
-    },
-    {
-      "property": "CO",
-      "sub": "2",
-      "threshold": "max %",
-      "value": "4 %",
-      "result": "up to 3,3 %"
-    },
-    {
-      "property": "Humidity",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "up to 0,9 %"
-    },
-    {
-      "property": "SO",
-      "sub": "3",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "up to 0,35 %"
-    },
-    {
-      "property_1": "Output (dm",
-      "sup": "3",
-      "property_2": "/10 kg min)",
-      "threshold": "min %",
-      "value": "26",
-      "result": "28"
-    },
-    {
-      "property": "Residue on the sieve 0,2 mm",
-      "threshold": "max %",
-      "value": "-",
-      "result": "6 %"
-    },
-    {
-      "property": "Residue on the sieve 0,09 mm",
-      "threshold": "max %",
-      "value": "-",
-      "result": "16,00 %"
-    }
-  ]
-}
-  },
+    "productsData": [
+      {
+        "slug": "quicklime",
+        "img": "/webp/limePage/quicklime.webp",
+        "title": "Fine-grained quicklime CL 90",
+        "description": "Fine-grained lime CL 90 is produced in accordance with EN 459-1 from high-purity lump lime by grinding.",
+        "applicationList": [
+          "in construction",
+          "for soil stabilization",
+          "in the environmental sector for flue gas purification",
+          "for wastewater purification and neutralization of acidic wastewater",
+          "in agriculture as a fertilizer and disinfectant"
+        ],
+        "deliveryList": [
+          "In bulk in tankers.",
+          "In 25kg bags (48 bags on a pallet)"
+        ],
+        "pdfPath": "/pdf/quicklime.pdf",
+        "tableData": {
+          "headItems": [
+            { "name": "Parameter" },
+            {
+              "name": "Standard EN 459-1 CL 90-Q"
+            },
+            { "name": "Achieved" }
+          ],
+          "infoItems": [
+            {
+              "property": "CaO + MgO",
+              "threshold": "min %",
+              "value": "90 %",
+              "result": "over 93,5 %"
+            },
+            {
+              "property": "from this MgO",
+              "threshold": "max %",
+              "value": "5 %",
+              "result": "up to 2,5 %"
+            },
+            {
+              "property": "CO",
+              "sub": "2",
+              "threshold": "max %",
+              "value": "4 %",
+              "result": "up to 3,3 %"
+            },
+            {
+              "property": "Humidity",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "up to 0,9 %"
+            },
+            {
+              "property": "SO",
+              "sub": "3",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "up to 0,35 %"
+            },
+            {
+              "property_1": "Output (dm",
+              "sup": "3",
+              "property_2": "/10 kg min)",
+              "threshold": "min %",
+              "value": "26",
+              "result": "28"
+            },
+            {
+              "property": "Residue on the sieve 0,2 mm",
+              "threshold": "max %",
+              "value": "-",
+              "result": "6 %"
+            },
+            {
+              "property": "Residue on the sieve 0,09 mm",
+              "threshold": "max %",
+              "value": "-",
+              "result": "16,00 %"
+            }
+          ]
+        }
+      },
 
-  {
-    "slug": "slaked-lime",
-    "img": "/webp/limePage/slaked-lime.webp",
-    "title": "Slaked lime",
-    "description":
-      "Slaked lime is hydrated lime from high-quality fine lime, which can be processed immediately. Slaked lime is obtained by slaking quicklime with water and is characterized by a very high degree of whiteness. Slaked lime is produced in accordance with EN 459-1, CL 90-S.",
-    "applicationList": [
-      "in civil engineering for the production of mortar for walls and plasters, as well as for paints",
-      "in construction as a filler for asphalt and for soil stabilization",
-      "in the environmental sector for flue gas purification, water purification and neutralization of acidic wastewater",
-      "in agriculture as a fertilizer and disinfectant"
-    ],
-    "deliveryList": [
-      "In bulk in tankers.",
-      "In 25kg bags (40 bags on a pallet)"
-    ],
-    "pdfPath": "/pdf/slaked-lime.pdf", 
-    "tableData" : {
-  "headItems": [
-    { "name": "Parameter" },
-    {
-      "name": "Standard EN 459-1 CL 90-Q"
-    },
-    { "name": "Achieved" }
-  ],
-  "infoItems": [
-    {
-      "property": "CaO + MgO",
-      "threshold": "min %",
-      "value": "90 %",
-      "result": "over 93 %"
-    },
-    {
-      "property": "from this MgO",
-      "threshold": "max %",
-      "value": "5 %",
-      "result": "up to 2,5 %"
-    },
-    {
-      "property": "CO",
-      "sub": "2",
-      "threshold": "max %",
-      "value": "4 %",
-      "result": "up to 2,8 %"
-    },
-    {
-      "property": "Humidity",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "up to 0,9 %"
-    },
-    {
-      "property": "SO",
-      "sub": "3",
-      "threshold": "max %",
-      "value": "2 %",
-      "result": "up to 0,2 %"
-    },
-    {
-      "property_1": "Specific gravity (g/cm",
-      "sup": "3",
-      "property_2": ")",
-      "threshold": "-",
-      "value": "-",
-      "result": "0,46 - 0,51"
-    },
-    {
-      "property": "Residue on the sieve 0,2 mm",
-      "threshold": "max %",
-      "value": "-",
-      "result": "0,2 %"
-    },
-    {
-      "property": "Residue on the sieve 0,09 mm",
-      "threshold": "max %",
-      "value": "-",
-      "result": "2,8 %"
-    }
-  ]
-}
-  }
-]
+      {
+        "slug": "slaked-lime",
+        "img": "/webp/limePage/slaked-lime.webp",
+        "title": "Slaked lime",
+        "description": "Slaked lime is hydrated lime from high-quality fine lime, which can be processed immediately. Slaked lime is obtained by slaking quicklime with water and is characterized by a very high degree of whiteness. Slaked lime is produced in accordance with EN 459-1, CL 90-S.",
+        "applicationList": [
+          "in civil engineering for the production of mortar for walls and plasters, as well as for paints",
+          "in construction as a filler for asphalt and for soil stabilization",
+          "in the environmental sector for flue gas purification, water purification and neutralization of acidic wastewater",
+          "in agriculture as a fertilizer and disinfectant"
+        ],
+        "deliveryList": [
+          "In bulk in tankers.",
+          "In 25kg bags (40 bags on a pallet)"
+        ],
+        "pdfPath": "/pdf/slaked-lime.pdf",
+        "tableData": {
+          "headItems": [
+            { "name": "Parameter" },
+            {
+              "name": "Standard EN 459-1 CL 90-Q"
+            },
+            { "name": "Achieved" }
+          ],
+          "infoItems": [
+            {
+              "property": "CaO + MgO",
+              "threshold": "min %",
+              "value": "90 %",
+              "result": "over 93 %"
+            },
+            {
+              "property": "from this MgO",
+              "threshold": "max %",
+              "value": "5 %",
+              "result": "up to 2,5 %"
+            },
+            {
+              "property": "CO",
+              "sub": "2",
+              "threshold": "max %",
+              "value": "4 %",
+              "result": "up to 2,8 %"
+            },
+            {
+              "property": "Humidity",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "up to 0,9 %"
+            },
+            {
+              "property": "SO",
+              "sub": "3",
+              "threshold": "max %",
+              "value": "2 %",
+              "result": "up to 0,2 %"
+            },
+            {
+              "property_1": "Specific gravity (g/cm",
+              "sup": "3",
+              "property_2": ")",
+              "threshold": "-",
+              "value": "-",
+              "result": "0,46 - 0,51"
+            },
+            {
+              "property": "Residue on the sieve 0,2 mm",
+              "threshold": "max %",
+              "value": "-",
+              "result": "0,2 %"
+            },
+            {
+              "property": "Residue on the sieve 0,09 mm",
+              "threshold": "max %",
+              "value": "-",
+              "result": "2,8 %"
+            }
+          ]
+        }
+      }
+    ]
   },
   "limeStoneSection": {
     "title": "Limestone",
@@ -625,110 +622,108 @@
     "application": "Application:",
     "delivery": "Possible delivery options:",
     "productsData": [
-  {
-    "slug": "calmit",
-    "img": "/webp/limeStonePage/calmit.webp",
-    "title": "Very fine limestone Calmit",
-    "compositionList": ["Calcium carbonate"],
-    "applicationList": [
-      "for the production of building mixtures",
-      "asphalt mixtures",
-      "in the chemical, rubber and paper industries",
-      "in agriculture as a feed raw material",
-      "for changing the pH of the soil and improving plant nutrition"
-    ],
-    "deliveryList": [
-      "In bulk in a tanker truck.",
-      "In 40kg bags (35 bags on a pallet)."
-    ],
-    "tableData": [
-    {
-      "property": "Carbonate content",
-      "value": "95 %"
-    },
-    {
-      "property": "Specific gravity",
-      "value": "2,7 mg/m",
-      "sup": "3"
-    },
-    {
-      "property": "Water content",
-      "value": "0,18 %"
-    },
-    {
-      "property": "Total sulfur content",
-      "value": "0,01 %"
-    }
-  ]
-  },
+      {
+        "slug": "calmit",
+        "img": "/webp/limeStonePage/calmit.webp",
+        "title": "Very fine limestone Calmit",
+        "compositionList": ["Calcium carbonate"],
+        "applicationList": [
+          "for the production of building mixtures",
+          "asphalt mixtures",
+          "in the chemical, rubber and paper industries",
+          "in agriculture as a feed raw material",
+          "for changing the pH of the soil and improving plant nutrition"
+        ],
+        "deliveryList": [
+          "In bulk in a tanker truck.",
+          "In 40kg bags (35 bags on a pallet)."
+        ],
+        "tableData": [
+          {
+            "property": "Carbonate content",
+            "value": "95 %"
+          },
+          {
+            "property": "Specific gravity",
+            "value": "2,7 mg/m",
+            "sup": "3"
+          },
+          {
+            "property": "Water content",
+            "value": "0,18 %"
+          },
+          {
+            "property": "Total sulfur content",
+            "value": "0,01 %"
+          }
+        ]
+      },
 
-  {
-    "slug": "florakalk",
-    "img": "/webp/limeStonePage/florakalk.webp",
-    "title": "FloraKalk mixture",
-    "compositionList": [
-      "calcium carbonate",
-      "magnesium carbonate",
-      "impurities"
-    ], 
-    "applicationList": [
-      "additional limestone fertilizer for technical and ornamental gardens",
-      "fruit gardens, agricultural fields",
-      "lawns for lightening heavy soils",
-      "for neutralizing acidic soils"
-    ],
-    "deliveryList": ["In 25kg bags (48 bags on a pallet)."],
-    "tableData": [
-    {
-      "property_1": "CaCO",
-      "property_2": " + MgCO",
-      "sub": 3,
-      "value": "87 %"
-    },
-    {
-      "property": "Including MgCO",
-      "sub": 3,
-      "value": "1,5 %"
-    },
-    {
-      "property": "Humidity",
-      "value": "1 %"
-    },
-    {
-      "property": "Residue on sieve 0,5 mm",
-      "value": "0,05 %"
-    }
-  ]
-  }
-]
+      {
+        "slug": "florakalk",
+        "img": "/webp/limeStonePage/florakalk.webp",
+        "title": "FloraKalk mixture",
+        "compositionList": [
+          "calcium carbonate",
+          "magnesium carbonate",
+          "impurities"
+        ],
+        "applicationList": [
+          "additional limestone fertilizer for technical and ornamental gardens",
+          "fruit gardens, agricultural fields",
+          "lawns for lightening heavy soils",
+          "for neutralizing acidic soils"
+        ],
+        "deliveryList": ["In 25kg bags (48 bags on a pallet)."],
+        "tableData": [
+          {
+            "property_1": "CaCO",
+            "property_2": " + MgCO",
+            "sub": 3,
+            "value": "87 %"
+          },
+          {
+            "property": "Including MgCO",
+            "sub": 3,
+            "value": "1,5 %"
+          },
+          {
+            "property": "Humidity",
+            "value": "1 %"
+          },
+          {
+            "property": "Residue on sieve 0,5 mm",
+            "value": "0,05 %"
+          }
+        ]
+      }
+    ]
   },
   "marbleCrumbSection": {
     "title": "Marble crumbs",
     "subTitle": "Available factions:",
-    "productData" : {
-  "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
-  "title": "Marble crumbs CALCILIT® KA",
-  "description_1":
-    "High-purity white granular calcium carbonate from washed and dried ground natural marble - without black spots.",
-  "description_2":
-    "Used for interior and exterior plasters, leveling compounds, sealants, putties and fillers.",
-  "factionsList": [
-    "0-0,2 mm",
-    "0-0,3 mm",
-    "0,1-0,5 mm",
-    "0,2-0,3 mm",
-    "0,3-0,5 mm",
-    "0,4-0,7 mm",
-    "0,5-1,0 mm",
-    "0,7-1,2 mm",
-    "1,0-1,5 mm",
-    "1,4-1,8 mm",
-    "1,5-2,0 mm",
-    "1,8-2,5 mm",
-    "2,0-2,5 mm",
-    "2,5-4,5 mm"
-  ]
-}
+    "productData": {
+      "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
+      "title": "Marble crumbs CALCILIT® KA",
+      "description_1": "High-purity white granular calcium carbonate from washed and dried ground natural marble - without black spots.",
+      "description_2": "Used for interior and exterior plasters, leveling compounds, sealants, putties and fillers.",
+      "factionsList": [
+        "0-0,2 mm",
+        "0-0,3 mm",
+        "0,1-0,5 mm",
+        "0,2-0,3 mm",
+        "0,3-0,5 mm",
+        "0,4-0,7 mm",
+        "0,5-1,0 mm",
+        "0,7-1,2 mm",
+        "1,0-1,5 mm",
+        "1,4-1,8 mm",
+        "1,5-2,0 mm",
+        "1,8-2,5 mm",
+        "2,0-2,5 mm",
+        "2,5-4,5 mm"
+      ]
+    }
   },
   "stairsSection": {
     "title": "Stairs",
@@ -749,23 +744,23 @@
     "productionSubTitle": "It is possible to manufacture tiles of various patterns and shapes to order according to your wishes!",
     "exampleText": "Example:",
     "examplesList": [
-  {
-    "img": "/webp/terrazzoTilesPage/example-glassPaving_1.webp",
-    "altImg": "Glass paving 1"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-glassPaving_2.webp",
-    "altImg": "Glass paving 2"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-newDrawing.webp",
-    "altImg": "New drawing"
-  },
-  {
-    "img": "/webp/terrazzoTilesPage/example-possibilitiesPolygon.webp",
-    "altImg": "Possibilities polygon"
-  }
-],
+      {
+        "img": "/webp/terrazzoTilesPage/example-glassPaving_1.webp",
+        "altImg": "Glass paving 1"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-glassPaving_2.webp",
+        "altImg": "Glass paving 2"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-newDrawing.webp",
+        "altImg": "New drawing"
+      },
+      {
+        "img": "/webp/terrazzoTilesPage/example-possibilitiesPolygon.webp",
+        "altImg": "Possibilities polygon"
+      }
+    ],
     "productsData": [
       {
         "slug": "tereza",
@@ -773,6 +768,16 @@
         "imgCode": "TA101",
         "cardTitle": "Tereza",
         "cardSubTitle": "Terrazzo Tiles",
+        "idSizes": [
+          {
+            "title": "Dimensions",
+            "value": "300×300×30 mm"
+          },
+          {
+            "title": "Weight",
+            "value": "6.0 kg"
+          }
+        ],
         "cardDescription": [
           "– terrazzo tiles with a smooth surface.",
           "High-quality coating that withstands high point operational loads. Two-layer terrazzo tiles.",
@@ -816,6 +821,16 @@
         "imgCode": "MA105",
         "cardTitle": "Margita",
         "cardSubTitle": "Terrazzo Tiles",
+        "idSizes": [
+          {
+            "title": "Dimensions",
+            "value": "300×300×24 mm"
+          },
+          {
+            "title": "Weight",
+            "value": "5.0 kg"
+          }
+        ],
         "cardDescription": [
           "– terrazzo tiles with a smooth surface.",
           "High-quality coating that withstands high point operational loads. Two-layer terrazzo tiles.",
@@ -834,6 +849,16 @@
         "imgCode": "RB119",
         "cardTitle": "Radka",
         "cardSubTitle": "Terrazzo Tiles",
+        "idSizes": [
+          {
+            "title": "Dimensions",
+            "value": "400x400x27 mm"
+          },
+          {
+            "title": "Weight",
+            "value": "10 kg"
+          }
+        ],
         "cardDescription": [
           "– terrazzo tiles with a smooth surface.",
           "High-quality coating that withstands high point operational loads. Two-layer terrazzo tiles.",
@@ -845,7 +870,7 @@
           "/webp/terrazzoTielsRadka/Radka-RB217.webp",
           "/webp/terrazzoTielsRadka/Radka-RB219.webp"
         ],
-                "imagesValue": ["RB103", "RB217", "RB219"]
+        "imagesValue": ["RB103", "RB217", "RB219"]
       },
       {
         "slug": "xena",
@@ -853,6 +878,16 @@
         "imgCode": "XC116",
         "cardTitle": "Xena",
         "cardSubTitle": "Terrazzo Tiles",
+        "idSizes": [
+          {
+            "title": "Dimensions",
+            "value": "600×600×40 mm"
+          },
+          {
+            "title": "Weight",
+            "value": "31 kg"
+          }
+        ],
         "cardDescription": [
           "– large-area polished terrazzo tiles.",
           "High-quality coating that withstands high point operational loads. Two-layer terrazzo tiles.",
@@ -868,6 +903,16 @@
         "imgCode": "OA102K",
         "cardTitle": "Ornela",
         "cardSubTitle": "Terrazzo Tiles",
+        "idSizes": [
+          {
+            "title": "Dimensions",
+            "value": "300x300x33 mm"
+          },
+          {
+            "title": "Weight",
+            "value": "6.5 kg"
+          }
+        ],
         "cardDescription": [
           "– terrazzo tiles with relief, used on terraces, building entrances, swimming pools, outdoor terraces and other surfaces."
         ],
@@ -920,8 +965,8 @@
         "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
         "cardTitle": "Beatrix",
         "cardSubTitle": "Concrete coating",
-        
-        "idTitle": "Beatrix concrete surface smooth",        
+
+        "idTitle": "Beatrix concrete surface smooth",
         "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
         "idSizes": [
           {
@@ -929,7 +974,7 @@
             "sizesValue": "300×300/400×400/600×600 mm",
             "weightTitle": "Weight",
             "weightValue": "7,0 / 10 / 32 kg"
-          }      
+          }
         ],
         "idImages": [
           {
@@ -939,7 +984,7 @@
           {
             "path": "/webp/terrazzoTilesBeatrix/concrete-coating_2.webp",
             "altImg": "Beatrix concrete surface smooth 2"
-          }        
+          }
         ]
       },
       {
@@ -948,23 +993,25 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Large-area concrete coating",
 
-        "idTitle": "Large-area concrete coating Beatrix embossed",        
+        "idTitle": "Large-area concrete coating Beatrix embossed",
         "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
-        "idDescriptionList":["This large-area coating is used for the construction of terraces of family houses, open atriums, sidewalks, paths and park areas, without the traffic of cars and trucks.", "The coating can be laid on gravel pavement, concrete pavement or polypropylene pedestals."
-],
+        "idDescriptionList": [
+          "This large-area coating is used for the construction of terraces of family houses, open atriums, sidewalks, paths and park areas, without the traffic of cars and trucks.",
+          "The coating can be laid on gravel pavement, concrete pavement or polypropylene pedestals."
+        ],
         "idSizes": [
           {
             "sizesTitle": "Sizes",
             "sizesValue": "600x600x40 mm",
             "weightTitle": "Weight",
             "weightValue": "32 kg"
-          }      
+          }
         ],
         "idImages": [
           {
             "path": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large_1.webp",
             "altImg": "Large-area concrete coating 1"
-          }     
+          }
         ]
       },
       {
@@ -974,7 +1021,7 @@
         "cardSubTitle": "",
 
         "idTitle": "Wall strips",
-        "idMainImg":"/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
+        "idMainImg": "/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
         "idDescription": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
         "idSizes": [
           {
@@ -983,9 +1030,27 @@
           }
         ],
         "idOpportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
-        "idHighStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/high-strips-1.webp", "altImg":"High wall strips 1"}, {"img":"/webp/terrazzoTilesWallStripsPage/high-strips-2.webp", "altImg":"High wall strips 2"}],
+        "idHighStripsImgs": [
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/high-strips-1.webp",
+            "altImg": "High wall strips 1"
+          },
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/high-strips-2.webp",
+            "altImg": "High wall strips 2"
+          }
+        ],
         "idOpportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius.",
-    "idRoundedStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-1.webp", "altImg":"Rounded wall strips 1"},{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-2.webp", "altImg":"Rounded wall strips 2"}]
+        "idRoundedStripsImgs": [
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/rounded-strips-1.webp",
+            "altImg": "Rounded wall strips 1"
+          },
+          {
+            "img": "/webp/terrazzoTilesWallStripsPage/rounded-strips-2.webp",
+            "altImg": "Rounded wall strips 2"
+          }
+        ]
       }
     ]
   },
