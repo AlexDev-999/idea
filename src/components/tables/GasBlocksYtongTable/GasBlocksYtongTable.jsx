@@ -1,34 +1,26 @@
 // газблоки ytong
-import { i18n } from "@/dictionaries/i18n.config";
-import { ytongTableData } from "@/data/products/ytongTableData";
 import styles from "./GasBlocksYtongTable.module.scss";
 
-const GasBlocksYtongTable = ({ lang }) => {
+const GasBlocksYtongTable = ({ lang, tableData }) => {
   return (
     <div className={styles.tableWrapper}>
       <table className={styles.table}>
         <thead className={styles.tableHead}>
           <tr className={styles.tableRow}>
             <th scope="col" colSpan="2">
-              {lang === i18n.locales[0]
-                ? ytongTableData.headItems[0].nameUk
-                : ytongTableData.headItems[0].nameEn}
+              {tableData.headItems[0].name}
             </th>
             <th scope="col" colSpan="2">
-              {lang === i18n.locales[0]
-                ? ytongTableData.headItems[1].nameUk
-                : ytongTableData.headItems[1].nameEn}
+              {tableData.headItems[1].name}
             </th>
             <th scope="col" colSpan="3">
-              {lang === i18n.locales[0]
-                ? ytongTableData.headItems[2].nameUk
-                : ytongTableData.headItems[2].nameEn}
+              {tableData.headItems[2].name}
             </th>
           </tr>
         </thead>
 
         <tbody className={styles.tableBody}>
-          {ytongTableData.infoItems?.map((item, index) => {
+          {tableData.infoItems?.map((item, index) => {
             if (index === 0) {
               return (
                 <tr
@@ -36,35 +28,25 @@ const GasBlocksYtongTable = ({ lang }) => {
                   className={`${styles.tableRow} ${styles.secondRow}`}
                 >
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.destinationUk
-                      : item.destinationEn}
+                    {item.destination}
                   </td>
                   <td>
-                    {lang === i18n.locales[0] ? item.sizeUk : item.sizeEn}
+                    {item.size}
                   </td>
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.blockCubicMeterUk
-                      : item.blockCubicMeterEn}
+                    {item.blockCubicMeter}
                   </td>
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.blockSquareMeterUk
-                      : item.blockSquareMeterEn}
+                    {item.blockSquareMeter}
                   </td>
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.palletCubicMeterUk
-                      : item.palletCubicMeterEn}
+                    {item.palletCubicMeter}
                   </td>
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.palletSquareMeterUk
-                      : item.palletSquareMeterEn}
+                    {item.palletSquareMeter}
                   </td>
                   <td>
-                    {lang === i18n.locales[0] ? item.piecesUk : item.piecesEn}
+                    {item.pieces}
                   </td>
                 </tr>
               );
@@ -76,9 +58,7 @@ const GasBlocksYtongTable = ({ lang }) => {
                   className={styles.tableRow}
                 >
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.destinationUk
-                      : item.destinationEn}
+                    {item.destination}
                   </td>
                   <td>{item.size}</td>
                   <td>{item.blockCubicMeter}</td>

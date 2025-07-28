@@ -1,30 +1,29 @@
 // Вапняк дуже тонкого помолу Calmit
-import { i18n } from "@/dictionaries/i18n.config";
-import { calmitTableData } from "@/data/products/calmitTableData";
 import styles from "./CalmitTable.module.scss";
 
-const CalmitTable = ({ lang }) => {
+const CalmitTable = ({ lang, tableData }) => {
+  
   return (
     <table className={styles.table}>
       <tbody className={styles.tableBody}>
-        {calmitTableData.infoItems?.map((item, index) => {
+        {tableData?.map((item, index) => {
           if (index === 1) {
             return (
-              <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
+              <tr key={item.property} scope="row" className={styles.tableRow}>
                 <td>
-                  {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}
+                  {item.property}
                 </td>
                 <td>
-                  {lang === i18n.locales[0] ? item.valueUk : item.valueEn}
+                  {item.value}
                   <sup>{item.sup}</sup>
                 </td>
               </tr>
             );
           } else
             return (
-              <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
+              <tr key={item.property} scope="row" className={styles.tableRow}>
                 <td>
-                  {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}
+                  {item.property}
                 </td>
                 <td>{item.value}</td>
               </tr>

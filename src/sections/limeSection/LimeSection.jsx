@@ -67,8 +67,8 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                     </div>
                   </div>
                 </div>
-                {item.slug === "quicklime" && <QuickLimeTable lang={lang} />}
-                {item.slug === "slaked-lime" && <SlakedLimeTable lang={lang} />}
+                {item.slug === "quicklime" && <QuickLimeTable lang={lang} tableData={item.tableData} />}
+                {item.slug === "slaked-lime" && <SlakedLimeTable lang={lang} tableData={item.tableData}/>}
               </li>
            )}
         </ul>
