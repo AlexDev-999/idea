@@ -1,0 +1,142 @@
+@use "@/app/variables";
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 24px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px;
+    color: variables.$primary-900;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+  }
+}
+
+.imgWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 586 / 586;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    margin-bottom: 0;
+    // height: fit-content;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    // position: relative;
+    // width: 50%;
+    // aspect-ratio: 586 / 586;
+  }
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+}
+
+.infoWrapper {
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 50%;
+  }
+}
+
+.description {
+  @include variables.bodyText-Regular;
+}
+
+.sizesWrapper{
+    float: right;
+     margin-left:24px;
+     margin-bottom:24px;
+}
+
+.sizesItem{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    width: fit-content;
+    padding: 4px 40px;
+    box-shadow: -4px 4px 12px 0 #2D303740;
+    
+    @media screen and (min-width: variables.$desktop) {
+           padding: 4px 52px;
+    }
+}
+
+.sizesItem:not(:last-child){
+  margin-bottom:20px;
+}
+
+.sizesText {
+      @include variables.bodyText-Regular;
+
+      &{
+        color: variables.$gray-900;
+    }
+}
+
+.sizesValue {
+      @include variables.subtitle1-Bold;
+
+      &{
+        color: variables.$gray-900;
+    }
+}
+
+
+
+.roundedStripsList{
+    display: flex;
+    column-gap: 24px;
+}
+
+.roundedStripsItem {
+  position: relative;
+  overflow: hidden;
+ width: calc((100% - 24px) / 2);
+  aspect-ratio: 282 / 282;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: calc((100% - 72px) / 4);
+    margin-bottom: 0;
+    // height: fit-content;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    // position: relative;
+    // width: 50%;
+    // aspect-ratio: 282 / 282;
+  }
+}
+
+.roundedStripImg {
+  display: block;
+  object-fit: cover;
+}

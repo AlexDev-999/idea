@@ -4,7 +4,6 @@ import OpenPdfBtn from "@/components/buttons/OpenPdfBtn/OpenPdfBtn";
 import QuickLimeTable from "@/components/tables/QuickLimeTable/QuickLimeTable";
 import SlakedLimeTable from "@/components/tables/SlakedLimeTable/SlakedLimeTable";
 import { i18n } from "@/dictionaries/i18n.config";
-import { limeData } from "@/data/products/limeData";
 import styles from "./LimeSection.module.scss";
 
 const LimeSection = ({ lang, dictionary, buttons }) => {
@@ -15,25 +14,14 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
         <h1 className={styles.title}>{dictionary.title}</h1>
         <p className={styles.description}>{dictionary.description}</p>
         <ul>
-          {limeData.map((item, index) => {
-            const applicationList =
-              lang === i18n.locales[0]
-                ? item.applicationListUk
-                : item.applicationListEn;
-            const deliveryList =
-              lang === i18n.locales[0]
-                ? item.deliveryListUk
-                : item.deliveryListEn;
-            return (
+          {dictionary.productsData.map((item, index) => 
               <li key={item.slug} className={styles.productItem}>
                 <div className={styles.contentWrapper}>
                   <div className={styles.imgWrapper}>
                     <Image
                       className={styles.img}
                       src={item.img}
-                      alt={
-                        lang === i18n.locales[0] ? item.titleUk : item.titleEn
-                      }
+                      alt={item.title}
                       // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
                       sizes="50vw"
                       fill={true}
@@ -42,18 +30,16 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                   </div>
                   <div className={styles.infoWrapper}>
                     <h2 className={styles.productTitle}>
-                      {lang === i18n.locales[0] ? item.titleUk : item.titleEn}
+                      {item.title}
                     </h2>
                     <p className={styles.productDescription}>
-                      {lang === i18n.locales[0]
-                        ? item.descriptionUk
-                        : item.descriptionEn}
+                      {item.description}
                     </p>
                     <p className={styles.applicationSubTitle}>
                       {dictionary.application}
                     </p>
                     <ul className={styles.applicationList}>
-                      {applicationList.map((el, index) => (
+                      {item.applicationList.map((el, index) => (
                         <li key={index} className={styles.applicationItem}>
                           {el}
                         </li>
@@ -64,7 +50,7 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                       {dictionary.delivery}
                     </p>
                     <ul className={styles.deliveryList}>
-                      {deliveryList.map((el, index) => (
+                      {item.deliveryList.map((el, index) => (
                         <li key={index} className={styles.deliveryItem}>
                           {el}
                         </li>
@@ -84,8 +70,7 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                 {item.slug === "quicklime" && <QuickLimeTable lang={lang} />}
                 {item.slug === "slaked-lime" && <SlakedLimeTable lang={lang} />}
               </li>
-            );
-          })}
+           )}
         </ul>
       </div>
     </section>

@@ -67,7 +67,16 @@
     "title": "Gas blocks",
     "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
     "description_2": "We are a certified partner of Xella in Ukraine, Xella is the largest producer of aerated concrete in the world, we offer the following sizes of blocks of the Ytong brand:",
-    "anotherProductsSubTitle": "We also present blocks from the Ternopil manufacturer Gazobet"
+    "anotherProductsSubTitle": "We also present blocks from the Ternopil manufacturer Gazobet",
+    "productsData":[
+  {
+    "slug": "ytong",
+    "img": "/webp/gasBlocksPage/ytong.webp",
+    "title": "Ytong gas blocks",
+    "description":
+      "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops."
+  }
+]
   },
   "homeHeroSection": {
     "title": "Idea - Certified Partner in Ukraine:",
@@ -132,7 +141,47 @@
     "description": "MPP «Idea» is a certified partner of Calmit in Ukraine, you can purchase the following products of this company from us:",
     "application": "Application:",
     "delivery": "Possible delivery options:",
-    "techInfo": "Technical information:"
+    "techInfo": "Technical information:",
+    "productsData" : [
+  {
+    "slug": "quicklime",
+    "img": "/webp/limePage/quicklime.webp",
+    "title": "Fine-grained quicklime CL 90",
+    "description":
+      "Fine-grained lime CL 90 is produced in accordance with EN 459-1 from high-purity lump lime by grinding.",
+    "applicationList": [
+      "in construction",
+      "for soil stabilization",
+      "in the environmental sector for flue gas purification",
+      "for wastewater purification and neutralization of acidic wastewater",
+      "in agriculture as a fertilizer and disinfectant"
+    ],
+    "deliveryList": [
+      "In bulk in tankers.",
+      "In 25kg bags (48 bags on a pallet)"
+    ],
+    "pdfPath": "/pdf/quicklime.pdf"
+  },
+
+  {
+    "slug": "slaked-lime",
+    "img": "/webp/limePage/slaked-lime.webp",
+    "title": "Slaked lime",
+    "description":
+      "Slaked lime is hydrated lime from high-quality fine lime, which can be processed immediately. Slaked lime is obtained by slaking quicklime with water and is characterized by a very high degree of whiteness. Slaked lime is produced in accordance with EN 459-1, CL 90-S.",
+    "applicationList": [
+      "in civil engineering for the production of mortar for walls and plasters, as well as for paints",
+      "in construction as a filler for asphalt and for soil stabilization",
+      "in the environmental sector for flue gas purification, water purification and neutralization of acidic wastewater",
+      "in agriculture as a fertilizer and disinfectant"
+    ],
+    "deliveryList": [
+      "In bulk in tankers.",
+      "In 25kg bags (40 bags on a pallet)"
+    ],
+    "pdfPath": "/pdf/slaked-lime.pdf"
+  }
+]
   },
   "limeStoneSection": {
     "title": "Limestone",
@@ -146,11 +195,72 @@
     ],
     "compositionSubTitle": "Composition:",
     "application": "Application:",
-    "delivery": "Possible delivery options:"
+    "delivery": "Possible delivery options:",
+    "productsData" : [
+  {
+    "slug": "calmit",
+    "img": "/webp/limeStonePage/calmit.webp",
+    "title": "Very fine limestone Calmit",
+    "compositionList": ["Calcium carbonate"],
+    "applicationList": [
+      "for the production of building mixtures",
+      "asphalt mixtures",
+      "in the chemical, rubber and paper industries",
+      "in agriculture as a feed raw material",
+      "for changing the pH of the soil and improving plant nutrition"
+    ],
+    "deliveryList": [
+      "In bulk in a tanker truck.",
+      "In 40kg bags (35 bags on a pallet)."
+    ]
+  },
+
+  {
+    "slug": "florakalk",
+    "img": "/webp/limeStonePage/florakalk.webp",
+    "title": "FloraKalk mixture",
+    "compositionList": [
+      "calcium carbonate",
+      "magnesium carbonate",
+      "impurities"
+    ], 
+    "applicationList": [
+      "additional limestone fertilizer for technical and ornamental gardens",
+      "fruit gardens, agricultural fields",
+      "lawns for lightening heavy soils",
+      "lawns for lightening heavy soils"
+    ],
+    "deliveryList": ["In 25kg bags (48 bags on a pallet)."]
+  }
+]
   },
   "marbleCrumbSection": {
     "title": "Marble crumbs",
-    "subTitle": "Available factions:"
+    "subTitle": "Available factions:",
+    "productData" : {
+  "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
+  "title": "Marble crumbs CALCILIT® KA",
+  "description_1":
+    "High-purity white granular calcium carbonate from washed and dried ground natural marble - without black spots.",
+  "description_2":
+    "Used for interior and exterior plasters, leveling compounds, sealants, putties and fillers.",
+  "factionsList": [
+    "0-0,2 mm",
+    "0-0,3 mm",
+    "0,1-0,5 mm",
+    "0,2-0,3 mm",
+    "0,3-0,5 mm",
+    "0,4-0,7 mm",
+    "0,5-1,0 mm",
+    "0,7-1,2 mm",
+    "1,0-1,5 mm",
+    "1,4-1,8 mm",
+    "1,5-2,0 mm",
+    "1,8-2,5 mm",
+    "2,0-2,5 mm",
+    "2,5-4,5 mm"
+  ]
+}
   },
   "stairsSection": {
     "title": "Stairs",
@@ -170,6 +280,24 @@
     "description": "Terrazzo is a mixture of cement, crushed precious stone (marble, etc.), and pigments used in stone masonry to create surfaces that imitate stone.",
     "productionSubTitle": "It is possible to manufacture tiles of various patterns and shapes to order according to your wishes!",
     "exampleText": "Example:",
+    "examplesList": [
+  {
+    "img": "/webp/terrazzoTilesPage/example-glassPaving_1.webp",
+    "altImg": "Glass paving 1"
+  },
+  {
+    "img": "/webp/terrazzoTilesPage/example-glassPaving_2.webp",
+    "altImg": "Glass paving 2"
+  },
+  {
+    "img": "/webp/terrazzoTilesPage/example-newDrawing.webp",
+    "altImg": "New drawing"
+  },
+  {
+    "img": "/webp/terrazzoTilesPage/example-possibilitiesPolygon.webp",
+    "altImg": "Possibilities polygon"
+  }
+],
     "productsData": [
       {
         "slug": "tereza",
@@ -229,7 +357,8 @@
         "images": [
           "/webp/terrazzoTielsMargita/margita-MA104.webp",
           "/webp/terrazzoTielsMargita/Margita-MA221.webp"
-        ]
+        ],
+        "imagesValue": ["MA104", "MA221"]
       },
       {
         "slug": "radka",
@@ -247,7 +376,8 @@
           "/webp/terrazzoTielsRadka/Radka-RB103.webp",
           "/webp/terrazzoTielsRadka/Radka-RB217.webp",
           "/webp/terrazzoTielsRadka/Radka-RB219.webp"
-        ]
+        ],
+                "imagesValue": ["RB103", "RB217", "RB219"]
       },
       {
         "slug": "xena",
@@ -261,7 +391,8 @@
           "The lower base layer consists of river gravel and Portland cement, the upper tread layer consists of marble or terrazzo chips of various colors and fractions. White or gray Portland cement is used as a binder in the tread layer. This layer can be colored with appropriate color pigments.",
           "Terrazzo paving can be installed inside and outside shopping malls, train stations, schools, hospitals, lobbies, etc. (especially white cement sidewalks). Terrazzo paving is also suitable for industrial workshops, warehouses, laundries, agricultural buildings, garages, workshops, basements, etc. (mainly gray cement)."
         ],
-        "images": ["/webp/terrazzoTielsXena/Xena-XC216.webp"]
+        "images": ["/webp/terrazzoTielsXena/Xena-XC216.webp"],
+        "imagesValue": ["XC216"]
       },
       {
         "slug": "ornela",
@@ -275,7 +406,8 @@
         "images": [
           "/webp/terrazzoTielsOrnela/Ornela-OA101K.webp",
           "/webp/terrazzoTielsOrnela/Ornela-OA201K.webp"
-        ]
+        ],
+        "imagesValue": ["OA101K", "OA201K"]
       },
       {
         "slug": "flooring-strips",
@@ -319,13 +451,53 @@
         "slug": "beatrix",
         "cardImg": "/webp/terrazzoTilesPage/beatrix.webp",
         "cardTitle": "Beatrix",
-        "cardSubTitle": "Concrete coating"
+        "cardSubTitle": "Concrete coating",
+        
+        "idTitle": "Beatrix concrete surface smooth",        
+        "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
+        "idSizes": [
+          {
+            "sizesTitle": "Sizes",
+            "sizesValue": "300×300/400×400/600×600 mm",
+            "weightTitle": "Weight",
+            "weightValue": "7,0 / 10 / 32 kg"
+          }      
+        ],
+        "idImages": [
+          {
+            "path": "/webp/terrazzoTilesBeatrix/concrete-coating_1.webp",
+            "altImg": "Beatrix concrete surface smooth 1"
+          },
+          {
+            "path": "/webp/terrazzoTilesBeatrix/concrete-coating_2.webp",
+            "altImg": "Beatrix concrete surface smooth 2"
+          }        
+        ]
       },
       {
         "slug": "beatrix-large",
         "cardImg": "/webp/terrazzoTilesPage/beatrix-large.webp",
         "cardTitle": "Beatrix",
-        "cardSubTitle": "Large-area concrete coating"
+        "cardSubTitle": "Large-area concrete coating",
+
+        "idTitle": "Large-area concrete coating Beatrix embossed",        
+        "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
+        "idDescriptionList":["This large-area coating is used for the construction of terraces of family houses, open atriums, sidewalks, paths and park areas, without the traffic of cars and trucks.", "The coating can be laid on gravel pavement, concrete pavement or polypropylene pedestals."
+],
+        "idSizes": [
+          {
+            "sizesTitle": "Sizes",
+            "sizesValue": "600x600x40 mm",
+            "weightTitle": "Weight",
+            "weightValue": "32 kg"
+          }      
+        ],
+        "idImages": [
+          {
+            "path": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large_1.webp",
+            "altImg": "Large-area concrete coating 1"
+          }     
+        ]
       },
       {
         "slug": "wall-strips",
@@ -333,16 +505,19 @@
         "cardTitle": "Wall strips",
         "cardSubTitle": "",
 
-        "title": "Wall strips",
-        "description": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
-        "sizesData": [
+        "idTitle": "Wall strips",
+        "idMainImg":"/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
+        "idDescription": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",
+        "idSizes": [
           {
             "title": "Sizes",
             "value": "300(400)x60x12 mm"
           }
         ],
-        "opportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
-        "opportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius."
+        "idOpportunityText": "According to the customer's needs, it is possible to manufacture a wall strip with a height of 70, 80, 90, 100 mm, a thickness of 12 mm, or a «top-of-the-box» wall strip.",
+        "idHighStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/high-strips-1.webp", "altImg":"High wall strips 1"}, {"img":"/webp/terrazzoTilesWallStripsPage/high-strips-2.webp", "altImg":"High wall strips 2"}],
+        "idOpportunitySubTitle": "Upon customer request, wall strips can be manufactured with a beveled top edge or top radius.",
+    "idRoundedStripsImgs":[{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-1.webp", "altImg":"Rounded wall strips 1"},{"img":"/webp/terrazzoTilesWallStripsPage/rounded-strips-2.webp", "altImg":"Rounded wall strips 2"}]
       }
     ]
   },
