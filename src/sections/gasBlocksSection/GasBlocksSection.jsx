@@ -35,13 +35,13 @@ const GasBlocksSection = ({ lang, dictionary, buttons }) => {
                   {item.description}
                 </p>
 
-                {item.slug === "ytong" && <GasBlocksYtongTable lang={lang} />}
+                {item.slug === "ytong" && <GasBlocksYtongTable lang={lang} tableData={item.tableData}/>}
               </div>
             </li>
           ))}
         </ul>
         <p className={styles.anotherProductsSubTitle}>{dictionary.anotherProductsSubTitle}</p>
-        <GasBlocksGazobetTable lang={lang}/>
+        <GasBlocksGazobetTable lang={lang} tableData={dictionary.gazobetTableData}/>
       </div>
     </section>
   );

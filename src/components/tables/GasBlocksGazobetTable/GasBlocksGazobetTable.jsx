@@ -1,31 +1,25 @@
 // газоблоки Gazobet
-import { i18n } from "@/dictionaries/i18n.config";
-import { gasBlocksGazobetTableData } from "@/data/products/gasBlocksGazobetTableData";
 import styles from "./GasBlocksGazobetTable.module.scss";
 
-const GasBlocksGazobetTable = ({ lang }) => {
+const GasBlocksGazobetTable = ({ lang, tableData }) => {
   return (
     <div className={styles.tableWrapper}>
       <table className={styles.table}>
         <thead className={styles.tableHead}>
           <tr className={styles.tableRow}>
-            {gasBlocksGazobetTableData.headItems.map((item, index)=> <th key={index} scope="col">
-              {lang === i18n.locales[0]
-                ? item.nameUk
-                : item.nameEn}
+            {tableData.headItems.map((item, index)=> <th key={index} scope="col">
+              {item.name}
             </th>)}            
           </tr>
           <tr className={styles.tableRow}>
-            {gasBlocksGazobetTableData.headSubItems.map((item, index)=> <th key={index} scope="col">
-              {lang === i18n.locales[0]
-                ? item.nameUk
-                : item.nameEn}
+            {tableData.headSubItems.map((item, index)=> <th key={index} scope="col">
+              {item.name}
             </th>)}            
           </tr>
         </thead>
 
         <tbody className={styles.tableBody}>
-          {gasBlocksGazobetTableData.infoItems?.map((item, index) => {
+          {tableData.infoItems?.map((item, index) => {
             if (index === 0) {
               return (
                 <tr

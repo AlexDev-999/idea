@@ -74,9 +74,311 @@
     "img": "/webp/gasBlocksPage/ytong.webp",
     "title": "Ytong gas blocks",
     "description":
-      "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops."
+      "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops.",
+      "tableData": {
+  "headItems": [
+    { "name": "Sizes" },
+    {  "name": "Block" },
+    {  "name": "Pallet" }
+  ],
+  "infoItems": [
+    {
+      "destination": "Destination",
+      "size": "Size",
+      "blockCubicMeter": "Cub.m.",
+      "blockSquareMeter": "Sq.m.",
+      "palletCubicMeter": "Cub.m.",
+      "palletSquareMeter": "Sq.m.",
+      "pieces": "pieces"
+    },
+
+    {
+      "destination": "foundation",
+      "size": "600*200*050",
+      "blockCubicMeter": "0,006",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "28,80",
+      "pieces": "240"
+    },
+
+    {
+      "destination": "foundation",
+      "size": "600*200*075",
+      "blockCubicMeter": "0,009",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "19,20",
+      "pieces": "160"
+    },
+
+    {
+      "destination": "partitions",
+      "size": "600*200*100",
+      "blockCubicMeter": "0,012",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "14,40",
+      "pieces": "120"
+    },
+
+    {
+      "destination": "interstitial",
+      "size": "600*200*125",
+      "blockCubicMeter": "0,015",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "11,52",
+      "pieces": "96"
+    },
+
+    {
+      "destination": "interstitial",
+      "size": "600*200*150",
+      "blockCubicMeter": "0,018",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "9,60",
+      "pieces": "80"
+    },
+
+    {
+      "destination": "bearing",
+      "size": "600*200*200",
+      "blockCubicMeter": "0,024",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "7,20",
+      "pieces": "60"
+    },
+
+    {
+      "destination": "bearing",
+      "size": "600*200*250",
+      "blockCubicMeter": "0,030",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "5,76",
+      "pieces": "48"
+    },
+
+    {
+      "destination": "external",
+      "size": "600*200*300",
+      "blockCubicMeter": "0,036",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "4,80",
+      "pieces": "40"
+    },
+
+    {
+      "destination": "external(warm)",
+      "size": "600*200*375",
+      "blockCubicMeter": "0,045",
+      "blockSquareMeter": "0,12",
+      "palletCubicMeter": "1,44",
+      "palletSquareMeter": "3,84",
+      "pieces": "32"
+    }
+  ]
+}
   }
-]
+],
+ "gazobetTableData": {  
+  "headItems": [
+    { "name": "NAME" },
+    { "name": "Brand by average density" },
+    { "name": "Size (WxHxD)" },
+     { "name": "Volume 1 pc." },
+    { "name": "Pallet volume" },
+    {  "name": "Weight of 1 pallet" },
+     {  "name": "Quantity per pallet" },
+    {  "name": "Wall area from one pallet" }    
+  ],
+  "headSubItems": [
+    { "name": "" },
+    { "name": "" },
+    { "name": "mm" },
+     { "name": "cub. m." },
+    { "name": "cub. m." },
+    { "name": "tons" },
+     { "name": "piece" },
+    { "name": "sq. m." }    
+  ],
+  "infoItems": [
+    {
+      "name": "Gazobet 5/10",
+      "brand": "D500",
+      "size": "50х240х600",
+      "pieceVolume": "0,007",
+      "palletVolume": "1,152",
+      "weight": "0,79",
+      "quantity": "160",
+      "wallArea": "23,04"     
+    },
+     {
+      "name": "",
+      "brand": "D500",
+      "size": "100х240х600",
+      "pieceVolume": "0,014",
+      "palletVolume": "1,115",
+      "weight": "",
+      "quantity": "8",
+      "wallArea": "1,15"     
+    },
+     {
+      "name": "Gazobet 7,5",
+      "brand": "D500",
+      "size": "75х240х600",
+      "pieceVolume": "0,011",
+      "palletVolume": "1,728",
+      "weight": "1,03",
+      "quantity": "160",
+      "wallArea": "23,04"     
+    },
+     {
+      "name": "Gazobet 10",
+      "brand": "D500",
+      "size": "100х240х600",
+      "pieceVolume": "0,014",
+      "palletVolume": "1,728",
+      "weight": "1,03",
+      "quantity": "120",
+      "wallArea": "17,28"    
+    },
+     {
+      "name": "Gazobet 10/19",
+      "brand": "D500",
+      "size": "100х190х600",
+      "pieceVolume": "0,011",
+      "palletVolume": "1,71",
+      "weight": "1,02",
+      "quantity": "150",
+      "wallArea": "17,10"     
+    }, 
+    {
+      "name": "Gazobet 12",
+      "brand": "D500",
+      "size": "120х240х600",
+      "pieceVolume": "0,017",
+      "palletVolume": "1,659",
+      "weight": "0,99",
+      "quantity": "96",
+      "wallArea": "13,83"     
+    },
+     {
+      "name": "Gazobet 15",
+      "brand": "D500",
+      "size": "150х240х600",
+      "pieceVolume": "0,022",
+      "palletVolume": "1,728",
+      "weight": "1,03",
+      "quantity": "80",
+      "wallArea": "11,52"     
+    },
+     {
+      "name": "Gazobet 16",
+      "brand": "D500",
+      "size": "160х240х600",
+      "pieceVolume": "0,023",
+      "palletVolume": "1,843",
+      "weight": "1,10",
+      "quantity": "80",
+      "wallArea": "11,52"    
+    }, 
+    {
+      "name": "Gazobet 18",
+      "brand": "D500",
+      "size": "180х240х600",
+      "pieceVolume": "0,026",
+      "palletVolume": "1,659",
+      "weight": "0,99",
+      "quantity": "64",
+      "wallArea": "9,22"     
+    },
+     {
+      "name": "Gazobet 20",
+      "brand": "D500",
+      "size": "200х240х600",
+      "pieceVolume": "0,029",
+      "palletVolume": "1,843",
+      "weight": "1,10",
+      "quantity": "64",
+      "wallArea": "9,22"     
+    },
+     {
+      "name": "Gazobet 20/19",
+      "brand": "D500",
+      "size": "200х190х600",
+      "pieceVolume": "0,023",
+      "palletVolume": "1,824",
+      "weight": "1,09",
+      "quantity": "80",
+      "wallArea": "9,12"    
+    },
+     {
+      "name": "Gazobet 24",
+      "brand": "D500",
+      "size": "240х240х600",
+      "pieceVolume": "0,035",
+      "palletVolume": "1,659",
+      "weight": "0,99",
+      "quantity": "48",
+      "wallArea": "6,91"     
+    }, 
+    {
+      "name": "Gazobet 25",
+      "brand": "D500",
+      "size": "250х240х600",
+      "pieceVolume": "0,036",
+      "palletVolume": "1,728",
+      "weight": "1,03",
+      "quantity": "48",
+      "wallArea": "6,91"     
+    }, 
+    {
+      "name": "Gazobet 30",
+      "brand": "D500",
+      "size": "300х240х600",
+      "pieceVolume": "0,043",
+      "palletVolume": "1,728",
+      "weight": "1,03",
+      "quantity": "40",
+      "wallArea": "5,76"   
+    },
+     {
+      "name": "Gazobet 30/19",
+      "brand": "D500",
+      "size": "300х190х600",
+      "pieceVolume": "0,034",
+      "palletVolume": "1,71",
+      "weight": "1,02",
+      "quantity": "50",
+      "wallArea": "5,70"     
+    }, 
+    {
+      "name": "Gazobet 36",
+      "brand": "D500",
+      "size": "360х240х600",
+      "pieceVolume": "0,052",
+      "palletVolume": "1,659",
+      "weight": "0,99",
+      "quantity": "32",
+      "wallArea": "4,61"    
+    },
+     {
+      "name": "Gazobet 40",
+      "brand": "D500",
+      "size": "400х240х600",
+      "pieceVolume": "0,058",
+      "palletVolume": "1,843",
+      "weight": "1,10",
+      "quantity": "32",
+      "wallArea": "4,61"    
+    }
+  ]
+}
   },
   "homeHeroSection": {
     "title": "Idea - Certified Partner in Ukraine:",
@@ -160,7 +462,70 @@
       "In bulk in tankers.",
       "In 25kg bags (48 bags on a pallet)"
     ],
-    "pdfPath": "/pdf/quicklime.pdf"
+    "pdfPath": "/pdf/quicklime.pdf",
+    "tableData": {
+  "headItems": [
+    { "name": "Parameter" },
+    {      
+      "name": "Standard EN 459-1 CL 90-Q"
+    },
+    { "name": "Achieved" }
+  ],
+  "infoItems": [
+    {
+      "property": "CaO + MgO",
+      "threshold": "min %",
+      "value": "90 %",
+      "result": "over 93,5 %"
+    },
+    {
+      "property": "from this MgO",
+      "threshold": "max %",
+      "value": "5 %",
+      "result": "up to 2,5 %"
+    },
+    {
+      "property": "CO",
+      "sub": "2",
+      "threshold": "max %",
+      "value": "4 %",
+      "result": "up to 3,3 %"
+    },
+    {
+      "property": "Humidity",
+      "threshold": "max %",
+      "value": "2 %",
+      "result": "up to 0,9 %"
+    },
+    {
+      "property": "SO",
+      "sub": "3",
+      "threshold": "max %",
+      "value": "2 %",
+      "result": "up to 0,35 %"
+    },
+    {
+      "property_1": "Output (dm",
+      "sup": "3",
+      "property_2": "/10 kg min)",
+      "threshold": "min %",
+      "value": "26",
+      "result": "28"
+    },
+    {
+      "property": "Residue on the sieve 0,2 mm",
+      "threshold": "max %",
+      "value": "-",
+      "result": "6 %"
+    },
+    {
+      "property": "Residue on the sieve 0,09 mm",
+      "threshold": "max %",
+      "value": "-",
+      "result": "16,00 %"
+    }
+  ]
+}
   },
 
   {
@@ -179,7 +544,70 @@
       "In bulk in tankers.",
       "In 25kg bags (40 bags on a pallet)"
     ],
-    "pdfPath": "/pdf/slaked-lime.pdf"
+    "pdfPath": "/pdf/slaked-lime.pdf", 
+    "tableData" : {
+  "headItems": [
+    { "name": "Parameter" },
+    {
+      "name": "Standard EN 459-1 CL 90-Q"
+    },
+    { "name": "Achieved" }
+  ],
+  "infoItems": [
+    {
+      "property": "CaO + MgO",
+      "threshold": "min %",
+      "value": "90 %",
+      "result": "over 93 %"
+    },
+    {
+      "property": "from this MgO",
+      "threshold": "max %",
+      "value": "5 %",
+      "result": "up to 2,5 %"
+    },
+    {
+      "property": "CO",
+      "sub": "2",
+      "threshold": "max %",
+      "value": "4 %",
+      "result": "up to 2,8 %"
+    },
+    {
+      "property": "Humidity",
+      "threshold": "max %",
+      "value": "2 %",
+      "result": "up to 0,9 %"
+    },
+    {
+      "property": "SO",
+      "sub": "3",
+      "threshold": "max %",
+      "value": "2 %",
+      "result": "up to 0,2 %"
+    },
+    {
+      "property_1": "Specific gravity (g/cm",
+      "sup": "3",
+      "property_2": ")",
+      "threshold": "-",
+      "value": "-",
+      "result": "0,46 - 0,51"
+    },
+    {
+      "property": "Residue on the sieve 0,2 mm",
+      "threshold": "max %",
+      "value": "-",
+      "result": "0,2 %"
+    },
+    {
+      "property": "Residue on the sieve 0,09 mm",
+      "threshold": "max %",
+      "value": "-",
+      "result": "2,8 %"
+    }
+  ]
+}
   }
 ]
   },
@@ -196,7 +624,7 @@
     "compositionSubTitle": "Composition:",
     "application": "Application:",
     "delivery": "Possible delivery options:",
-    "productsData" : [
+    "productsData": [
   {
     "slug": "calmit",
     "img": "/webp/limeStonePage/calmit.webp",
@@ -212,7 +640,26 @@
     "deliveryList": [
       "In bulk in a tanker truck.",
       "In 40kg bags (35 bags on a pallet)."
-    ]
+    ],
+    "tableData": [
+    {
+      "property": "Carbonate content",
+      "value": "95 %"
+    },
+    {
+      "property": "Specific gravity",
+      "value": "2,7 mg/m",
+      "sup": "3"
+    },
+    {
+      "property": "Water content",
+      "value": "0,18 %"
+    },
+    {
+      "property": "Total sulfur content",
+      "value": "0,01 %"
+    }
+  ]
   },
 
   {
@@ -228,9 +675,30 @@
       "additional limestone fertilizer for technical and ornamental gardens",
       "fruit gardens, agricultural fields",
       "lawns for lightening heavy soils",
-      "lawns for lightening heavy soils"
+      "for neutralizing acidic soils"
     ],
-    "deliveryList": ["In 25kg bags (48 bags on a pallet)."]
+    "deliveryList": ["In 25kg bags (48 bags on a pallet)."],
+    "tableData": [
+    {
+      "property_1": "CaCO",
+      "property_2": " + MgCO",
+      "sub": 3,
+      "value": "87 %"
+    },
+    {
+      "property": "Including MgCO",
+      "sub": 3,
+      "value": "1,5 %"
+    },
+    {
+      "property": "Humidity",
+      "value": "1 %"
+    },
+    {
+      "property": "Residue on sieve 0,5 mm",
+      "value": "0,05 %"
+    }
+  ]
   }
 ]
   },

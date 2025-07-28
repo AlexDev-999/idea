@@ -25,7 +25,7 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
         </ul>
         <ul>
           {dictionary.productsData.map((item, index) => {         
-           
+
             return (
               <li key={item.slug} className={styles.productItem}>
                 <div className={styles.imgWrapper}>
@@ -73,8 +73,8 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                       </li>
                     ))}
                   </ul>
-                  {item.slug === "calmit" && <CalmitTable lang={lang} />}
-                  {item.slug === "florakalk" && <FlorakalkTable lang={lang} />}
+                  {item.slug === "calmit" && <CalmitTable lang={lang} tableData={item.tableData} />}
+                  {item.slug === "florakalk" && <FlorakalkTable lang={lang} tableData={item.tableData}/>}
                 </div>
               </li>
             );

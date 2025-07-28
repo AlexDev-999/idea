@@ -1,14 +1,11 @@
 // Вапняк дуже тонкого помолу Calmit
-import { i18n } from "@/dictionaries/i18n.config";
-import { florakalkTableData } from "@/data/products/florakalkTableData";
 import styles from "./FlorakalkTable.module.scss";
 
-const FlorakalkTable = ({ lang }) => {
+const FlorakalkTable = ({ lang, tableData }) => {
   return (
-    // <div className={styles.tableWrapper}>
     <table className={styles.table}>
       <tbody className={styles.tableBody}>
-        {florakalkTableData.infoItems?.map((item, index) => {
+        {tableData?.map((item, index) => {
           if (index === 0) {
             return (
               <tr key={item.property_1} scope="row" className={styles.tableRow}>
@@ -23,9 +20,9 @@ const FlorakalkTable = ({ lang }) => {
             );
           } else if (index === 1) {
             return (
-              <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
+              <tr key={item.property} scope="row" className={styles.tableRow}>
                 <td>
-                  {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}
+                  {item.property}
                   <sub>{item.sub}</sub>
                 </td>
                 <td>{item.value}</td>
@@ -33,9 +30,9 @@ const FlorakalkTable = ({ lang }) => {
             );
           } else
             return (
-              <tr key={item.propertyEn} scope="row" className={styles.tableRow}>
+              <tr key={item.property} scope="row" className={styles.tableRow}>
                 <td>
-                  {lang === i18n.locales[0] ? item.propertyUk : item.propertyEn}
+                  {item.property}
                 </td>
                 <td>{item.value}</td>
               </tr>
@@ -43,7 +40,6 @@ const FlorakalkTable = ({ lang }) => {
         })}
       </tbody>
     </table>
-    // </div>
   );
 };
 

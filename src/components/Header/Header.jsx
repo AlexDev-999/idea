@@ -8,17 +8,8 @@ import BurgerMenu from "./BurgerMenu/BurgerMenu";
 import styles from "./Header.module.scss";
 
 const Header = ({ lang }) => {
-  const pathname = usePathname();
-  console.log("pathname", pathname);
-  // если язык по умолчанию, то убираем его из url (в нашем случае uk). Сделано для корректных адресов для ссылок в зависимости от текущего языка
-  // const isDefaultLang = lang === i18n.defaultLocale;
-  // const homePath = isDefaultLang ? "/" : `/${lang}`;
-
-  // console.log("homePath", homePath);
+  const pathname = usePathname();  
   const isHomePage = pathname === "" || pathname === "/" || pathname === "/uk" || pathname === "/en";
-  // console.log("pathname === homePath", pathname === homePath);
-
-  console.log("isHomePage", isHomePage);
 
   return (
     <header

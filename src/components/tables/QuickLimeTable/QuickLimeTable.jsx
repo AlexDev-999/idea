@@ -1,99 +1,79 @@
 // негашене вапно
-import { i18n } from "@/dictionaries/i18n.config";
-import { quickLimeTableData } from "@/data/products/quickLimeTableData";
 import styles from "./QuickLimeTable.module.scss";
 
-const QuickLimeTable = ({ lang }) => {
+const QuickLimeTable = ({ lang, tableData }) => {
   return (
     <div className={styles.tableWrapper}>
       <table className={styles.table}>
         <thead className={styles.tableHead}>
           <tr className={styles.tableRow}>
             <th scope="col">
-              {lang === i18n.locales[0]
-                ? quickLimeTableData.headItems[0].nameUk
-                : quickLimeTableData.headItems[0].nameEn}
+              { tableData.headItems[0].name }
             </th>
             <th scope="col" colSpan="2">
-              {lang === i18n.locales[0]
-                ? quickLimeTableData.headItems[1].nameUk
-                : quickLimeTableData.headItems[1].nameEn}
+              { tableData.headItems[1].name}
             </th>
             <th scope="col">
-              {lang === i18n.locales[0]
-                ? quickLimeTableData.headItems[2].nameUk
-                : quickLimeTableData.headItems[2].nameEn}
+              { tableData.headItems[2].name}
             </th>
           </tr>
         </thead>
 
         <tbody className={styles.tableBody}>
-          {quickLimeTableData.infoItems?.map((item) => {
+          {tableData.infoItems?.map((item) => {
             if (item.sub) {
               return (
                 <tr
-                  key={item.propertyEn}
+                  key={item.property}
                   scope="row"
                   className={styles.tableRow}
                 >
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.propertyUk
-                      : item.propertyEn}
+                    {item.property}
                     <sub>{item.sub}</sub>
                   </td>
                   <td>{item.threshold}</td>
                   <td>{item.value}</td>
                   <td>
-                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                    {item.result}
                   </td>
                 </tr>
               );
             } else if (item.sup) {
               return (
                 <tr
-                  key={item.propertyEn_1}
+                  key={item.property_1}
                   scope="row"
                   className={styles.tableRow}
                 >
-                  <td>
-                    {lang === i18n.locales[0] ? (
+                  <td>                    
                       <span>
-                        {item.propertyUk_1}
+                        {item.property_1}
                         <sup>{item.sup}</sup>
-                        {item.propertyUk_2}
-                      </span>
-                    ) : (
-                      <span>
-                        {item.propertyEn_1}
-                        <sup>{item.sup}</sup>
-                        {item.propertyEn_2}
-                      </span>
-                    )}
+                        {item.property_2}
+                      </span>                    
                   </td>
                   <td>{item.threshold}</td>
                   <td>{item.value}</td>
                   <td>
-                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                    {item.result}
                   </td>
                 </tr>
               );
             } else
               return (
                 <tr
-                  key={item.propertyEn}
+                  key={item.property}
                   scope="row"
                   className={styles.tableRow}
                 >
                   <td>
-                    {lang === i18n.locales[0]
-                      ? item.propertyUk
-                      : item.propertyEn}
+                    { item.property }
                   </td>
                   <td>{item.threshold}</td>
                   <td>{item.value}</td>
                   <td>
-                    {lang === i18n.locales[0] ? item.resultUk : item.resultEn}
+                    {item.result}
                   </td>
                 </tr>
               );
