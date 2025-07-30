@@ -21,24 +21,28 @@
 .subtitle {
   @include variables.bodyText-Regular;
   & {
-    margin-bottom: 40px;
+    margin-bottom: 12px;
   }
-  @media screen and (min-width: variables.$tablet) {
+  @media screen and (min-width: variables.$desktop) {
     width: 50%;
+    margin-bottom: 40px;
   }
 }
 
 .list {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  row-gap: 32px;
+  @media screen and (min-width: variables.$desktop) {
+    row-gap: 40px;
+  }
 }
 
 .contentItem {
   display: flex;
   flex-direction: column;
   column-gap: 24px;
-  @media screen and (min-width: variables.$desktop) {
+  @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
   }
 }
@@ -53,6 +57,10 @@
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
+    width: 344px;
+    height: 344px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     width: 586px;
     height: 586px;
   }
@@ -62,6 +70,12 @@
   @include variables.subtitle1-Bold;
   & {
     color: variables.$primary-900;
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
   }
 }
@@ -74,24 +88,37 @@
 }
 
 .contentSubtitleRetreat {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 12px;
+  }
 }
 
 .contentDesc {
   @include variables.bodyText-Regular;
   & {
+    margin-bottom: 2px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 4px;
   }
 }
 
 .contentDescText {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+  }
 }
 
 .contentDeliveryOptions {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
+  row-gap: 2px;
   list-style-type: decimal;
   padding-left: 20px;
+  @media screen and (min-width: variables.$desktop) {
+    row-gap: 4px;
+  }
 }

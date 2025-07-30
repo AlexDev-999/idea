@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { i18n } from '@/dictionaries/i18n.config';
 import { heroImages } from '@/data/heroImages';
 
 import styles from './HomeHeroSection.module.scss';
-import { i18n } from '@/dictionaries/i18n.config';
 
 const HomeHeroSection = ({ lang, dictionary }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,21 +47,27 @@ const HomeHeroSection = ({ lang, dictionary }) => {
           <div className={`container`}>
             <h1 className={styles.title}>{dictionary.title}</h1>
             <h3 className={styles.partners}>
-              &#8226; Calmit &#8226; Danucem &#8226; Xella &#8226; Cidemat
-              &#8226;
+              • Calmit • Danucem •{' '}
+              <span>
+                <br />
+              </span>{' '}
+              <span>•</span> Xella • Cidemat •
             </h3>
           </div>
           <div>
             <div className={styles.btnContainer}>
               <button
                 onClick={handleScroll}
-                className={styles.productsBtn}
+                className={styles.productsBtn + ' ' + styles.buttons}
                 type="button"
                 aria-label="arrow-btn"
               >
                 {dictionary.productsBtn}
               </button>
-              <Link href={aboutUsPagePath} className={styles.aboutAsBtn}>
+              <Link
+                href={aboutUsPagePath}
+                className={styles.aboutAsBtn + ' ' + styles.buttons}
+              >
                 {dictionary.aboutAsBtn}
               </Link>
             </div>
