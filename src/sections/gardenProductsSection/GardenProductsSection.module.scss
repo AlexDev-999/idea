@@ -73,6 +73,7 @@
   @include variables.subtitle2-Bold;
   & {
     color: variables.$gray-900;
+    text-align: start;
   }
 }
 
