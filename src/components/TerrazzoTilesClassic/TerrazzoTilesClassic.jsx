@@ -13,6 +13,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
   return (
     <div className={`container`}>
       <BreadCrumbs
+        href="/plitka-teraczo"
         backTitle={dictionary.cardSubTitle}
         nowtitle={dictionary.cardTitle}
       />

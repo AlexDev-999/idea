@@ -5,11 +5,57 @@
   "certificatesSection": {
     "title": "Title"
   },
-  "decorativeStoneIdSection": {
-    "title": "Title"
-  },
   "decorativeStoneSection": {
-    "title": "Title"
+    "title": "Decorative stones",
+    "more": "MORE",
+    "productsData": [
+      {
+        "slug": "rebbles",
+        "title": "Pebbles (river stone)",
+        "images": [
+          "/webp/DecorativeStonePage/Pebbles (river stone).webp",
+          "/webp/DecorativeStonePage/rebbles-8-16 мм.webp",
+          "/webp/DecorativeStonePage/rebbles-4-8 мм.webp"
+        ],
+        "imageCode": ["16-22 mm", "8-16 mm", "4-8 mm"],
+        "applicationData": {
+          "title": "Application",
+          "value": [
+            "garden decoration",
+            "paving paths",
+            "designing artificial reservoirs",
+            "creating flower beds"
+          ]
+        },
+        "packagingData": {
+          "title": "Packaging",
+          "value": ["25kg bags."]
+        }
+      },
+      {
+        "slug": "terrazzo-crumb",
+        "title": "Terrazzo crumb",
+        "images": [
+          "/webp/DecorativeStonePage/Terrazzo crumb.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-1.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-2.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-3.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-4.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-5.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-6.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-7.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-8.webp"
+        ],
+        "description": [
+          "Terrazzo crumb is mainly used for interior and exterior decoration, as well as for the production of small terrazzo products or small construction works.",
+          "Can mix the mixture according to your request."
+        ],
+        "packagingData": {
+          "title": "Packaging",
+          "value": ["25kg bags.", "Big bags of 1075 kg"]
+        }
+      }
+    ]
   },
   "faqSection": {
     "title": "FAQ",

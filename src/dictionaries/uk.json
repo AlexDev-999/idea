@@ -9,7 +9,56 @@
     "title": "Title"
   },
   "decorativeStoneSection": {
-    "title": "Title"
+    "title": "Декоративні камені",
+    "more": "БІЛЬШЕ",
+    "productsData": [
+      {
+        "slug": "pebbles",
+        "title": "Галька (річковий камінь)",
+        "images": [
+          "/webp/DecorativeStonePage/Pebbles (river stone).webp",
+          "/webp/DecorativeStonePage/rebbles-8-16 мм.webp",
+          "/webp/DecorativeStonePage/rebbles-4-8 мм.webp"
+        ],
+        "imageCode": ["16-22 мм", "8-16 мм", "4-8 мм"],
+        "applicationData": {
+          "title": "Застосування",
+          "value": [
+            "декорування саду",
+            "мощення доріжок",
+            "оформлення штучних водойм",
+            "створення клумб"
+          ]
+        },
+        "packagingData": {
+          "title": "Пакування",
+          "value": ["Мішки по 25кг."]
+        }
+      },
+      {
+        "slug": "terrazzo-crumb",
+        "title": "Тераццева крихта",
+        "images": [
+          "/webp/DecorativeStonePage/Terrazzo crumb.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-1.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-2.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-3.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-4.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-5.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-6.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-7.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-8.webp"
+        ],
+        "description": [
+          "Тераццева крихта в основному використовується для декорування інтер'єрів та екстер'єрів, а також для виробництва невеликих террацових виробів або невеликих будівельних робіт.",
+          "Можна змішати суміш відповідно до вашого запиту."
+        ],
+        "packagingData": {
+          "title": "Пакування",
+          "value": ["Мішки по 25кг.", "Біг-беги по 1075 кг"]
+        }
+      }
+    ]
   },
   "faqSection": {
     "title": "FAQ",
