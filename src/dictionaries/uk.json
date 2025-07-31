@@ -9,7 +9,56 @@
     "title": "Title"
   },
   "decorativeStoneSection": {
-    "title": "Title"
+    "title": "Декоративні камені",
+    "more": "БІЛЬШЕ",
+    "productsData": [
+      {
+        "slug": "pebbles",
+        "title": "Галька (річковий камінь)",
+        "images": [
+          "/webp/DecorativeStonePage/Pebbles (river stone).webp",
+          "/webp/DecorativeStonePage/rebbles-8-16 мм.webp",
+          "/webp/DecorativeStonePage/rebbles-4-8 мм.webp"
+        ],
+        "imageCode": ["16-22 мм", "8-16 мм", "4-8 мм"],
+        "applicationData": {
+          "title": "Застосування",
+          "value": [
+            "декорування саду",
+            "мощення доріжок",
+            "оформлення штучних водойм",
+            "створення клумб"
+          ]
+        },
+        "packagingData": {
+          "title": "Пакування",
+          "value": ["Мішки по 25кг."]
+        }
+      },
+      {
+        "slug": "terrazzo-crumb",
+        "title": "Тераццева крихта",
+        "images": [
+          "/webp/DecorativeStonePage/Terrazzo crumb.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-1.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-2.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-3.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-4.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-5.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-6.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-7.webp",
+          "/webp/DecorativeStonePage/terrazzo-crumb-8.webp"
+        ],
+        "description": [
+          "Тераццева крихта в основному використовується для декорування інтер'єрів та екстер'єрів, а також для виробництва невеликих террацових виробів або невеликих будівельних робіт.",
+          "Можна змішати суміш відповідно до вашого запиту."
+        ],
+        "packagingData": {
+          "title": "Пакування",
+          "value": ["Мішки по 25кг.", "Біг-беги по 1075 кг"]
+        }
+      }
+    ]
   },
   "faqSection": {
     "title": "FAQ",
@@ -1079,9 +1128,9 @@
         "additives": "0 - 5 %",
         "description": "Білий портландцемент пропонує поєднання високої початкової міцності та постійного нарощування міцності завдяки додаванню шлаку. Його внутрішня структура підвищує довговічність, що робить його чудовим вибором для оздоблення цивільних конструкцій, виготовлених з високоміцного бетону, навіть у кольоровому виконанні.",
         "deliveryOptions": [
-          "In bulk in a tanker truck.",
-          "In 25kg bags (48 bags on a pallet).",
-          "In big-bags for 1t."
+          "Насипом в автоцистерні.",
+          "В мішках по 25кг (48 мішків на палеті).",
+          "В біг-бегах по 1т."
         ]
       },
       {
@@ -1092,9 +1141,9 @@
         "additives": "0 - 5 %",
         "description": "Білий портландцемент з вапняком добре підходить для конструкцій та самоущільнювального бетону на видимих поверхнях. Він створює гладкі, індивідуальні поверхні, що дозволяють створювати різноманітні форми та кольори. Цей продукт також забезпечує надійну структурну міцність.",
         "deliveryOptions": [
-          "In bulk in a tanker truck.",
-          "In 25kg bags (48 bags on a pallet).",
-          "In big-bags for 1t."
+          "Насипом в автоцистерні.",
+          "В мішках по 25кг (48 мішків на палеті).",
+          "В біг-бегах по 1т."
         ]
       }
     ]

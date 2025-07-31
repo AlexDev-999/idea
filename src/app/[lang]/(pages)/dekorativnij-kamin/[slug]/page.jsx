@@ -1,19 +1,21 @@
-import DecorativeStoneIdSection from "@/sections/decorativeStoneIdSection/DecorativeStoneIdSection";
-import { getDictionary } from "@/helpers/getDictionary";
-// import { arrOfBlogs } from "@/data/blog/arrOfBlogs";
+import { getDictionary } from '@/helpers/getDictionary';
+import DecorativeStoneIdSection from '@/sections/decorativeStoneIdSection/DecorativeStoneIdSection';
 
 const DecorativeStoneIdPage = async ({ params }) => {
   const { lang, slug } = await params;
-  const { decorativeStoneIdSection } = await getDictionary(lang);
+  const { decorativeStoneSection, buttons } = await getDictionary(lang);
 
-  // const blogIdData = arrOfBlogs.find((item) => item.slug === slug);
+  const decorativeStoneIdData = decorativeStoneSection.productsData.find(
+    (item) => item.slug === slug
+  );
 
   return (
     <>
       <DecorativeStoneIdSection
         lang={lang}
-        dictionary={decorativeStoneIdSection}
-        // data={blogIdData}
+        dictionary={decorativeStoneSection}
+        buttons={buttons}
+        data={decorativeStoneIdData}
       />
     </>
   );

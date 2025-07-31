@@ -1,5 +1,122 @@
-@use "@/app/variables";
+@use '@/app/variables';
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionWithBreadCrumbsPaddings;
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+  & {
+    color: variables.$primary-900;
+    margin-bottom: 24px;
+  }
+}
+
+.list {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-column-gap: 24px;
+  -moz-column-gap: 24px;
+  column-gap: 24px;
+  row-gap: 24px;
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.item {
+  width: 100%;
+  border: 1px solid variables.$gray-600;
+}
+
+.imgContainer {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 320 / 283;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    // aspect-ratio: 320 / 283;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 382px;
+    height: 383px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 39px;
+
+  width: 100%;
+  padding: 16px;
+}
+
+.subtitle {
+  @include variables.subtitle2-Bold;
+  & {
+    color: variables.$gray-900;
+    text-align: start;
+  }
+}
+
+.moreBtn {
+  @include variables.bodyText-Bold;
+
+  & {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+    column-gap: 4px;
+    padding: 2px;
+    border: none;
+    border-bottom: solid 1px variables.$gray-900;
+    color: variables.$gray-900;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      border-color: variables.$primary-900;
+      color: variables.$primary-900;
+    }
+    &:hover .arrowIcon,
+    &:focus .arrowIcon {
+      stroke: variables.$primary-900;
+    }
+  }
+  @media screen and (min-width: variables.$tablet) {
+    column-gap: 8px;
+  }
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: variables.$gray-900;
+  stroke-width: 1.5px;
+
+  &:hover,
+  &:focus {
+    stroke: variables.$primary-900;
+  }
 }

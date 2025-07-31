@@ -1,11 +1,19 @@
+'use client';
+
+import { useWindowResize } from '@/hooks/windowResize';
 import Image from 'next/image';
 import BreadCrumbs from '../buttons/BreadCrumbs/BreadCrumbs';
 import styles from './TerrazzoTilesClassic.module.scss';
 
 const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
+  const { isTablet, isLaptop } = useWindowResize();
+
+  const firstTwoDescriptions = dictionary.cardDescription.slice(0, 2);
+  const lastDescriptions = dictionary.cardDescription.slice(2);
   return (
     <div className={`container`}>
       <BreadCrumbs
+        href="/plitka-teraczo"
         backTitle={dictionary.cardSubTitle}
         nowtitle={dictionary.cardTitle}
       />
@@ -22,8 +30,19 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
           <h1 className={styles.title}>
             {dictionary.cardSubTitle} {dictionary.cardTitle}
           </h1>
+          <ul className={styles.idSizesContainer}>
+            {dictionary.idSizes.map(({ title, value }, index) => (
+              <li key={index} className={styles.idSizesItem}>
+                <h3>{title.toUpperCase()}</h3>
+                <p>{value.toUpperCase()}</p>
+              </li>
+            ))}
+          </ul>
           <ul className={styles.descList}>
-            {dictionary.cardDescription.map((desc, index) => (
+            {(isTablet || isLaptop
+              ? firstTwoDescriptions
+              : dictionary.cardDescription
+            ).map((desc, index) => (
               <li key={index}>
                 <p>
                   <span className={styles.subtitle}>
@@ -34,16 +53,35 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
               </li>
             ))}
           </ul>
-          <ul className={styles.idSizesContainer}>
-            {dictionary.idSizes.map(({ title, value }, index) => (
-              <li key={index} className={styles.idSizesItem}>
-                <h3>{title.toUpperCase()}</h3>
-                <p>{value.toUpperCase()}</p>
+
+          {/* <ul className={styles.descList}>
+            {dictionary.cardDescription.map((desc, index) => (
+              <li key={index}>
+                <p>
+                  <span className={styles.subtitle}>
+                    {index === 0 && dictionary.cardTitle}{' '}
+                  </span>
+                  {desc}
+                </p>
+              </li>
+            ))}
+          </ul> */}
+        </div>
+      </div>
+      {isTablet || isLaptop ? (
+        lastDescriptions.length > 0 && (
+          <ul className={styles.descList + ' ' + styles.retreat}>
+            {lastDescriptions.map((desc, index) => (
+              <li key={index + 2}>
+                <p>{desc}</p>
               </li>
             ))}
           </ul>
-        </div>
-      </div>
+        )
+      ) : (
+        <></>
+      )}
+
       <ul className={styles.imgListContainer}>
         {dictionary.images.map((img, index) => (
           <li key={index} className={styles.imgList}>
