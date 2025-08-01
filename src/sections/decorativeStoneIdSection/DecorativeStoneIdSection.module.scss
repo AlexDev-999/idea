@@ -11,6 +11,9 @@
   @include variables.title-h1;
   & {
     color: variables.$primary-900;
+    margin-bottom: 12px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 24px;
   }
 }
@@ -18,15 +21,22 @@
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 12px;
+  @media screen and (min-width: variables.$tablet) {
+    row-gap: 12px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    row-gap: 24px;
+  }
 }
 
 .productsContainer {
   display: flex;
   flex-direction: column;
-  column-gap: 24px;
+  column-gap: 16px;
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
+    column-gap: 24px;
   }
 }
 
@@ -34,13 +44,13 @@
   position: relative;
   flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 320 / 223;
+  aspect-ratio: 320 / 345;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
-    width: 388px;
-    // aspect-ratio: 320 / 223;
+    width: 50%;
+    height: fit-content;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 588px;
@@ -51,6 +61,9 @@
 .applicationTitle {
   @include variables.subtitle2-Bold;
   & {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 12px;
   }
 }
@@ -61,7 +74,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 4px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    @media screen and (min-width: variables.$desktop) {
+      margin-bottom: 16px;
+    }
   }
 }
 
@@ -75,15 +91,21 @@
 }
 
 .descContainer {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   & li:first-child {
     @include variables.bodyText-Regular;
     & {
-      margin-bottom: 16px;
+      margin-bottom: 12px;
+      @media screen and (min-width: variables.$desktop) {
+        margin-bottom: 16px;
+      }
     }
   }
   & li:last-child {
     @include variables.subtitle2-Bold;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
   }
 }
 
@@ -95,10 +117,10 @@
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  -webkit-column-gap: 24px;
-  -moz-column-gap: 24px;
-  column-gap: 24px;
-  row-gap: 24px;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
+  row-gap: 16px;
   width: 100%;
 
   @media screen and (min-width: variables.$tablet) {
@@ -106,7 +128,7 @@
     -webkit-column-gap: 16px;
     -moz-column-gap: 16px;
     column-gap: 16px;
-    row-gap: 16px;
+    row-gap: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -124,15 +146,13 @@
   width: 100%;
   height: fit-content;
   aspect-ratio: 224 / 224;
-  // height: 224px;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   flex-shrink: 0;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
-    // width: 224px;
-    // height: 224px;
+    width: 100%;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 282px;
