@@ -65,11 +65,12 @@
     "subtitle": "Часті питання:"
   },
   "gardenProductsSection": {
-    "title": "ТОВАРИ ДЛЯ САДУ",
+    "title": "Товари для саду",
     "more": "БІЛЬШЕ",
     "diameter": "діаметр",
     "height": "висота",
     "weight": "вага",
+    "sizesTitle": "Стандартні розміри",
     "productsData": [
       {
         "slug": "terrazzo-circles",
@@ -107,7 +108,8 @@
         "images": [
           "/webp/gardenProductsPage/ConcreteGardenSteps-1.webp",
           "/webp/gardenProductsPage/ConcreteGardenSteps-2.webp"
-        ]
+        ],
+        "sizes": "1200х320х50 мм"
       }
     ]
   },

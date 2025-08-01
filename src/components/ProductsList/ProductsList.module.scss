@@ -1,0 +1,125 @@
+@use '@/app/variables';
+
+.list {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
+  row-gap: 16px;
+  width: 100%;
+
+  @media screen and (min-width: variables.$tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 24px;
+    -moz-column-gap: 24px;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+}
+
+.item {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 224 / 338;
+  border: 1px solid variables.$gray-600;
+  @media screen and (min-width: variables.$desktop) {
+    aspect-ratio: 384 / 517;
+  }
+}
+
+.imgContainer {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 320 / 283;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    // aspect-ratio: 320 / 283;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 382px;
+    height: 383px;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+  @media screen and (min-width: variables.$desktop) {
+    padding: 16px;
+  }
+}
+
+.subtitle {
+  @include variables.subtitle2-Bold;
+  & {
+    color: variables.$gray-900;
+    text-align: start;
+  }
+}
+
+.moreBtn {
+  @include variables.bodyText-Bold;
+
+  & {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+    column-gap: 4px;
+    padding: 2px;
+    border: none;
+    border-bottom: solid 1px variables.$gray-900;
+    color: variables.$gray-900;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      border-color: variables.$primary-900;
+      color: variables.$primary-900;
+    }
+    &:hover .arrowIcon,
+    &:focus .arrowIcon {
+      stroke: variables.$primary-900;
+    }
+  }
+  @media screen and (min-width: variables.$tablet) {
+    column-gap: 8px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: variables.$gray-900;
+  stroke-width: 1.5px;
+
+  &:hover,
+  &:focus {
+    stroke: variables.$primary-900;
+  }
+}
