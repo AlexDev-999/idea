@@ -3,13 +3,18 @@ import { usePathname } from "next/navigation";
 import BurgerBtn from "../buttons/BurgerBtn/BurgerBtn";
 import Logo from "../Logo/Logo";
 import CallLinks from "./CallLink/CallLinks";
+import LangSwitcher from "../LangSwitcher/LangSwitcher";
 import BurgerMenu from "./BurgerMenu/BurgerMenu";
 // import { i18n } from "@/dictionaries/i18n.config";
 import styles from "./Header.module.scss";
 
 const Header = ({ lang }) => {
-  const pathname = usePathname();  
-  const isHomePage = pathname === "" || pathname === "/" || pathname === "/uk" || pathname === "/en";
+  const pathname = usePathname();
+  const isHomePage =
+    pathname === "" ||
+    pathname === "/" ||
+    pathname === "/uk" ||
+    pathname === "/en";
 
   return (
     <header
@@ -22,11 +27,12 @@ const Header = ({ lang }) => {
 
         <div className={styles.rightSide}>
           <CallLinks />
-          <button className={styles.langSwitcherBtn}>
+          {/* <button className={styles.langSwitcherBtn}>
             <svg>
               <use href="/sprite.svg#icon-language"></use>
             </svg>
-          </button>
+          </button> */}
+          <LangSwitcher lang={lang} />
 
           <BurgerBtn />
         </div>

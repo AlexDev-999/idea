@@ -1,0 +1,25 @@
+@use "@/app/variables";
+
+.langSwitcherBtn {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  background: none;
+  border: none;
+  outline: none;
+
+  & svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    width: 32px;
+    height: 32px;
+    margin-right: 56px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-right: 38px;
+  }
+}
