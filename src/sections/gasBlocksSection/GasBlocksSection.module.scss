@@ -12,13 +12,12 @@
   @include variables.title-h1;
 
   & {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     color: variables.$primary-900;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 4px;
-    color: variables.$primary-900;
   }
 }
 
@@ -26,51 +25,62 @@
   @include variables.bodyText-Regular;
 
   & {
-    margin-bottom: 16px;
-  }
-
-  @media screen and (min-width: variables.$tablet) {
-    width: 50%;
-    margin-bottom: 16px;
+    margin-bottom: 2px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     width: 50%;
-    margin-bottom: 16px;
-  }
-}
-
-.description:not(:last-child) {
-  margin-bottom: 4px;
-
-  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 4px;
   }
 }
 
-.description:last-of-type {
-  margin-bottom: 24px;
+.lastDescription {
+  margin-bottom: 12px;
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 24px;
   }
 }
 
-.productsList{
-  margin-bottom: 24px;
+.productsList {
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px;
+  }
 }
 
 .productItem {
   display: flex;
   flex-direction: column;
+  row-gap: 8px;
 
   @media screen and (min-width: variables.$tablet) {
-    flex-direction: row;
-    column-gap: 24px;
+    row-gap: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
-    column-gap: 24px;
+    row-gap: 24px;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    row-gap: 0px;
+    column-gap: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+     column-gap: 24px;
   }
 }
 
@@ -84,17 +94,11 @@
     width: 50%;
     height: fit-content;
   }
-
-  @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 586 / 586;
-  }
 }
 
 .img {
   display: block;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .infoWrapper {
@@ -102,48 +106,43 @@
 
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
-  }
-  @media screen and (min-width: variables.$desktop) {
-    width: 50%;
-  }
+  } 
 }
 
 .productTitle {
   @include variables.subtitle1-Bold;
 
   & {
-    margin-bottom: 16px;
+    margin-bottom: 4px;
     color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
-    color: variables.$primary-900;
   }
 }
 
 .productDescription {
   @include variables.bodyText-Regular;
-
-  & {
-    margin-bottom: 16px;
-  }
-
-  @media screen and (min-width: variables.$desktop) {
-    margin-bottom: 16px;
-  }
 }
 
-.anotherProductsSubTitle{
-    @include variables.subtitle1-Bold;
+.anotherProductsSubTitle {
+  @include variables.subtitle1-Bold;
 
-    & {
-    margin-bottom: 16px;
+  & {
+    margin-bottom: 8px;
     color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
-    color: variables.$primary-900;
   }
 }
