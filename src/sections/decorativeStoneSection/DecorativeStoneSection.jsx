@@ -12,6 +12,7 @@ const DecorativeStoneSection = ({ lang, dictionary, buttons }) => {
           dictionary={dictionary}
           buttons={buttons}
           href="dekorativnij-kamin"
+          lang={lang}
         />
       </div>
     </section>

@@ -14,7 +14,12 @@ const StairsSection = ({ lang, dictionary, buttons }) => {
 
         <div className={styles.container}>
           <figure className={styles.imgContainer}>
-            <Image src={dictionary.image} alt={dictionary.title} fill={true} />
+            <Image
+              src={dictionary.image}
+              alt={dictionary.title}
+              fill={true}
+              sizes="(max-width: 767px) 320px, (max-width: 1439px) 352px, 1200px"
+            />
           </figure>
           <ul className={styles.list}>
             <li className={styles.desc}>{dictionary.description_1}</li>

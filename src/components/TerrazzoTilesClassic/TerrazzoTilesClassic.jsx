@@ -23,6 +23,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
             src={dictionary.cardImg}
             alt={dictionary.cardTitle}
             fill={true}
+            sizes="(max-width: 767px) 320px, (max-width: 1439px) 355px, 1200px"
           />
           <p className={styles.imgValue}>{dictionary.imgCode}</p>
         </figure>
@@ -34,7 +35,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
             {dictionary.idSizes.map(({ title, value }, index) => (
               <li key={index} className={styles.idSizesItem}>
                 <h3>{title.toUpperCase()}</h3>
-                <p>{value.toUpperCase()}</p>
+                <p>{value}</p>
               </li>
             ))}
           </ul>
@@ -53,19 +54,6 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
               </li>
             ))}
           </ul>
-
-          {/* <ul className={styles.descList}>
-            {dictionary.cardDescription.map((desc, index) => (
-              <li key={index}>
-                <p>
-                  <span className={styles.subtitle}>
-                    {index === 0 && dictionary.cardTitle}{' '}
-                  </span>
-                  {desc}
-                </p>
-              </li>
-            ))}
-          </ul> */}
         </div>
       </div>
       {isTablet || isLaptop ? (
@@ -85,8 +73,16 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
       <ul className={styles.imgListContainer}>
         {dictionary.images.map((img, index) => (
           <li key={index} className={styles.imgList}>
-            <Image src={img} alt={img} fill={true} />
-            <p className={styles.imgValue} key={index}>
+            <Image
+              src={img}
+              alt={img}
+              fill={true}
+              sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
+            />
+            <p
+              className={styles.imgValue + ' ' + styles.imgCodeValue}
+              key={index}
+            >
               {dictionary.imagesValue[index]}
             </p>
           </li>

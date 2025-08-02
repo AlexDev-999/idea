@@ -11,6 +11,12 @@
   @include variables.title-h1;
   & {
     color: variables.$primary-900;
+    margin-bottom: 12px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 24px;
   }
 }
