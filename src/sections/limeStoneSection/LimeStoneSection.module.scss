@@ -12,13 +12,12 @@
   @include variables.title-h1;
 
   & {
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     color: variables.$primary-900;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 4px;
-    color: variables.$primary-900;
   }
 }
 
@@ -26,7 +25,7 @@
   @include variables.subtitle2-Regular;
 
   & {
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -38,7 +37,7 @@
   @include variables.subtitle2-Bold;
 
   & {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -49,34 +48,32 @@
 .mainApplicationList {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
-  margin-bottom: 16px;
+  row-gap: 2px;
+  margin-bottom: 12px;
   list-style: outside;
 
-  @media screen and (min-width: variables.$desktop) {
-    display: flex;
-    flex-direction: column;
+  @media screen and (min-width: variables.$tablet) {
     row-gap: 4px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
-    list-style: outside;
   }
 }
 
 .mainApplicationItem {
   margin-left: 24px;
-
-  @media screen and (min-width: variables.$desktop) {
-    margin-left: 24px;
-  }
 }
 
 .productItem {
   display: flex;
   flex-direction: column;
+  row-gap: 8px;
 
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
-    column-gap: 24px;
+    row-gap: 0;
+    column-gap: 16px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -85,7 +82,11 @@
 }
 
 .productItem:not(:last-child) {
-  margin-bottom: 40px;
+  margin-bottom: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 32px;
+  }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 40px;
@@ -102,22 +103,11 @@
     width: 50%;
     height: fit-content;
   }
-
-  @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 586 / 586;
-  }
 }
 
 .img {
   display: block;
   object-fit: cover;
-
-  // @media screen and (min-width: variables.$desktop) {
-  //   display: block;
-  //   object-fit: cover;
-  // }
 }
 
 .infoWrapper {
@@ -126,22 +116,22 @@
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
   }
-  @media screen and (min-width: variables.$desktop) {
-    width: 50%;
-  }
 }
 
 .productTitle {
   @include variables.subtitle1-Bold;
 
   & {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
-    color: variables.$primary-900;
   }
 }
 
@@ -151,41 +141,34 @@
   & {
     margin-bottom: 4px;
   }
-
-  @media screen and (min-width: variables.$desktop) {
-    margin-bottom: 4px;
-  }
 }
 
 .compositionList {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
-  margin-bottom: 16px;
+  row-gap: 2px;
+  margin-bottom: 8px;
   list-style: outside;
 
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
   @media screen and (min-width: variables.$desktop) {
-    display: flex;
-    flex-direction: column;
     row-gap: 4px;
     margin-bottom: 16px;
-    list-style: outside;
   }
 }
 
 .compositionItem {
   margin-left: 24px;
-
-  @media screen and (min-width: variables.$desktop) {
-    margin-left: 24px;
-  }
 }
 
 .applicationSubTitle {
   @include variables.subtitle2-Bold;
 
   & {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -196,31 +179,29 @@
 .applicationList {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
-  margin-bottom: 16px;
+  row-gap: 2px;
+  margin-bottom: 8px;
   list-style: outside;
 
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
   @media screen and (min-width: variables.$desktop) {
-    display: flex;
-    flex-direction: column;
     row-gap: 4px;
     margin-bottom: 16px;
-    list-style: outside;
   }
 }
 
 .applicationItem {
   margin-left: 24px;
-
-  @media screen and (min-width: variables.$desktop) {
-    margin-left: 24px;
-  }
 }
 
 .deliverySubTitle {
   @include variables.subtitle2-Bold;
+
   & {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
   }
 
   @media screen and (min-width: variables.$desktop) {
@@ -231,23 +212,24 @@
 .deliveryList {
   display: flex;
   flex-direction: column;
-  row-gap: 4px;
-  margin-bottom: 16px;
+  row-gap: 2px;
+  margin-bottom: 8px;
   list-style: decimal;
 
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
   @media screen and (min-width: variables.$desktop) {
-    display: flex;
-    flex-direction: column;
     row-gap: 4px;
     margin-bottom: 16px;
-    list-style: decimal;
   }
 }
 
 .deliveryItem {
-  margin-left: 24px;
+  margin-left: 20px;
 
-  @media screen and (min-width: variables.$desktop) {
+  @media screen and (min-width: variables.$tablet) {
     margin-left: 24px;
   }
 }
