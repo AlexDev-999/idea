@@ -12,6 +12,7 @@ const GardenProductsSection = ({ lang, dictionary, buttons }) => {
           dictionary={dictionary}
           buttons={buttons}
           href="tovari-dlya-sadu"
+          lang={lang}
         />
       </div>
     </section>

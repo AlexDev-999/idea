@@ -11,6 +11,9 @@
   @include variables.title-h1;
   & {
     color: variables.$primary-900;
+    margin-bottom: 16px;
+  }
+  @media screen and (min-width: variables.$tablet) {
     margin-bottom: 12px;
   }
   @media screen and (min-width: variables.$desktop) {
@@ -21,7 +24,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 8px;
   @media screen and (min-width: variables.$tablet) {
     row-gap: 12px;
   }
@@ -33,7 +36,7 @@
 .productsContainer {
   display: flex;
   flex-direction: column;
-  column-gap: 24px;
+  column-gap: 8px;
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
     column-gap: 16px;
@@ -47,13 +50,16 @@
   position: relative;
   flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 320 / 345;
+  aspect-ratio: 320 / 320;
+  margin-bottom: 8px;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
     height: fit-content;
+    aspect-ratio: 344 / 345;
+    margin-bottom: 0;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 588px;
@@ -69,6 +75,9 @@
 .desc {
   @include variables.bodyText-Regular;
   & {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$tablet) {
     margin-bottom: 12px;
   }
   @media screen and (min-width: variables.$desktop) {
@@ -77,15 +86,17 @@
 }
 
 .list {
-  padding: 4px 0;
-  width: 282px;
+  padding: 4px 20px;
+  width: max-content;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   background-color: variables.$gray-0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-
+  @media screen and (min-width: variables.$tablet) {
+    width: 282px;
+  }
   @media screen and (min-width: variables.$desktop) {
     margin-left: auto;
   }
@@ -100,6 +111,12 @@
   & h3 {
     @include variables.bodyText-Regular;
     & {
+      margin-bottom: 2px;
+    }
+    @media screen and (min-width: variables.$tablet) {
+      margin-bottom: 4px;
+    }
+    @media screen and (min-width: variables.$desktop) {
       margin-bottom: 8px;
     }
   }
@@ -111,7 +128,7 @@
 .imagesList {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
@@ -145,7 +162,7 @@
   position: relative;
   flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 320 / 323;
+  aspect-ratio: 224 / 224;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   & img {
     object-fit: cover;
@@ -169,5 +186,15 @@
     background-color: variables.$gray-0;
     text-align: center;
     padding: 2px 0px;
+  }
+}
+
+.imgCodeValue {
+  @include variables.subtitle1-Regular;
+  & {
+    font-size: 14px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.subtitle1-Regular;
   }
 }

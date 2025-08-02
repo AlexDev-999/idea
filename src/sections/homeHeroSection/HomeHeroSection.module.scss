@@ -43,8 +43,8 @@
 }
 
 .title {
+  @include variables.title-h1;
   & {
-    @include variables.title-h1;
     font-size: 38px;
     color: variables.$gray-0;
     margin-bottom: 2px;

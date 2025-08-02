@@ -1,6 +1,6 @@
 'use client';
 
-import BackHomeProductsBtn from '@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn';
+import BreadCrumbs from '@/components/buttons/BreadCrumbs/BreadCrumbs';
 import { useWindowResize } from '@/hooks/windowResize';
 import Image from 'next/image';
 import styles from './GardenProductsIdSection.module.scss';
@@ -10,13 +10,22 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
   return (
     <section className={styles.section}>
       <div className="container">
-        <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} />
+        <BreadCrumbs
+          href="/tovari-dlya-sadu"
+          backTitle={dictionary.title}
+          nowtitle={data.title}
+        />
 
         <h1 className={styles.title}>{data.title}</h1>
         <div className={styles.container}>
           <div className={styles.productsContainer}>
             <figure className={styles.imgContainer}>
-              <Image src={data.image} alt={data.title} fill={true} />
+              <Image
+                src={data.image}
+                alt={data.title}
+                fill={true}
+                sizes="(max-width: 767px) 320px, (max-width: 1439px) 352px, 1200px"
+              />
             </figure>
             <div className={styles.content}>
               <p className={styles.desc}>{data.description}</p>
@@ -66,6 +75,7 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
                           src={img}
                           alt={`${data.title} ${index}`}
                           fill={true}
+                          sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
                         />
                       </figure>
                     ))}
@@ -85,9 +95,13 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
                       src={img}
                       alt={`${data.title} ${index}`}
                       fill={true}
+                      sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
                     />
                     {data.titles && (
-                      <p className={styles.imgDesc} key={index}>
+                      <p
+                        className={styles.imgDesc + ' ' + styles.imgCodeValue}
+                        key={index}
+                      >
                         {data.titles[index]}
                       </p>
                     )}
@@ -99,9 +113,17 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
             <div className={styles.imagesList}>
               {data.images.map((img, index) => (
                 <figure key={index} className={styles.images}>
-                  <Image src={img} alt={`${data.title} ${index}`} fill={true} />
+                  <Image
+                    src={img}
+                    alt={`${data.title} ${index}`}
+                    fill={true}
+                    sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
+                  />
                   {data.titles && (
-                    <p className={styles.imgDesc} key={index}>
+                    <p
+                      className={styles.imgDesc + ' ' + styles.imgCodeValue}
+                      key={index}
+                    >
                       {data.titles[index]}
                     </p>
                   )}

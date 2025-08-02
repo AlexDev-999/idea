@@ -11,6 +11,8 @@
   -webkit-column-gap: 16px;
   -moz-column-gap: 16px;
   column-gap: 16px;
+  -webkit-row-gap: 16px;
+  -moz-row-gap: 16px;
   row-gap: 16px;
   width: 100%;
 
@@ -23,6 +25,8 @@
     -webkit-column-gap: 24px;
     -moz-column-gap: 24px;
     column-gap: 24px;
+    -webkit-row-gap: 24px;
+    -moz-row-gap: 24px;
     row-gap: 24px;
   }
 }
@@ -30,8 +34,11 @@
 .item {
   position: relative;
   width: 100%;
-  aspect-ratio: 224 / 338;
+  aspect-ratio: 126 / 136;
   border: 1px solid variables.$gray-600;
+  @media screen and (min-width: variables.$tablet) {
+    aspect-ratio: 224 / 338;
+  }
   @media screen and (min-width: variables.$desktop) {
     aspect-ratio: 384 / 517;
   }
@@ -41,12 +48,12 @@
   position: relative;
   flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 320 / 283;
+  aspect-ratio: 320 / 224;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
-    // aspect-ratio: 320 / 283;
+    aspect-ratio: 320 / 283;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 382px;
@@ -74,52 +81,12 @@
 }
 
 .moreBtn {
-  @include variables.bodyText-Bold;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
 
-  & {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    width: fit-content;
-    height: fit-content;
-    column-gap: 4px;
-    padding: 2px;
-    border: none;
-    border-bottom: solid 1px variables.$gray-900;
-    color: variables.$gray-900;
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-      border-color: variables.$primary-900;
-      color: variables.$primary-900;
-    }
-    &:hover .arrowIcon,
-    &:focus .arrowIcon {
-      stroke: variables.$primary-900;
-    }
-  }
-  @media screen and (min-width: variables.$tablet) {
-    column-gap: 8px;
-  }
   @media screen and (min-width: variables.$desktop) {
     bottom: 16px;
     right: 16px;
-  }
-}
-
-.arrowIcon {
-  width: 24px;
-  height: 24px;
-  fill: none;
-  stroke: variables.$gray-900;
-  stroke-width: 1.5px;
-
-  &:hover,
-  &:focus {
-    stroke: variables.$primary-900;
   }
 }

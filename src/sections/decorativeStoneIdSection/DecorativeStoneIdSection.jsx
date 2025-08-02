@@ -5,7 +5,7 @@ import styles from './DecorativeStoneIdSection.module.scss';
 const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
   return (
     <section className={styles.section}>
-      <div>
+      <div className="container">
         <BreadCrumbs
           href="/dekorativnij-kamin"
           backTitle={dictionary.title}
@@ -15,7 +15,12 @@ const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
         <div className={styles.container}>
           <div className={styles.productsContainer}>
             <figure className={styles.imgContainer}>
-              <Image src={data.images[0]} alt={data.title} fill={true} />
+              <Image
+                src={data.images[0]}
+                alt={data.title}
+                fill={true}
+                sizes="(max-width: 767px) 320px, (max-width: 1439px) 352px, 1200px"
+              />
               {data.imageCode && (
                 <p className={styles.imgValue}>{data.imageCode[0]}</p>
               )}
@@ -57,9 +62,17 @@ const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
           <ul className={styles.imgListContainer}>
             {data.images.slice(1).map((img, index) => (
               <li key={index + 1} className={styles.imgList}>
-                <Image src={img} alt={data.title} fill={true} />
+                <Image
+                  src={img}
+                  alt={data.title}
+                  fill={true}
+                  sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
+                />
                 {data.imageCode && (
-                  <p className={styles.imgValue} key={index + 1}>
+                  <p
+                    className={styles.imgValue + ' ' + styles.imgCodeValue}
+                    key={index + 1}
+                  >
                     {data.imageCode.slice(1)[index]}
                   </p>
                 )}

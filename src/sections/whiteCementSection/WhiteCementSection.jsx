@@ -15,7 +15,12 @@ const WhiteCementSection = ({ lang, dictionary, buttons }) => {
           {dictionary.productsData.map((item, index) => (
             <li key={index} className={styles.contentItem}>
               <figure className={styles.imgContainer}>
-                <Image src={item.image} fill={true} alt={item.title} />
+                <Image
+                  src={item.image}
+                  fill={true}
+                  alt={item.title}
+                  sizes="(max-width: 767px) 320px, (max-width: 1439px) 352px, 1200px"
+                />
               </figure>
               <div>
                 <h2 className={styles.contentTitle}>{item.title}</h2>

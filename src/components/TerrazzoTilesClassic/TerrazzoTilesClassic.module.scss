@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
     column-gap: 16px;
@@ -32,14 +32,15 @@
   position: relative;
   width: 100%;
   aspect-ratio: 342 / 342;
-
   flex-shrink: 0;
+  margin-bottom: 12px;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
     height: fit-content;
+    margin-bottom: 0;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 586px;
@@ -64,6 +65,9 @@
   @include variables.subtitle1-Bold;
   & {
     color: variables.$primary-900;
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$tablet) {
     margin-bottom: 16px;
   }
 }
@@ -116,11 +120,13 @@
   align-items: center;
   text-align: center;
   padding: 4px 0;
-  width: 282px;
-  row-gap: 12px;
+  width: 212px;
+  row-gap: 8px;
+  margin-bottom: 8px;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   background-color: variables.$gray-0;
   @media screen and (min-width: variables.$tablet) {
+    row-gap: 12px;
     margin-bottom: 12px;
   }
   @media screen and (min-width: variables.$desktop) {
@@ -135,6 +141,9 @@
   & h3 {
     @include variables.bodyText-Regular;
     & {
+      margin-bottom: 4px;
+    }
+    @media screen and (min-width: variables.$tablet) {
       margin-bottom: 8px;
     }
   }
@@ -147,14 +156,14 @@
   text-align: center;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-  -webkit-column-gap: 24px;
-  -moz-column-gap: 24px;
-  column-gap: 24px;
-  row-gap: 24px;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  column-gap: 16px;
+  row-gap: 12px;
   width: 100%;
 
   @media screen and (min-width: variables.$tablet) {
@@ -180,18 +189,23 @@
   width: 100%;
   height: fit-content;
   aspect-ratio: 224 / 224;
-  // height: 224px;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   flex-shrink: 0;
   & img {
     object-fit: cover;
   }
-  @media screen and (min-width: variables.$tablet) {
-    // width: 224px;
-    // height: 224px;
-  }
   @media screen and (min-width: variables.$desktop) {
     width: 282px;
     height: 282px;
+  }
+}
+
+.imgCodeValue {
+  @include variables.subtitle1-Regular;
+  & {
+    font-size: 14px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.subtitle1-Regular;
   }
 }

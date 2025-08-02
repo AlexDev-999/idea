@@ -44,13 +44,15 @@
   position: relative;
   flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 320 / 345;
+  aspect-ratio: 320 / 320;
+  margin-bottom: 8px;
   & img {
     object-fit: cover;
   }
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
     height: fit-content;
+    margin-bottom: 0;
   }
   @media screen and (min-width: variables.$desktop) {
     width: 588px;
@@ -61,6 +63,9 @@
 .applicationTitle {
   @include variables.subtitle2-Bold;
   & {
+    margin-bottom: 4px;
+  }
+  @media screen and (min-width: variables.$tablet) {
     margin-bottom: 8px;
   }
   @media screen and (min-width: variables.$desktop) {
@@ -74,7 +79,10 @@
     display: flex;
     flex-direction: column;
     row-gap: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    @media screen and (min-width: variables.$tablet) {
+      margin-bottom: 12px;
+    }
     @media screen and (min-width: variables.$desktop) {
       margin-bottom: 16px;
     }
@@ -91,11 +99,14 @@
 }
 
 .descContainer {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   & li:first-child {
     @include variables.bodyText-Regular;
     & {
-      margin-bottom: 12px;
+      margin-bottom: 8px;
+      @media screen and (min-width: variables.$tablet) {
+        margin-bottom: 12px;
+      }
       @media screen and (min-width: variables.$desktop) {
         margin-bottom: 16px;
       }
@@ -103,6 +114,9 @@
   }
   & li:last-child {
     @include variables.subtitle2-Bold;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
   }
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
@@ -113,7 +127,7 @@
   text-align: center;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
@@ -169,5 +183,15 @@
     padding: 2px 0;
     background-color: variables.$gray-0;
     text-align: center;
+  }
+}
+
+.imgCodeValue {
+  @include variables.subtitle1-Regular;
+  & {
+    font-size: 14px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    @include variables.subtitle1-Regular;
   }
 }
