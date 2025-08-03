@@ -785,7 +785,12 @@
   "stairsSection": {
     "title": "Stairs",
     "subtitle": "Cidemat can manufacture prefabricated concrete stairs to order.",
-    "image": "/webp/stairsPage/stairs.webp",
+    "images": [
+      "/webp/stairsPage/stairs.webp",
+      "/webp/stairsPage/p1060153_600x800.webp",
+      "/webp/stairsPage/schodiste-kancelarska-budova-praha_600x800.webp",
+      "/webp/stairsPage/schodiste_375x500.webp"
+    ],
     "sizesData": {
       "title": "WEIGHT",
       "value": "≈ 30 kg/m (running meter)"
@@ -822,7 +827,6 @@
       {
         "slug": "tereza",
         "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
-        "imgCode": "TA101",
         "cardTitle": "Tereza",
         "cardSubTitle": "Terrazzo Tiles",
         "idSizes": [
@@ -842,6 +846,7 @@
           "Terrazzo paving can be installed inside and outside shopping malls, train stations, schools, hospitals, lobbies, etc. (especially white cement sidewalks). Terrazzo paving is also suitable for industrial workshops, warehouses, laundries, agricultural buildings, garages, workshops, basements, etc. (mainly gray cement)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/tereza.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA102.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA103.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA104.webp",
@@ -856,7 +861,8 @@
           "/webp/terrazzoTielsTereza/Tereza-TA236.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA239.webp"
         ],
-        "imagesValue": [
+        "imageCode": [
+          "TA101",
           "TA102",
           "TA103",
           "TA104",
@@ -875,7 +881,6 @@
       {
         "slug": "margita",
         "cardImg": "/webp/terrazzoTilesPage/margita.webp",
-        "imgCode": "MA105",
         "cardTitle": "Margita",
         "cardSubTitle": "Terrazzo Tiles",
         "idSizes": [
@@ -895,15 +900,15 @@
           "Terrazzo paving can be installed inside and outside shopping malls, train stations, schools, hospitals, lobbies, etc. (especially white cement sidewalks). Terrazzo paving is also suitable for industrial workshops, warehouses, laundries, agricultural buildings, garages, workshops, basements, etc. (mainly gray cement)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/margita.webp",
           "/webp/terrazzoTielsMargita/margita-MA104.webp",
           "/webp/terrazzoTielsMargita/Margita-MA221.webp"
         ],
-        "imagesValue": ["MA104", "MA221"]
+        "imageCode": ["MA105", "MA104", "MA221"]
       },
       {
         "slug": "radka",
         "cardImg": "/webp/terrazzoTilesPage/radka.webp",
-        "imgCode": "RB119",
         "cardTitle": "Radka",
         "cardSubTitle": "Terrazzo Tiles",
         "idSizes": [
@@ -923,16 +928,16 @@
           "Terrazzo paving can be installed inside and outside shopping malls, train stations, schools, hospitals, lobbies, etc. (especially white cement sidewalks). Terrazzo paving is also suitable for industrial workshops, warehouses, laundries, agricultural buildings, garages, workshops, basements, etc. (mainly gray cement)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/radka.webp",
           "/webp/terrazzoTielsRadka/Radka-RB103.webp",
           "/webp/terrazzoTielsRadka/Radka-RB217.webp",
           "/webp/terrazzoTielsRadka/Radka-RB219.webp"
         ],
-        "imagesValue": ["RB103", "RB217", "RB219"]
+        "imageCode": ["RB119", "RB103", "RB217", "RB219"]
       },
       {
         "slug": "xena",
         "cardImg": "/webp/terrazzoTilesPage/xena.webp",
-        "imgCode": "XC116",
         "cardTitle": "Xena",
         "cardSubTitle": "Terrazzo Tiles",
         "idSizes": [
@@ -951,13 +956,15 @@
           "The lower base layer consists of river gravel and Portland cement, the upper tread layer consists of marble or terrazzo chips of various colors and fractions. White or gray Portland cement is used as a binder in the tread layer. This layer can be colored with appropriate color pigments.",
           "Terrazzo paving can be installed inside and outside shopping malls, train stations, schools, hospitals, lobbies, etc. (especially white cement sidewalks). Terrazzo paving is also suitable for industrial workshops, warehouses, laundries, agricultural buildings, garages, workshops, basements, etc. (mainly gray cement)."
         ],
-        "images": ["/webp/terrazzoTielsXena/Xena-XC216.webp"],
-        "imagesValue": ["XC216"]
+        "images": [
+          "/webp/terrazzoTilesPage/xena.webp",
+          "/webp/terrazzoTielsXena/Xena-XC216.webp"
+        ],
+        "imageCode": ["XC116", "XC216"]
       },
       {
         "slug": "ornela",
         "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
-        "imgCode": "OA102K",
         "cardTitle": "Ornela",
         "cardSubTitle": "Terrazzo Tiles",
         "idSizes": [
@@ -974,10 +981,11 @@
           "– terrazzo tiles with relief, used on terraces, building entrances, swimming pools, outdoor terraces and other surfaces."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/ornela.webp",
           "/webp/terrazzoTielsOrnela/Ornela-OA101K.webp",
           "/webp/terrazzoTielsOrnela/Ornela-OA201K.webp"
         ],
-        "imagesValue": ["OA101K", "OA201K"]
+        "imageCode": ["OA102K", "OA101K", "OA201K"]
       },
       {
         "slug": "flooring-strips",

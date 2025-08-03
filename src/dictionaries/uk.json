@@ -781,7 +781,12 @@
   "stairsSection": {
     "title": "Сходи",
     "subtitle": "Cidemat може виготовити готові бетонні сходи на замовлення.",
-    "image": "/webp/stairsPage/stairs.webp",
+    "images": [
+      "/webp/stairsPage/stairs.webp",
+      "/webp/stairsPage/p1060153_600x800.webp",
+      "/webp/stairsPage/schodiste-kancelarska-budova-praha_600x800.webp",
+      "/webp/stairsPage/schodiste_375x500.webp"
+    ],
     "sizesData": {
       "title": "ВАГА",
       "value": "≈ 30 кг/п.м. (погонний метр)"
@@ -818,7 +823,6 @@
       {
         "slug": "tereza",
         "cardImg": "/webp/terrazzoTilesPage/tereza.webp",
-        "imgCode": "TA101",
         "cardTitle": "Tereza",
         "cardSubTitle": "Плитка Терацо",
         "idSizes": [
@@ -838,6 +842,7 @@
           "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/tereza.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA102.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA103.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA104.webp",
@@ -852,7 +857,8 @@
           "/webp/terrazzoTielsTereza/Tereza-TA236.webp",
           "/webp/terrazzoTielsTereza/Tereza-TA239.webp"
         ],
-        "imagesValue": [
+        "imageCode": [
+          "TA101",
           "TA102",
           "TA103",
           "TA104",
@@ -871,7 +877,6 @@
       {
         "slug": "margita",
         "cardImg": "/webp/terrazzoTilesPage/margita.webp",
-        "imgCode": "MA105",
         "cardTitle": "Margita",
         "cardSubTitle": "Плитка Терацо",
         "idSizes": [
@@ -891,15 +896,15 @@
           "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/margita.webp",
           "/webp/terrazzoTielsMargita/margita-MA104.webp",
           "/webp/terrazzoTielsMargita/Margita-MA221.webp"
         ],
-        "imagesValue": ["MA104", "MA221"]
+        "imageCode": ["MA105", "MA104", "MA221"]
       },
       {
         "slug": "radka",
         "cardImg": "/webp/terrazzoTilesPage/radka.webp",
-        "imgCode": "RB119",
         "cardTitle": "Radka",
         "cardSubTitle": "Плитка Терацо",
         "idSizes": [
@@ -919,16 +924,16 @@
           "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/radka.webp",
           "/webp/terrazzoTielsRadka/Radka-RB103.webp",
           "/webp/terrazzoTielsRadka/Radka-RB217.webp",
           "/webp/terrazzoTielsRadka/Radka-RB219.webp"
         ],
-        "imagesValue": ["RB103", "RB217", "RB219"]
+        "imageCode": ["RB119", "RB103", "RB217", "RB219"]
       },
       {
         "slug": "xena",
         "cardImg": "/webp/terrazzoTilesPage/xena.webp",
-        "imgCode": "XC116",
         "cardTitle": "Xena",
         "cardSubTitle": "Плитка Терацо",
         "idSizes": [
@@ -947,13 +952,15 @@
           "Нижній основний шар складається з річкового гравію та портландцементу, верхній шар протектора - з мармурової або тераццо крихти різних кольорів та фракцій. Як сполучна речовина в протекторному шарі використовується портландцемент білий або сірий. Цей шар можна забарвити відповідними кольоровими пігментами.",
           "Тераццеву бруківку можна укладати всередині та зовні торгових центрів, залізничних вокзалів, шкіл, лікарень, вестибюлів тощо (зокрема, тротуари з білого цементу). Тераццева бруківка також підходить для промислових цехів, складів, пралень, сільськогосподарських будівель, гаражів, майстерень, підвалів тощо (переважно з сірого цементу)."
         ],
-        "images": ["/webp/terrazzoTielsXena/Xena-XC216.webp"],
-        "imagesValue": ["XC216"]
+        "images": [
+          "/webp/terrazzoTilesPage/xena.webp",
+          "/webp/terrazzoTielsXena/Xena-XC216.webp"
+        ],
+        "imageCode": ["XC116", "XC216"]
       },
       {
         "slug": "ornela",
         "cardImg": "/webp/terrazzoTilesPage/ornela.webp",
-        "imgCode": "OA102K",
         "cardTitle": "Ornela",
         "cardSubTitle": "Плитка Терацо",
         "idSizes": [
@@ -970,10 +977,11 @@
           "– терацо плитка з рельєфом, використовується на терасах, входах до будівель, басейнах, відкритих терасах та інших поверхнях."
         ],
         "images": [
+          "/webp/terrazzoTilesPage/ornela.webp",
           "/webp/terrazzoTielsOrnela/Ornela-OA101K.webp",
           "/webp/terrazzoTielsOrnela/Ornela-OA201K.webp"
         ],
-        "imagesValue": ["OA101K", "OA201K"]
+        "imageCode": ["OA102K", "OA101K", "OA201K"]
       },
       {
         "slug": "flooring-strips",
