@@ -20,11 +20,7 @@ const TerrazzoTilesIdSection = ({ lang, dictionary, buttons }) => {
       )}
 
       {dictionary.slug === "flooring-strips" && (
-        <TerrazzoTilesFlooringStrips
-          lang={lang}
-          dictionary={dictionary}
-          buttons={buttons}
-        />
+        <TerrazzoTilesFlooringStrips dictionary={dictionary} />
       )}
 
       {beatrixSlugs.includes(dictionary.slug) && (
@@ -36,11 +32,7 @@ const TerrazzoTilesIdSection = ({ lang, dictionary, buttons }) => {
       )}
 
       {dictionary.slug === "wall-strips" && (
-        <TerrazzoTilesWallStrips
-          lang={lang}
-          dictionary={dictionary}
-          buttons={buttons}
-        />
+        <TerrazzoTilesWallStrips dictionary={dictionary} />
       )}
     </section>
   );

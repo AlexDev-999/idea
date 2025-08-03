@@ -978,12 +978,12 @@
       },
       {
         "slug": "flooring-strips",
-        "navParrentPage": "Terrazzo Tiles",
-        "navCurrentPage": "Terrazzo flooring strips",
         "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
         "cardTitle": "Terrazzo flooring strips",
         "cardSubTitle": "",
 
+        "navParrentPage": "Terrazzo Tiles",
+        "navCurrentPage": "Terrazzo flooring strips",
         "idTitle": "Terrazzo flooring strips",
         "idText": "Terrazzo floor strips are made of two-layer terrazzo tiles.",
         "idMainImg": "/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
@@ -1076,6 +1076,8 @@
         "cardTitle": "Wall strips",
         "cardSubTitle": "",
 
+        "navParrentPage": "Terrazzo Tiles",
+        "navCurrentPage": "Wall strips",
         "idTitle": "Wall strips",
         "idMainImg": "/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
         "idDescription": "Wall tiles are made from polished terrazzo tiles. They are mostly made with the same pattern and color as the terrazzo floor tiles. However, it is possible to use a base and a different pattern or color to create a colorful interior design.",

@@ -1,12 +1,10 @@
 import Image from "next/image";
-// import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import BreadCrumbs from "../buttons/BreadCrumbs/BreadCrumbs";
 import styles from "./TerrazzoTilesFlooringStrips.module.scss";
 
-const TerrazzoTilesFlooringStrips = ({ lang, dictionary, buttons }) => {
+const TerrazzoTilesFlooringStrips = ({ dictionary }) => {
   return (
     <div className="container">
-      {/* <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} /> */}
       <BreadCrumbs
         href="/plitka-teraczo"
         backTitle={dictionary.navParrentPage}

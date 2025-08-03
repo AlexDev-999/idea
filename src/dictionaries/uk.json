@@ -977,12 +977,12 @@
       },
       {
         "slug": "flooring-strips",
-        "navParrentPage": "Плитка Терацо",
-        "navCurrentPage": "Террацові підлогові стрічки",
         "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
         "cardTitle": "Террацові підлогові стрічки",
         "cardSubTitle": "",
 
+        "navParrentPage": "Плитка Терацо",
+        "navCurrentPage": "Террацові підлогові стрічки",
         "idTitle": "Террацові підлогові стрічки",
         "idText": "Террацові підлогові стрічки виготовляються з двошарової террацової плитки.",
         "idMainImg": "/webp/terrazzoTilesFlooringStrips/flooring-strips.webp",
@@ -1075,6 +1075,8 @@
         "cardTitle": "Стінові планки",
         "cardSubTitle": "",
 
+        "navParrentPage": "Плитка Терацо",
+        "navCurrentPage": "Стінові планки",
         "idTitle": "Стінові планки",
         "idMainImg": "/webp/terrazzoTilesWallStripsPage/wall-strips-main.webp",
         "idDescription": "Стінові планки виготовляються з шліфованої террацової плитки. Вони переважно виготовляються з тим самим візерунком та кольором, що й террацова плитка для підлоги. Однак, можливо використовувати основу та інший візерунок або колір для створення барвистого дизайну інтер'єру.",
