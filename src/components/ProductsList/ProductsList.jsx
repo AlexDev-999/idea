@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import CustomLink from '../CustomLink/CustomLink';
-import styles from './ProductsList.module.scss';
+import Image from "next/image";
+import CustomLink from "../CustomLink/CustomLink";
+import styles from "./ProductsList.module.scss";
 
 const ProductsList = ({ dictionary, href, lang, buttons }) => {
   return (
@@ -9,7 +9,7 @@ const ProductsList = ({ dictionary, href, lang, buttons }) => {
         <li key={index} className={styles.item}>
           <figure className={styles.imgContainer}>
             <Image
-              src={href === 'dekorativnij-kamin' ? item.images[0] : item.image}
+              src={href === "dekorativnij-kamin" ? item.images[0] : item.image}
               alt={item.title}
               fill={true}
               sizes="(max-width: 767px) 318px, (max-width: 1439px) 222px, 1200px"
@@ -19,7 +19,7 @@ const ProductsList = ({ dictionary, href, lang, buttons }) => {
             <h3 className={styles.subtitle}>{item.title}</h3>
             <CustomLink
               linkCustomClass={styles.moreBtn}
-              href={`${href}/${item.slug}`}
+              href={`/${href}/${item.slug}`}
               lang={lang}
               text={buttons.moreBtn}
             />

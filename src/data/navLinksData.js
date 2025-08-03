@@ -27,7 +27,7 @@ export const navLinksData = [
       },
       {
         titleUk: "Газоблоки",
-        titleEn: "Gas blocks",
+        titleEn: "AAC blocks",
         href: "/gazobloki",
       },
       {

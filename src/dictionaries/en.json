@@ -5,6 +5,9 @@
   "certificatesSection": {
     "title": "Title"
   },
+  "decorativeStoneIdSection": {
+    "title": "Title"
+  },
   "decorativeStoneSection": {
     "title": "Decorative stones",
     "more": "MORE",
@@ -112,7 +115,7 @@
   },
 
   "gasBlocksSection": {
-    "title": "Gas blocks",
+    "title": "AAC blocks",
     "description_1": "Aerated concrete is a unique building material that combines high strength and lightness. It provides excellent insulating properties, ease of installation and processing. All this gives it a significant advantage over other building materials.",
     "description_2": "We are a certified partner of Xella in Ukraine, Xella is the largest producer of aerated concrete in the world, we offer the following sizes of blocks of the Ytong brand:",
     "anotherProductsSubTitle": "We also present blocks from the Ternopil manufacturer Gazobet",
@@ -120,7 +123,7 @@
       {
         "slug": "ytong",
         "img": "/webp/gasBlocksPage/ytong.webp",
-        "title": "Ytong gas blocks",
+        "title": "Ytong AAC blocks",
         "description": "Ytong is a wide range of aerated concrete products that are characterized by high thermal insulation. Only natural raw materials are used for their production: sand, lime and water. Ytong products have a porous structure - thousands of air bubbles make it difficult for heat to escape outside the building. The system allows you to build energy-efficient single- and multi-apartment houses, as well as communal buildings and industrial workshops.",
         "tableData": {
           "headItems": [
@@ -454,7 +457,7 @@
         "pageLink": "/bilij-czement"
       },
       {
-        "homeCardTitle": "Gasblocks",
+        "homeCardTitle": "AAC blocks",
         "homeCardImg": "/webp/homeProducts/gazobloki.webp",
         "pageLink": "/gazobloki"
       },
