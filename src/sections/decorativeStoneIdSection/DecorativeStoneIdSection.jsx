@@ -1,13 +1,20 @@
 import BreadCrumbs from '@/components/buttons/BreadCrumbs/BreadCrumbs';
+import ProductsIdList from '@/components/ProductsIdList/ProductsIdList';
+import { i18n } from '@/dictionaries/i18n.config';
 import Image from 'next/image';
+
 import styles from './DecorativeStoneIdSection.module.scss';
 
 const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
+  const isDefaultLang = lang === i18n.defaultLocale;
+  const parentPagePath = isDefaultLang
+    ? '/dekorativnij-kamin'
+    : `/${lang}/dekorativnij-kamin`;
   return (
     <section className={styles.section}>
       <div className="container">
         <BreadCrumbs
-          href="/dekorativnij-kamin"
+          href={parentPagePath}
           backTitle={dictionary.title}
           nowtitle={data.title}
         />
@@ -59,26 +66,7 @@ const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
               )}
             </div>
           </div>
-          <ul className={styles.imgListContainer}>
-            {data.images.slice(1).map((img, index) => (
-              <li key={index + 1} className={styles.imgList}>
-                <Image
-                  src={img}
-                  alt={data.title}
-                  fill={true}
-                  sizes="(max-width: 767px) 152px, (max-width: 1439px) 224px, 1200px"
-                />
-                {data.imageCode && (
-                  <p
-                    className={styles.imgValue + ' ' + styles.imgCodeValue}
-                    key={index + 1}
-                  >
-                    {data.imageCode.slice(1)[index]}
-                  </p>
-                )}
-              </li>
-            ))}
-          </ul>
+          <ProductsIdList data={data} />
         </div>
       </div>
     </section>

@@ -3,15 +3,23 @@
 import BreadCrumbs from '@/components/buttons/BreadCrumbs/BreadCrumbs';
 import { useWindowResize } from '@/hooks/windowResize';
 import Image from 'next/image';
+import { i18n } from '@/dictionaries/i18n.config';
+
 import styles from './GardenProductsIdSection.module.scss';
 
 const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
   const { isDesktop } = useWindowResize();
+
+  const isDefaultLang = lang === i18n.defaultLocale;
+  const parentPagePath = isDefaultLang
+    ? '/tovari-dlya-sadu'
+    : `/${lang}/tovari-dlya-sadu`;
+
   return (
     <section className={styles.section}>
       <div className="container">
         <BreadCrumbs
-          href="/tovari-dlya-sadu"
+          href={parentPagePath}
           backTitle={dictionary.title}
           nowtitle={data.title}
         />
