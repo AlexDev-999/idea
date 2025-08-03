@@ -750,6 +750,7 @@
   "marbleCrumbSection": {
     "title": "Marble crumbs",
     "subTitle": "Available factions:",
+    "delivery": "Possible delivery options:",
     "productData": {
       "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
       "title": "Marble crumbs CALCILIT® KA",
@@ -770,6 +771,11 @@
         "1,8-2,5 mm",
         "2,0-2,5 mm",
         "2,5-4,5 mm"
+      ],
+      "deliveryList": [
+        "In bulk in a tanker truck.",
+        "In 25kg bags (48 bags on a pallet).",
+        "In 1t big bags."
       ]
     }
   },
@@ -972,6 +978,8 @@
       },
       {
         "slug": "flooring-strips",
+        "navParrentPage": "Terrazzo Tiles",
+        "navCurrentPage": "Terrazzo flooring strips",
         "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
         "cardTitle": "Terrazzo flooring strips",
         "cardSubTitle": "",

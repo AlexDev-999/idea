@@ -749,6 +749,7 @@
   "marbleCrumbSection": {
     "title": "Мармурова крихта",
     "subTitle": "Доступні фракції:",
+    "delivery": "Можливі варіанти поставок:",
     "productData": {
       "img": "/webp/marbleCrumbsPage/marble-crumb.webp",
       "title": "Мармурова крихта CALCILIT® KA",
@@ -769,6 +770,11 @@
         "1,8-2,5 мм",
         "2,0-2,5 мм",
         "2,5-4,5 мм"
+      ],
+      "deliveryList": [
+        "Насипом в автоцистерні.",
+        "В мішках по 25кг (48 мішків на палеті).",
+        "В біг-бегах по 1т."
       ]
     }
   },
@@ -971,6 +977,8 @@
       },
       {
         "slug": "flooring-strips",
+        "navParrentPage": "Плитка Терацо",
+        "navCurrentPage": "Террацові підлогові стрічки",
         "cardImg": "/webp/terrazzoTilesPage/flooring-strips.webp",
         "cardTitle": "Террацові підлогові стрічки",
         "cardSubTitle": "",

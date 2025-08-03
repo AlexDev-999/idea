@@ -3,7 +3,6 @@ import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHo
 import styles from "./MarbleCrumbSection.module.scss";
 
 const MarbleCrumbSection = ({ lang, dictionary, buttons }) => {
-
   return (
     <section className={`section ${styles.section}`}>
       <div className="container">
@@ -38,6 +37,14 @@ const MarbleCrumbSection = ({ lang, dictionary, buttons }) => {
               {dictionary.productData.factionsList.map((item) => (
                 <li key={item} className={styles.factionItem}>
                   {item}
+                </li>
+              ))}
+            </ul>
+            <p className={styles.deliverySubTitle}>{dictionary.delivery}</p>
+            <ul className={styles.deliveryList}>
+              {dictionary.productData.deliveryList.map((el, index) => (
+                <li key={index} className={styles.deliveryItem}>
+                  {el}
                 </li>
               ))}
             </ul>
