@@ -4,28 +4,34 @@
   @include variables.title-h1;
 
   & {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 24px;
-    color: variables.$primary-900;
   }
 }
 
 .contentWrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+  row-gap: 8px;
+  margin-bottom: 12px;
 
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
-    column-gap: 24px;
+    row-gap: 0px;
+    column-gap: 16px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     column-gap: 24px;
+    margin-bottom: 24px;
   }
 }
 
@@ -34,18 +40,9 @@
   overflow: hidden;
   width: 100%;
   aspect-ratio: 586 / 586;
-  margin-bottom: 16px;
 
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
-    margin-bottom: 0;
-    // height: fit-content;
-  }
-
-  @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 586 / 586;
   }
 }
 
@@ -56,87 +53,98 @@
 
 .infoWrapper {
   width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 8px;
 
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
+    justify-content: flex-end;
+    row-gap: 12px;
   }
+
   @media screen and (min-width: variables.$desktop) {
-    width: 50%;
+    display: block;
   }
 }
 
-.description {
-  @include variables.bodyText-Regular;
-}
-
-.sizesWrapper{
+.sizesWrapper {
+  @media screen and (min-width: variables.$desktop) {
     float: right;
-     margin-left:24px;
-     margin-bottom:24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
 }
 
-.sizesItem{
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
+.sizesItem {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2px;
+  padding: 4px 20px;
+  box-shadow: -4px 4px 12px 0 #2d303740;
+
+  @media screen and (min-width: variables.$desktop) {
     row-gap: 8px;
-    width: fit-content;
-    padding: 4px 40px;
-    box-shadow: -4px 4px 12px 0 #2D303740;
-    
-    @media screen and (min-width: variables.$desktop) {
-           padding: 4px 52px;
-    }
+    padding: 4px 32px;
+  }
 }
 
-.sizesItem:not(:last-child){
-  margin-bottom:20px;
+.sizesItem:not(:last-child) {
+  margin-bottom: 12px;
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 20px;
+  }
 }
 
 .sizesText {
-      @include variables.bodyText-Regular;
-
-      &{
-        color: variables.$gray-900;
-    }
+  & {
+    color: variables.$gray-900;
+  }
 }
 
 .sizesValue {
-      @include variables.subtitle1-Bold;
+  @include variables.subtitle1-Bold;
 
-      &{
-        color: variables.$gray-900;
-    }
+  & {
+    color: variables.$gray-900;
+  }
 }
 
-
-
-.roundedStripsList{
-    display: flex;
-    column-gap: 24px;
-}
-
-.roundedStripsItem {
-  position: relative;
-  overflow: hidden;
- width: calc((100% - 24px) / 2);
-  aspect-ratio: 282 / 282;
-  margin-bottom: 16px;
+.anotherStripsList {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  column-gap: 16px;
 
   @media screen and (min-width: variables.$tablet) {
-    width: calc((100% - 72px) / 4);
-    margin-bottom: 0;
-    // height: fit-content;
+    row-gap: 0px;
   }
 
   @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 282 / 282;
+    column-gap: 24px;
   }
 }
 
-.roundedStripImg {
+.anotherStripsItem {
+  position: relative;
+  overflow: hidden;
+  width: calc((100% - 16px) / 2);
+  aspect-ratio: 282 / 282;
+  box-shadow: -4px 4px 12px 0 #2d303740;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: calc((100% - 32px) / 3);
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
+.anotherStripImg {
   display: block;
   object-fit: cover;
 }

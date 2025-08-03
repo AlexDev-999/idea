@@ -1,21 +1,28 @@
-@use '@/app/variables';
+@use "@/app/variables";
 
 .container {
   display: flex;
   align-items: center;
   column-gap: 8px;
   margin-bottom: 16px;
+
   @media screen and (min-width: variables.$tablet) {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
+
+  // @media screen and (min-width: variables.$desktop) {
+  //   margin-bottom: 24px;
+  // }
 }
 
 .value {
   @include variables.subtitle2-Regular;
+
   & {
     font-size: 12px;
     border: solid 1px transparent;
   }
+
   @media screen and (min-width: variables.$tablet) {
     @include variables.subtitle2-Regular;
   }
