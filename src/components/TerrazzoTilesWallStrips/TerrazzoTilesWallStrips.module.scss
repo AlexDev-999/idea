@@ -4,28 +4,31 @@
   @include variables.title-h1;
 
   & {
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     color: variables.$primary-900;
   }
 
   @media screen and (min-width: variables.$desktop) {
     margin-bottom: 24px;
-    color: variables.$primary-900;
   }
 }
 
 .contentWrapper {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+  row-gap: 8px;
+  margin-bottom: 8px;
 
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
-    column-gap: 24px;
+    row-gap: 0px;
+    column-gap: 16px;
+    margin-bottom: 20px;
   }
 
   @media screen and (min-width: variables.$desktop) {
     column-gap: 24px;
+    margin-bottom: 24px;
   }
 }
 
@@ -34,18 +37,10 @@
   overflow: hidden;
   width: 100%;
   aspect-ratio: 586 / 586;
-  margin-bottom: 16px;
 
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
-    margin-bottom: 0;
-    // height: fit-content;
-  }
-
-  @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 586 / 586;
+    height: fit-content;
   }
 }
 
@@ -60,84 +55,90 @@
   @media screen and (min-width: variables.$tablet) {
     width: 50%;
   }
-  @media screen and (min-width: variables.$desktop) {
-    width: 50%;
-  }
 }
 
 .description {
-  @include variables.bodyText-Regular;
+  margin-bottom: 8px;
 
-  &{
-    margin-bottom:16px;
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
   }
 }
 
-.sizesWrapper{
+.sizesWrapper {
+  margin-bottom: 8px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
+  }
 }
 
-.sizesItem{
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
+.sizesItem {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2px;
+  padding: 4px 20px;
+  box-shadow: -4px 4px 12px 0 #2d303740;
+
+  @media screen and (min-width: variables.$tablet) {
+    row-gap: 4px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
     row-gap: 8px;
-    width: fit-content;
-    padding: 4px 40px;
-    box-shadow: -4px 4px 12px 0 #2D303740;
-    
-    @media screen and (min-width: variables.$desktop) {
-           padding: 4px 52px;
-    }
+    padding: 4px 52px;
+  }
 }
 
 .sizesText {
-      @include variables.bodyText-Regular;
-
-      &{
-        color: variables.$gray-900;
-    }
+  color: variables.$gray-900;
 }
 
 .sizesValue {
-      @include variables.subtitle1-Bold;
+  @include variables.subtitle1-Bold;
 
-      &{
-        color: variables.$gray-900;
-    }
+  & {
+    color: variables.$gray-900;
+  }
 }
 
 .opportunityText {
   @include variables.bodyText-Bold;
 
-  &{
-    margin-bottom:28px;
+  & {
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 28px;
   }
 }
 
-.highStripsList{
-    display: flex;
-    column-gap: 24px;
+.highStripsList {
+  display: flex;
+  column-gap: 16px;
 }
 
 .highStripsItem {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: calc((100% - 16px) / 2);
   aspect-ratio: 282 / 282;
-  margin-bottom: 16px;
-
-  @media screen and (min-width: variables.$tablet) {
-    width: 50%;
-    margin-bottom: 0;
-    // height: fit-content;
-  }
-
-  @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 282 / 282;
-  }
+  box-shadow: -4px 4px 12px 0 #2d303740;
 }
 
 .highStripImg {
@@ -149,32 +150,40 @@
   @include variables.subtitle2-Bold;
 
   & {
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 12px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
     margin-bottom: 16px;
   }
 }
 
-.roundedStripsList{
-    display: flex;
+.roundedStripsList {
+  display: flex;
+  column-gap: 16px;
+
+  @media screen and (min-width: variables.$desktop) {
     column-gap: 24px;
+  }
 }
 
 .roundedStripsItem {
   position: relative;
   overflow: hidden;
- width: calc((100% - 24px) / 2);
+  width: calc((100% - 16px) / 2);
   aspect-ratio: 282 / 282;
-  margin-bottom: 16px;
+  box-shadow: -4px 4px 12px 0 #2d303740;
 
   @media screen and (min-width: variables.$tablet) {
-    width: calc((100% - 72px) / 4);
-    margin-bottom: 0;
-    // height: fit-content;
+    width: calc((100% - 32px) / 3);
   }
 
   @media screen and (min-width: variables.$desktop) {
-    // position: relative;
-    // width: 50%;
-    // aspect-ratio: 282 / 282;
+    width: calc((100% - 72px) / 4);
   }
 }
 
