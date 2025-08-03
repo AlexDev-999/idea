@@ -1,12 +1,18 @@
 import Image from "next/image";
 import BreadCrumbs from "../buttons/BreadCrumbs/BreadCrumbs";
+import { i18n } from "@/dictionaries/i18n.config";
 import styles from "./TerrazzoTilesFlooringStrips.module.scss";
 
-const TerrazzoTilesFlooringStrips = ({ dictionary }) => {
+const TerrazzoTilesFlooringStrips = ({ lang, dictionary }) => {
+  const isDefaultLang = lang === i18n.defaultLocale;
+  const parentPagePath = isDefaultLang
+    ? "/plitka-teraczo"
+    : `/${lang}/plitka-teraczo`;
+
   return (
     <div className="container">
       <BreadCrumbs
-        href="/plitka-teraczo"
+        href={parentPagePath}
         backTitle={dictionary.navParrentPage}
         nowtitle={dictionary.navCurrentPage}
       />

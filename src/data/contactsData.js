@@ -38,7 +38,7 @@ export const contactsData = [
     href: "https://maps.app.goo.gl/CgGRt3da12jK5JTJ6",
     icon: "/sprite.svg#icon-map_pin",
     addressUk: "м.Ужгород, вул.Болгарська, 10-Б",
-    addressEn: "c.Uzhgorod, st.Bolgarska, 10-B",
+    addressEn: "c.Uzhhorod, st.Bolgarska, 10-B",
   },
 ];
 
