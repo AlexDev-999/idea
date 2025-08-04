@@ -35,7 +35,7 @@ export const contactsData = [
 
   {
     name: "location",
-    href: "https://maps.app.goo.gl/CgGRt3da12jK5JTJ6",
+    href: "https://maps.app.goo.gl/EiF8RkxL2vSPax3G6",
     icon: "/sprite.svg#icon-map_pin",
     addressUk: "м.Ужгород, вул.Болгарська, 10-Б",
     addressEn: "c.Uzhhorod, st.Bolgarska, 10-B",

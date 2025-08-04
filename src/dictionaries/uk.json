@@ -431,7 +431,7 @@
     }
   },
   "homeHeroSection": {
-    "title": "Ідея - Сертифікований партнер в Україні:",
+    "title": "МПП «Ідея» - Сертифікований партнер в Україні:",
     "productsBtn": "Вся продукція",
     "aboutAsBtn": "Про нас"
   },
@@ -1029,12 +1029,14 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Бетонне покриття",
 
+        "navParrentPage": "Плитка Терацо",
+        "navCurrentPage": "Бетонне покриття Beatrix гладке",
         "idTitle": "Бетонне покриття Beatrix гладке",
         "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
         "idSizes": [
           {
             "sizesTitle": "Розміри",
-            "sizesValue": "300×300/400×400/600×600 мм",
+            "sizesValues": ["300×300 мм", "400×400 мм", "600×600 мм"],
             "weightTitle": "Вага",
             "weightValue": "7,0 / 10 / 32 кг"
           }
@@ -1056,6 +1058,8 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Великоплощинне бетонне покриття",
 
+        "navParrentPage": "Плитка Терацо",
+        "navCurrentPage": "Бетонне покриття Beatrix рельєфне",
         "idTitle": "Великоплощинне бетонне покриття Beatrix рельєфне",
         "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
         "idDescriptionList": [
@@ -1065,7 +1069,7 @@
         "idSizes": [
           {
             "sizesTitle": "Розміри",
-            "sizesValue": "600x600x40 мм",
+            "sizesValues": ["600x600x40 мм"],
             "weightTitle": "Вага",
             "weightValue": "32 кг"
           }
