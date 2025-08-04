@@ -11,7 +11,10 @@ const GasBlocksSection = ({ lang, dictionary, buttons }) => {
       <div className="container">
         <BackHomeProductsBtn lang={lang} text={buttons.backHomeProductsBtn} />
         <h1 className={styles.title}>{dictionary.title}</h1>
-        <p className={styles.description}>{dictionary.description_1}</p>
+        <p className={styles.description}>
+          <span className="boldText">{dictionary.description_1_Bold}</span>
+          {dictionary.description_1}
+        </p>
         <p className={`${styles.description} ${styles.lastDescription}`}>
           {dictionary.description_2}
         </p>
@@ -33,6 +36,7 @@ const GasBlocksSection = ({ lang, dictionary, buttons }) => {
                 <div className={styles.infoWrapper}>
                   <h2 className={styles.productTitle}>{item.title}</h2>
                   <p className={styles.productDescription}>
+                    <span className="boldText">{item.descriptionBold}</span>
                     {item.description}
                   </p>
                 </div>

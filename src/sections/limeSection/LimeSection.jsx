@@ -30,6 +30,7 @@ const LimeSection = ({ lang, dictionary, buttons }) => {
                 <div className={styles.infoWrapper}>
                   <h2 className={styles.productTitle}>{item.title}</h2>
                   <p className={styles.productDescription}>
+                    <span className="boldText">{item.descriptionBold}</span>
                     {item.description}
                   </p>
                   <p className={styles.applicationSubTitle}>
