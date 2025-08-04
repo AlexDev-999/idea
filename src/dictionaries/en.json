@@ -431,7 +431,7 @@
     }
   },
   "homeHeroSection": {
-    "title": "Idea - Certified Partner in Ukraine:",
+    "title": "SPE «Idea» - Certified Partner in Ukraine:",
     "productsBtn": "All products",
     "aboutAsBtn": "About us"
   },
@@ -1033,12 +1033,14 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Concrete coating",
 
+        "navParrentPage": "Terrazzo Tiles",
+        "navCurrentPage": "Beatrix concrete surface smooth",
         "idTitle": "Beatrix concrete surface smooth",
         "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
         "idSizes": [
           {
             "sizesTitle": "Sizes",
-            "sizesValue": "300×300/400×400/600×600 mm",
+            "sizesValues": ["300×300 mm", "400×400 mm", "600×600 mm"],
             "weightTitle": "Weight",
             "weightValue": "7,0 / 10 / 32 kg"
           }
@@ -1060,6 +1062,8 @@
         "cardTitle": "Beatrix",
         "cardSubTitle": "Large-area concrete coating",
 
+        "navParrentPage": "Terrazzo Tiles",
+        "navCurrentPage": "Beatrix embossed concrete coating",
         "idTitle": "Large-area concrete coating Beatrix embossed",
         "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
         "idDescriptionList": [
@@ -1069,7 +1073,7 @@
         "idSizes": [
           {
             "sizesTitle": "Sizes",
-            "sizesValue": "600x600x40 mm",
+            "sizesValues": ["600x600x40 mm"],
             "weightTitle": "Weight",
             "weightValue": "32 kg"
           }

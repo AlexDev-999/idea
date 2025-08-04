@@ -42,7 +42,13 @@ const TerrazzoTilesBeatrix = ({ lang, dictionary }) => {
                 <p className={styles.sizesText}>
                   {item.sizesTitle.toUpperCase()}
                 </p>
-                <p className={styles.sizesValue}>{item.sizesValue}</p>
+                <ul className={styles.sizesValuesList}>
+                  {item.sizesValues.map((el) => (
+                    <li key={el} className={styles.sizesValue}>
+                      {el}
+                    </li>
+                  ))}
+                </ul>
                 <p className={styles.sizesText}>
                   {item.weightTitle.toUpperCase()}
                 </p>
@@ -62,11 +68,11 @@ const TerrazzoTilesBeatrix = ({ lang, dictionary }) => {
         </div>
       </div>
 
-      <ul className={styles.roundedStripsList}>
+      <ul className={styles.anotherTypesList}>
         {dictionary.idImages.map((item) => (
-          <li key={item.altImg} className={styles.roundedStripsItem}>
+          <li key={item.altImg} className={styles.anotherTypesItem}>
             <Image
-              className={styles.roundedStripImg}
+              className={styles.anotherTypeImg}
               src={item.path}
               alt={item.altImg}
               // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
