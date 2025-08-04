@@ -1,35 +1,3 @@
-// @use "@/app/variables";
-
-// .title {
-//   @include variables.title-h2;
-
-//   & {
-//     margin-bottom: 16px;
-//   }
-
-//   @media screen and (min-width: variables.$tablet) {
-//     margin-bottom: 20px;
-//   }
-
-//   @media screen and (min-width: variables.$desktop) {
-//     margin-bottom: 24px;
-//   }
-// }
-
-// .partnersList {
-//   отсебятина
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-
-//   @media screen and (min-width: variables.$desktop) {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     align-items: center;
-//   }
-// }
-
 @use "@/app/variables";
 
 .section {
@@ -64,20 +32,6 @@
     margin-bottom: 24px;
   }
 }
-
-// .partnersList {
-//   // отсебятина
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-
-//   @media screen and (min-width: variables.$desktop) {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     align-items: center;
-//   }
-// }
 
 .track {
   display: flex;

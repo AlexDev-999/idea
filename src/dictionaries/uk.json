@@ -718,7 +718,11 @@
         "slug": "florakalk",
         "img": "/webp/limeStonePage/florakalk.webp",
         "title": "Суміш ФлораКалк",
-        "compositionList": ["карбонат кальцію", "карбонат магнію", "домішки"],
+        "compositionList": [
+          "карбонат кальцію", 
+          "карбонат магнію", 
+          "домішки"
+        ],
         "applicationList": [
           "додаткове вапнякове добриво для технічних та декоративних городів",
           "фруктових садів,сільськогосподарських полів",
@@ -1037,6 +1041,7 @@
         "navCurrentPage": "Бетонне покриття Beatrix гладке",
         "idTitle": "Бетонне покриття Beatrix гладке",
         "idMainImg": "/webp/terrazzoTilesBeatrix/concrete-coating.webp",
+        "idArtName": "BA300",
         "idSizes": [
           {
             "sizesTitle": "Розміри",
@@ -1048,11 +1053,13 @@
         "idImages": [
           {
             "path": "/webp/terrazzoTilesBeatrix/concrete-coating_1.webp",
-            "altImg": "Бетонне покриття Beatrix гладке 1"
+            "altImg": "Бетонне покриття Beatrix гладке 1",
+            "artName": "BB400"
           },
           {
             "path": "/webp/terrazzoTilesBeatrix/concrete-coating_2.webp",
-            "altImg": "Бетонне покриття Beatrix гладке 2"
+            "altImg": "Бетонне покриття Beatrix гладке 2",
+            "artName": "BC600"
           }
         ]
       },
@@ -1066,6 +1073,7 @@
         "navCurrentPage": "Бетонне покриття Beatrix рельєфне",
         "idTitle": "Великоплощинне бетонне покриття Beatrix рельєфне",
         "idMainImg": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large.webp",
+        "idArtName": "BC601R",
         "idDescriptionList": [
           "Це велике покриття використовується для будівництва терас сімейних будинків, відкритих атріумів, тротуарів, доріжок та паркових зон, без руху автомобілів та вантажівок.",
           "Покриття можна укладати на гравійне покриття, бетонне покриття або поліпропіленові постаменти."
@@ -1081,7 +1089,8 @@
         "idImages": [
           {
             "path": "/webp/terrazzoTilesBeatrixLarge/concrete-coating-large_1.webp",
-            "altImg": "Великоплощинне бетонне покриття 1"
+            "altImg": "Великоплощинне бетонне покриття 1",
+            "artName": "BC602R"
           }
         ]
       },

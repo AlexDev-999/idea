@@ -20,13 +20,11 @@ const HomeProductsSection = ({ lang, dictionary }) => {
             return (
               <li key={item.homeCardTitle} className={styles.productItem}>
                 <Link href={path} className={styles.pageLink}>
-                  {/* <div className={styles.imgWrapper}> */}
                   <Image
                     className={styles.cardImg}
                     src={item.homeCardImg}
                     alt={item.homeCardTitle}
-                    // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-                    sizes="33vw"
+                    sizes="(max-width: 767px) 100vw, (max-width: 1439px) 33vw, 382px"
                     fill={true}
                   />
                   <div className={styles.popupOverlay}>
@@ -34,7 +32,6 @@ const HomeProductsSection = ({ lang, dictionary }) => {
                       <use href="/sprite.svg#icon-arrow-right"></use>
                     </svg>
                   </div>
-                  {/* </div> */}
                   <h3 className={styles.cardTitle}>{item.homeCardTitle}</h3>
                 </Link>
               </li>

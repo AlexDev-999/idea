@@ -23,8 +23,7 @@ const TerrazzoTilesFlooringStrips = ({ lang, dictionary }) => {
             className={styles.img}
             src={dictionary.idMainImg}
             alt={dictionary.idTitle}
-            // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-            sizes="50vw"
+           sizes="(max-width: 767px) 100vw, (max-width: 1439px) 50vw, 588px"
             fill={true}
             priority={true}
           />
@@ -49,8 +48,7 @@ const TerrazzoTilesFlooringStrips = ({ lang, dictionary }) => {
               className={styles.anotherStripImg}
               src={item.path}
               alt={item.altImg}
-              // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-              sizes="25vw"
+              sizes="(max-width: 767px) 50vw, (max-width: 1439px) 33vw, 282px"
               fill={true}
               priority={true}
             />

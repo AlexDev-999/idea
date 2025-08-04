@@ -14,8 +14,7 @@ const MarbleCrumbSection = ({ lang, dictionary, buttons }) => {
               className={styles.img}
               src={dictionary.productData.img}
               alt={dictionary.productData.title}
-              // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-              sizes="50vw"
+              sizes="(max-width: 767px) 100vw, (max-width: 1439px) 50vw, 588px"
               fill={true}
               priority={true}
             />

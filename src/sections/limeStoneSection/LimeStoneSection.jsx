@@ -2,8 +2,6 @@ import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import CalmitTable from "@/components/tables/CalmitTable/CalmitTable";
 import FlorakalkTable from "@/components/tables/FlorakalkTable/FlorakalkTable";
-import { i18n } from "@/dictionaries/i18n.config";
-// import { limeStoneData } from "@/data/products/limeStoneData";
 import styles from "./LimeStoneSection.module.scss";
 
 const LimeStoneSection = ({ lang, dictionary, buttons }) => {
@@ -33,8 +31,7 @@ const LimeStoneSection = ({ lang, dictionary, buttons }) => {
                     className={styles.img}
                     src={item.img}
                     alt={ item.title}
-                    // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-                    sizes="50vw"
+                   sizes="(max-width: 767px) 100vw, (max-width: 1439px) 50vw, 588px"
                     fill={true}
                     priority={index === 0 ? true : false}
                   />
