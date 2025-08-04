@@ -57,7 +57,7 @@ const TerrazzoTilesBeatrix = ({ lang, dictionary }) => {
             ))}
           </ul>
           {dictionary.idDescriptionList && (
-            <ul className={styles.descriptionList}>
+            <ul>
               {dictionary.idDescriptionList.map((item) => (
                 <li key={item} className={styles.descriptionItem}>
                   {item}
