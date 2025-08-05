@@ -98,6 +98,7 @@
   height: 96px;
   box-shadow: -4px 4px 12px 0 rgba(45, 48, 55, 0.25);
   background-color: variables.$gray-0;
+  color: variables.$gray-900;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -114,12 +115,6 @@
   }
   & p {
     @include variables.subtitle1-Bold;
-    & {
-      font-size: 24px;
-    }
-    @media screen and (min-width: variables.$desktop) {
-      font-size: 28px;
-    }
   }
   @media screen and (min-width: variables.$tablet) {
     width: 246px;

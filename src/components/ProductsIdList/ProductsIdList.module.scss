@@ -55,7 +55,7 @@
   & {
     position: absolute;
     bottom: 0;
-    border: 0.2px solid variables.$gray-900;
+    border: 0.2px solid variables.$borderCardValue;
     width: 100%;
     padding: 2px 0;
     background-color: variables.$gray-0;
@@ -67,6 +67,7 @@
   @include variables.subtitle1-Regular;
   & {
     font-size: 14px;
+    color: variables.$gray-900;
   }
   @media screen and (min-width: variables.$tablet) {
     @include variables.subtitle1-Regular;

@@ -28,7 +28,8 @@
     z-index: -1;
   }
   @media screen and (min-width: variables.$tablet) {
-    padding-top: 254px;
+    padding-top: 25%;
+    // padding-top: 254px;
     padding-bottom: 64px;
   }
   @media screen and (min-width: variables.$desktop) {
@@ -55,7 +56,6 @@
   @media screen and (min-width: variables.$desktop) {
     & {
       margin-bottom: 4px;
-      width: 80%;
     }
   }
 }

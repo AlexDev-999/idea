@@ -13,7 +13,7 @@
     "more": "БІЛЬШЕ",
     "productsData": [
       {
-        "slug": "pebbles",
+        "slug": "rebbles",
         "title": "Галька (річковий камінь)",
         "images": [
           "/webp/DecorativeStonePage/Pebbles (river stone).webp",
@@ -718,11 +718,7 @@
         "slug": "florakalk",
         "img": "/webp/limeStonePage/florakalk.webp",
         "title": "Суміш ФлораКалк",
-        "compositionList": [
-          "карбонат кальцію", 
-          "карбонат магнію", 
-          "домішки"
-        ],
+        "compositionList": ["карбонат кальцію", "карбонат магнію", "домішки"],
         "applicationList": [
           "додаткове вапнякове добриво для технічних та декоративних городів",
           "фруктових садів,сільськогосподарських полів",

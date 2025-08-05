@@ -1,4 +1,4 @@
-@use "@/app/variables";
+@use '@/app/variables';
 
 .container {
   display: flex;
@@ -9,10 +9,6 @@
   @media screen and (min-width: variables.$tablet) {
     margin-bottom: 20px;
   }
-
-  // @media screen and (min-width: variables.$desktop) {
-  //   margin-bottom: 24px;
-  // }
 }
 
 .value {
@@ -20,6 +16,7 @@
 
   & {
     font-size: 12px;
+    color: variables.$gray-900;
     border: solid 1px transparent;
   }
 
