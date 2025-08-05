@@ -122,3 +122,17 @@
     margin-bottom: 16px;
   }
 }
+
+.imgValue {
+  @include variables.subtitle1-Regular;
+  & {
+    position: absolute;
+    bottom: 0;
+    border: 0.2px solid variables.$borderCardValue;
+    width: 100%;
+    padding: 2px 0;
+    background-color: variables.$gray-0;
+    color: variables.$gray-900;
+    text-align: center;
+  }
+}
