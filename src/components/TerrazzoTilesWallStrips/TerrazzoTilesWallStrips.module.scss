@@ -131,6 +131,10 @@
 .highStripsList {
   display: flex;
   column-gap: 16px;
+
+  @media screen and (min-width: variables.$desktop) {
+     column-gap: 24px;
+  }
 }
 
 .highStripsItem {

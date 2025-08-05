@@ -47,6 +47,21 @@
   object-fit: cover;
 }
 
+.mainArtName{
+   @include variables.subtitle1-Regular;
+
+   & {   
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    color: variables.$gray-900;
+    background-color: variables.$gray-0;
+    border: 0.2px solid variables.$gray-900;
+    }
+  }
+
 .infoWrapper {
   width: 100%;
   display: flex;
@@ -154,3 +169,14 @@
   display: block;
   object-fit: cover;
 }
+
+.artName{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    color: variables.$gray-900;
+    background-color: variables.$gray-0;
+    border: 0.2px solid variables.$gray-900;
+  }

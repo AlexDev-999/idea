@@ -2,7 +2,6 @@ import Image from "next/image";
 import BackHomeProductsBtn from "@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn";
 import GasBlocksYtongTable from "@/components/tables/GasBlocksYtongTable/GasBlocksYtongTable";
 import GasBlocksGazobetTable from "@/components/tables/GasBlocksGazobetTable/GasBlocksGazobetTable";
-import { i18n } from "@/dictionaries/i18n.config";
 import styles from "./GasBlocksSection.module.scss";
 
 const GasBlocksSection = ({ lang, dictionary, buttons }) => {
@@ -27,8 +26,7 @@ const GasBlocksSection = ({ lang, dictionary, buttons }) => {
                     className={styles.img}
                     src={item.img}
                     alt={item.title}
-                    // sizes="(max-width: 767px) 95vw, (max-width: 1439px) 42vw, 1200px"
-                    sizes="50vw"
+                   sizes="(max-width: 767px) 100vw, (max-width: 1439px) 50vw, 588px"
                     fill={true}
                     priority={index === 0 ? true : false}
                   />
