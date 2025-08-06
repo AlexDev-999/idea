@@ -1,0 +1,61 @@
+@use '@/app/variables';
+
+.toTopBtnHidden,
+.toTopBtn {
+  position: fixed;
+  left: 16px;
+  bottom: 20px;
+
+  width: 40px;
+  height: 40px;
+
+  background: none;
+  outline: none;
+  border: none;
+  z-index: 10;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: variables.$primary-700;
+  border-radius: 50%;
+
+  &:hover,
+  &:focus {
+    background-color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    left: 24px;
+    bottom: 20px;
+
+    width: 48px;
+    height: 48px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    right: 32px;
+    left: auto;
+
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.toTopBtnHidden {
+  bottom: -100px;
+}
+
+.svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: variables.$gray-0;
+  transform: rotate(270deg);
+
+  @media screen and (min-width: variables.$desktop) {
+    width: 32px;
+    height: 32px;
+  }
+}
