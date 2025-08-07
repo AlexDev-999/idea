@@ -1,14 +1,54 @@
+// @use "@/app/variables";
+
+// .langSwitcherBtn {
+//   width: 24px;
+//   height: 24px;
+//   margin-right: 16px;
+//   background: none;
+//   border: none;
+//   outline: none;
+
+//   & svg {
+//     width: 100%;
+//     height: 100%;
+//   }
+
+//   @media screen and (min-width: variables.$tablet) {
+//     width: 32px;
+//     height: 32px;
+//     margin-right: 56px;
+//   }
+
+//   @media screen and (min-width: variables.$desktop) {
+//     margin-right: 38px;
+//   }
+// }
+
 @use "@/app/variables";
 
-.langSwitcherBtn {
+.langSwitcher {
+  position: relative;
+  display: inline-block;
+  margin-right: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-right: 56px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-right: 38px;
+  }
+}
+
+.toggleBtn {
   width: 24px;
   height: 24px;
-  margin-right: 16px;
-  background: none;
+  background: transparent;
   border: none;
   outline: none;
+  cursor: pointer;
 
-  & svg {
+  svg {
     width: 100%;
     height: 100%;
   }
@@ -16,10 +56,49 @@
   @media screen and (min-width: variables.$tablet) {
     width: 32px;
     height: 32px;
-    margin-right: 56px;
+  }
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 69px;
+  padding: 2px;
+  background-color: variables.$bgColor;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  box-shadow: -4px 4px 12px 0 #2d303740;
+
+  @media screen and (min-width: variables.$tablet) {
+    min-width: 89px;
+    padding: 4px 12px;
+    row-gap: 4px;
   }
 
   @media screen and (min-width: variables.$desktop) {
-    margin-right: 38px;
+    min-width: 97px;
+    padding: 8px 16px;
+  }
+}
+
+.langOption {
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  color: variables.$gray-900;
+  font-weight: 500;
+
+  &:hover {
+    background-color: variables.$gray-200;
+  }
+
+  &.active {
+    background-color: variables.$primary-900;
+    color: variables.$gray-0;
   }
 }

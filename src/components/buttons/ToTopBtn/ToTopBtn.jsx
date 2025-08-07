@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { scrollToTop } from '@/helpers/scrollToTop';
+import { useEffect, useState } from "react";
+import { scrollToTop } from "@/helpers/scrollToTop";
 
-import styles from './ToTopBtn.module.scss';
+import styles from "./ToTopBtn.module.scss";
 
 const ToTopBtn = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,10 +17,10 @@ const ToTopBtn = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
     return () => {
-      window.removeEventListener('scroll', toggleVisibility);
+      window.removeEventListener("scroll", toggleVisibility);
     };
   }, []);
 
@@ -32,7 +32,7 @@ const ToTopBtn = () => {
       aria-label="Кнопка до гори"
     >
       <svg className={styles.svg}>
-        <use href="sprite.svg#icon-schevron_right" />
+        <use href="/sprite.svg#icon-schevron_right" />
       </svg>
     </button>
   );
