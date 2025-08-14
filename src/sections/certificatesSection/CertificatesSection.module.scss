@@ -1,5 +1,65 @@
 @use "@/app/variables";
 
 .section {
-  @include variables.pageTopPadding;
+  @include variables.onlySectionPaddings;
+
+  & {
+    width: 100%;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+
+  & {
+    margin-bottom: 16px;
+    color: variables.$primary-900;
+  }
+
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px; //???
+  }
+}
+
+.certificatesList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    row-gap: 40px;
+    column-gap: 24px;
+  }
+}
+
+.certificatesItem {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 320 / 453;
+
+  @media screen and (min-width: variables.$tablet) {
+    width: calc((100% - 16px) / 2);
+    aspect-ratio: 344 / 486;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    width: calc((100% - 24px) / 2);
+    aspect-ratio: 588 / 832;
+  }
+}
+
+.img {
+  display: block;
+  object-fit: cover;
 }

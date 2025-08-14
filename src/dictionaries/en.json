@@ -3,7 +3,41 @@
     "title": "Title"
   },
   "certificatesSection": {
-    "title": "Title"
+    "title": "Certificates",
+    "certificatesData": [
+      {
+        "img": "/webp/certificatesPage/certificate_emi_1.webp",
+        "altImg": "Certificate EMI 1"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_emi_2.webp",
+        "altImg": "Certificate EMI 2"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_emi_3.webp",
+        "altImg": "Certificate EMI 3"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_tolo_1.webp",
+        "altImg": "Certificate TOLO 1"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_tolo_2.webp",
+        "altImg": "Certificate TOLO 2"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_tolo_3.webp",
+        "altImg": "Certificate TOLO 3"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_tolo_4.webp",
+        "altImg": "Certificate TOLO 4"
+      },
+      {
+        "img": "/webp/certificatesPage/certificate_tolo_5.webp",
+        "altImg": "Certificate TOLO 5"
+      }
+    ]
   },
   "decorativeStoneIdSection": {
     "title": "Title"

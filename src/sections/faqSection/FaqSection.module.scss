@@ -1,21 +1,30 @@
-@use '@/app/variables';
+@use "@/app/variables";
+
+// .section {
+//   @include variables.sectionSidePadding;
+//   & {
+//     width: 100%;
+//     height: 100%;
+//     padding-top: 100px;
+//     padding-bottom: 20px;
+//   }
+//   @media screen and (min-width: variables.$tablet) {
+//     padding-bottom: 32px;
+//     padding-top: 132px;
+//   }
+
+//   @media screen and (min-width: variables.$desktop) {
+//     padding-bottom: 40px;
+//     padding-top: 140px;
+//   }
+// }
 
 .section {
-  @include variables.sectionSidePadding;
+  @include variables.onlySectionPaddings;
+
   & {
     width: 100%;
-    height: 100%;
-    padding-top: 100px;
-    padding-bottom: 20px;
-  }
-  @media screen and (min-width: variables.$tablet) {
-    padding-bottom: 32px;
-    padding-top: 132px;
-  }
-
-  @media screen and (min-width: variables.$desktop) {
-    padding-bottom: 40px;
-    padding-top: 140px;
+    //     height: 100%;
   }
 }
 
