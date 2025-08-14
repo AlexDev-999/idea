@@ -1,9 +1,9 @@
 // использование переменных в своих стилях - variables.$laptop
 
-$mobile: '360px';
-$tablet: '768px';
-$laptop: '1024px';
-$desktop: '1440px';
+$mobile: "360px";
+$tablet: "768px";
+$laptop: "1024px";
+$desktop: "1440px";
 
 // $primary-900: #001f98;
 $primary-900: #0f4c81;
@@ -61,14 +61,17 @@ $alertSystem: #230b82;
   }
 }
 
-// убрать,следующий миксин onlySectionWithBreadCrumbsPaddings вместо него
-@mixin pageTopPadding {
+@mixin onlySectionPaddings {
   & {
-    padding-top: 80px;
+    padding: 100px 20px 20px;
   }
 
   @media screen and (min-width: $tablet) {
-    padding-top: 100px;
+    padding: 132px 32px 32px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 140px 120px 40px;
   }
 }
 
