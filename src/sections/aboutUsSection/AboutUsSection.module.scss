@@ -1,5 +1,105 @@
-@use "@/app/variables";
+@use '@/app/variables';
 
 .section {
   @include variables.onlySectionPaddings;
+  & {
+    width: 100%;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    column-gap: 16px;
+    margin-bottom: 64px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+    margin-bottom: 80px;
+  }
+}
+
+.title {
+  @include variables.title-h1;
+  & {
+    color: variables.$primary-900;
+    margin-bottom: 4px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.subtitle {
+  @include variables.bodyText-Regular;
+  & {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    @include variables.subtitle2-Regular;
+  }
+}
+
+.imgContainer {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 320 / 228;
+  margin-bottom: 8px;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 50%;
+    height: fit-content;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 486px;
+    height: 264px;
+  }
+}
+
+.imgList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 16px;
+  @media screen and (min-width: variables.$tablet) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 16px;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    column-gap: 24px;
+    row-gap: 20px;
+  }
+}
+
+.imgItem {
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+  aspect-ratio: 320 / 220;
+  & img {
+    object-fit: cover;
+  }
+  @media screen and (min-width: variables.$tablet) {
+    width: 48%;
+    height: fit-content;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    width: 588px;
+    height: 404px;
+  }
 }

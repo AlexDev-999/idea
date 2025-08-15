@@ -27,21 +27,18 @@
 .container {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
-  @media screen and (min-width: variables.$tablet) {
-    row-gap: 12px;
-  }
-  @media screen and (min-width: variables.$desktop) {
-    row-gap: 24px;
-  }
 }
 
 .containerContent {
   display: flex;
   flex-direction: column;
   column-gap: 24px;
+  margin-bottom: 12px;
   @media screen and (min-width: variables.$tablet) {
     flex-direction: row;
+  }
+  @media screen and (min-width: variables.$desktop) {
+    margin-bottom: 24px;
   }
 }
 
