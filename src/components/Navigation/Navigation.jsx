@@ -60,6 +60,8 @@ const Navigation = ({ lang }) => {
                   {isProductItem ? (
                     <span
                       className={styles.productsItem}
+                      // data-no-close для виключення закриття бургер-меню (useEffect в BurgerBtn)
+                      data-no-close
                       onClick={() => {
                         setSubMenu(true);
                       }}
@@ -80,6 +82,7 @@ const Navigation = ({ lang }) => {
                   {el.productsId && (
                     <svg
                       className={styles.arrowStyles}
+                      data-no-close
                       onClick={() => {
                         setSubMenu(true);
                       }}
