@@ -26,8 +26,12 @@ const BurgerBtn = () => {
 
   // Закрытие при клике вне компонента
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (burgerRef.current && !burgerRef.current.contains(event.target)) {
+    const handleClickOutside = (event) => { 
+     const clickedInsideButton = burgerRef.current?.contains(event.target);
+     const clickedInsideMenu = !!event.target.closest('[data-menu-root]');
+     const whitelist = !!event.target.closest('[data-no-close]');
+
+      if (!clickedInsideButton && !clickedInsideMenu && !whitelist) {
         setMobileMenuContent(false);
 
         setTimeout(() => {

@@ -22,15 +22,17 @@ const BurgerMenu = ({ lang }) => {
   }
 
   return (
-    <div className={styles.burgerMenuFrame}>
+    // data-menu-root для закриття бургер-меню (useEffect в BurgerBtn)
+    <div className={styles.burgerMenuFrame} data-menu-root>
       <div
         className={
           mobileMenuContent
             ? `${styles.burgerMenuSection} ${styles.burgerMenuSectionVisible}`
             : `${styles.burgerMenuSection} ${styles.burgerMenuSectionHidden}`
         }
-      >
-        <div className="container">
+        data-menu-root
+      >        
+        <div className="container" data-menu-root>
           <Navigation lang={lang} />
         </div>
       </div>
