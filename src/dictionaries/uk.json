@@ -1,6 +1,13 @@
 {
   "aboutUsSection": {
-    "title": "Title"
+    "title": "Про нас",
+    "subtitle": "Наше підприємство бере свій початок з 1993-го року, На сьогоднішній день  ми є одним з найбільших імпортерів гашеного та негашеного вапна, вапняку, білого цементу,  газобетонних блоків та іншої продукції. Наша мета задовольнити потребу клієнтів в якісній продукції та своєчасному отриманні товарів.",
+    "images": [
+      "/webp/aboutUsPage/aboutUa-main.webp",
+      "/webp/aboutUsPage/Calmit-Partner-Certificate.webp",
+      "/webp/aboutUsPage/Official-Statement.webp",
+      "/webp/aboutUsPage/Male-Privatne-Pidpriemstvo-IDEA.webp"
+    ]
   },
   "certificatesSection": {
     "title": "Сертифікати",

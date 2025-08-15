@@ -1,6 +1,13 @@
 {
   "aboutUsSection": {
-    "title": "Title"
+    "title": "About us",
+    "subtitle": "Our company dates back to 1993. Today we are one of the largest importers of slaked and quicklime, limestone, white cement, aerated concrete blocks and other products. Our goal is to satisfy our customers' needs for quality products and timely receipt of goods.",
+    "images": [
+      "/webp/aboutUsPage/aboutUa-main.webp",
+      "/webp/aboutUsPage/Calmit-Partner-Certificate.webp",
+      "/webp/aboutUsPage/Official-Statement.webp",
+      "/webp/aboutUsPage/Male-Privatne-Pidpriemstvo-IDEA.webp"
+    ]
   },
   "certificatesSection": {
     "title": "Certificates",
