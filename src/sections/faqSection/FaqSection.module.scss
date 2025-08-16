@@ -1,30 +1,10 @@
-@use "@/app/variables";
-
-// .section {
-//   @include variables.sectionSidePadding;
-//   & {
-//     width: 100%;
-//     height: 100%;
-//     padding-top: 100px;
-//     padding-bottom: 20px;
-//   }
-//   @media screen and (min-width: variables.$tablet) {
-//     padding-bottom: 32px;
-//     padding-top: 132px;
-//   }
-
-//   @media screen and (min-width: variables.$desktop) {
-//     padding-bottom: 40px;
-//     padding-top: 140px;
-//   }
-// }
+@use '@/app/variables';
 
 .section {
   @include variables.onlySectionPaddings;
 
   & {
     width: 100%;
-    //     height: 100%;
   }
 }
 
@@ -154,4 +134,13 @@
 
 .answer {
   @include variables.bodyText-Regular;
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+
+  @media screen and (min-width: variables.$desktop) {
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
 }

@@ -23,7 +23,7 @@ const FaqSection = ({ lang, dictionary, data }) => {
         <h1 className={styles.title}>{dictionary.title}</h1>
         <h3 className={styles.subtitle}>{dictionary.subtitle}</h3>
         <ul className={styles.faqItem}>
-          {data.map((el, i) => {
+          {dictionary.productsData.map((el, i) => {
             const id = i + 1;
             const isActive = openItems.includes(id);
 
@@ -34,7 +34,7 @@ const FaqSection = ({ lang, dictionary, data }) => {
                   className={styles.faqTitle}
                   onClick={() => handleOpen(id)}
                 >
-                  {lang === i18n.locales[0] ? el.questionUk : el.questionEn}
+                  {el.question}
                   <svg
                     className={isActive ? styles.isOpenSvg : styles.isClosedSvg}
                   >
@@ -49,9 +49,11 @@ const FaqSection = ({ lang, dictionary, data }) => {
                       : `${styles.answerWrapp} ${styles.openedAnswerWrapp}`
                   }
                 >
-                  <h4 className={styles.answer}>
-                    {lang === i18n.locales[0] ? el.answerUk : el.answerEn}
-                  </h4>
+                  {el.answer.map((item, index) => (
+                    <h4 className={styles.answer} key={index}>
+                      {item}
+                    </h4>
+                  ))}
                 </div>
               </li>
             );
