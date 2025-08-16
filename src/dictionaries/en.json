@@ -103,7 +103,53 @@
   },
   "faqSection": {
     "title": "FAQ",
-    "subtitle": "Frequently asked questions:"
+    "subtitle": "Frequently asked questions:",
+    "productsData": [
+      {
+        "question": "What is limestone and where is it used?",
+        "answer": [
+          "Limestone is a natural stone with a high content of calcium carbonate (CaCO₃). It is used in the production of lime, cement, for facade cladding and road construction. We offer limestone produced by Calmit, Slovakia with possible delivery to Ukraine."
+        ]
+      },
+      {
+        "question": "What is the difference between quicklime and slaked lime?",
+        "answer": [
+          " • Quicklime (CaO) is a lumpy solid obtained by burning limestone. It has high reactivity and is used in construction, water purification, and metallurgy.",
+          "• Slaked lime (Ca(OH)₂) is the result of the interaction of quicklime with water, produced in powder or paste form. It is used in plasters, mortars, and disinfection.",
+          "Both products are Calmit, Slovakia."
+        ]
+      },
+      {
+        "question": "What are the advantages of white cement?",
+        "answer": [
+          "White cement has an aesthetic appearance, resistance to weathering and high strength. It is used for decorative concrete, architectural elements and colored mortars. We supply Danucem, Slovakia."
+        ]
+      },
+      {
+        "question": "What is aerated concrete and why is it chosen?",
+        "answer": [
+          "Aerated concrete is a light and warm building material with a porous structure. It has low thermal conductivity, is easy to install and environmentally friendly. We offer aerated concrete Ytong, Hungary."
+        ]
+      },
+      {
+        "question": "What is terrazzo?",
+        "answer": [
+          "Terrazzo is a decorative material made of cement and filler (marble, granite or glass chips). It has high wear resistance and an attractive appearance. We supply terrazzo Cidemat, Czech Republic."
+        ]
+      },
+      {
+        "question": "Is there delivery in Ukraine?",
+        "answer": [
+          "Yes, if necessary, we can organize the delivery of all materials across Ukraine, including large batches and small orders."
+        ]
+      },
+      {
+        "question": "How to find out the price?",
+        "answer": [
+          "The cost depends on the order volume, type of material and, if necessary, delivery distance. For an accurate calculation, contact our manager."
+        ]
+      }
+    ]
   },
   "gardenProductsSection": {
     "title": "Garden products",
