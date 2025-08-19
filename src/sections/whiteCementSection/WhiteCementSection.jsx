@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import BackHomeProductsBtn from '@/components/buttons/BackHomeProductsBtn/BackHomeProductsBtn';
 import styles from './WhiteCementSection.module.scss';
+import OpenPdfBtn from '@/components/buttons/OpenPdfBtn/OpenPdfBtn';
 
 const WhiteCementSection = ({ lang, dictionary, buttons }) => {
   return (
@@ -10,6 +11,10 @@ const WhiteCementSection = ({ lang, dictionary, buttons }) => {
 
         <h1 className={styles.title}>{dictionary.title}</h1>
         <h3 className={styles.subtitle}>{dictionary.description}</h3>
+        <div className={styles.openPdfBtnContainer}>
+          <span>{dictionary.titlePdfBtn}</span>
+          <OpenPdfBtn href={dictionary.pdfPath} text={dictionary.openPdfBtn} />
+        </div>
 
         <ul className={styles.list}>
           {dictionary.productsData.map((item, index) => (
