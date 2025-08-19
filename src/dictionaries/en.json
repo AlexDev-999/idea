@@ -1231,6 +1231,9 @@
     "limestoneTitle": "Limestone:",
     "additivesTitle": "Additives:",
     "deliveryOptions": "Possible delivery options:",
+    "titlePdfBtn": "Safety data sheet:",
+    "openPdfBtn": "DOWNLOAD PDF",
+    "pdfPath": "/pdf/SDS-_EN_197-1-UA-uk_ with annex.pdf",
     "productsData": [
       {
         "image": "/webp/whiteCement/portlandСement.webp",
