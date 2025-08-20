@@ -1,5 +1,5 @@
 import { getDictionary } from "@/helpers/getDictionary";
-import GardenProductsIdSection from "@/sections/gardenProductsIdSection/GardenProductsIdSection";
+import GardenProductsIdSection from "@/sections/GardenProductsIdSection/GardenProductsIdSection";
 
 const GardenProductsIdPage = async ({ params }) => {
   const { lang, slug } = await params;
