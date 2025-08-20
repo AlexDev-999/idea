@@ -57,12 +57,13 @@ import styles from "./Header.module.scss";
 
 const Header = ({ lang }) => {
   const pathname = usePathname();
+  // для прозрачного бекграунда на главной странице
   const isHomePage =
     pathname === "" ||
     pathname === "/" ||
     pathname === "/uk" ||
     pathname === "/en";
-
+  // для скрітия при notFoundPage
   const isRealPage = matchesRoute(pathname, lang);
 
   return (
