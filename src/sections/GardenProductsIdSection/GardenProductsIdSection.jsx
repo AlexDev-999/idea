@@ -1,19 +1,23 @@
-'use client';
+"use client";
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import BreadCrumbs from "@/components/buttons/BreadCrumbs/BreadCrumbs";
+import { i18n } from "@/dictionaries/i18n.config";
+import { useWindowResize } from "@/hooks/windowResize";
+import styles from "./GardenProductsIdSection.module.scss";
 
-import BreadCrumbs from '@/components/buttons/BreadCrumbs/BreadCrumbs';
-import { useWindowResize } from '@/hooks/windowResize';
-import Image from 'next/image';
-import { i18n } from '@/dictionaries/i18n.config';
-
-import styles from './GardenProductsIdSection.module.scss';
-
-const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
+const GardenProductsIdSection = ({ lang, dictionary, data }) => {
   const { isDesktop } = useWindowResize();
 
   const isDefaultLang = lang === i18n.defaultLocale;
   const parentPagePath = isDefaultLang
-    ? '/tovari-dlya-sadu'
+    ? "/tovari-dlya-sadu"
     : `/${lang}/tovari-dlya-sadu`;
+
+  if (!data) {
+    // вот тут сработает [lang]/not-found.js
+    notFound();
+  }
 
   return (
     <section className={styles.section}>
@@ -40,7 +44,7 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
               <ul
                 className={
                   data.sizes
-                    ? styles.listSizes + ' ' + styles.list
+                    ? styles.listSizes + " " + styles.list
                     : styles.list
                 }
               >
@@ -71,10 +75,10 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
               </ul>
 
               {isDesktop ? (
-                data.slug === 'concrete-garden-steps' && (
+                data.slug === "concrete-garden-steps" && (
                   <div
                     className={
-                      styles.imagesList + ' ' + styles.concreteGardenStepsImages
+                      styles.imagesList + " " + styles.concreteGardenStepsImages
                     }
                   >
                     {data.images.map((img, index) => (
@@ -95,7 +99,7 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
             </div>
           </div>
           {isDesktop ? (
-            data.slug !== 'concrete-garden-steps' && (
+            data.slug !== "concrete-garden-steps" && (
               <div className={styles.imagesList}>
                 {data.images.map((img, index) => (
                   <figure key={index} className={styles.images}>
@@ -107,7 +111,7 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
                     />
                     {data.titles && (
                       <p
-                        className={styles.imgDesc + ' ' + styles.imgCodeValue}
+                        className={styles.imgDesc + " " + styles.imgCodeValue}
                         key={index}
                       >
                         {data.titles[index]}
@@ -129,7 +133,7 @@ const GardenProductsIdSection = ({ lang, dictionary, buttons, data }) => {
                   />
                   {data.titles && (
                     <p
-                      className={styles.imgDesc + ' ' + styles.imgCodeValue}
+                      className={styles.imgDesc + " " + styles.imgCodeValue}
                       key={index}
                     >
                       {data.titles[index]}

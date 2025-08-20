@@ -1,15 +1,21 @@
-import BreadCrumbs from '@/components/buttons/BreadCrumbs/BreadCrumbs';
-import ProductsIdList from '@/components/ProductsIdList/ProductsIdList';
-import { i18n } from '@/dictionaries/i18n.config';
-import Image from 'next/image';
-
-import styles from './DecorativeStoneIdSection.module.scss';
+import { notFound } from "next/navigation";
+import Image from "next/image";
+import BreadCrumbs from "@/components/buttons/BreadCrumbs/BreadCrumbs";
+import ProductsIdList from "@/components/ProductsIdList/ProductsIdList";
+import { i18n } from "@/dictionaries/i18n.config";
+import styles from "./DecorativeStoneIdSection.module.scss";
 
 const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
   const isDefaultLang = lang === i18n.defaultLocale;
   const parentPagePath = isDefaultLang
-    ? '/dekorativnij-kamin'
+    ? "/dekorativnij-kamin"
     : `/${lang}/dekorativnij-kamin`;
+
+  if (!data) {
+    // вот тут сработает [lang]/not-found.js
+    notFound();
+  }
+
   return (
     <section className={styles.section}>
       <div className="container">
@@ -45,7 +51,7 @@ const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
                   <h3 className={styles.applicationTitle}>
                     {data.applicationData.title}:
                   </h3>
-                  <ul className={styles.applicationValue + ' ' + styles.dot}>
+                  <ul className={styles.applicationValue + " " + styles.dot}>
                     {data.applicationData.value.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -57,7 +63,7 @@ const DecorativeStoneIdSection = ({ lang, dictionary, data }) => {
                   <h3 className={styles.applicationTitle}>
                     {data.packagingData.title}:
                   </h3>
-                  <ul className={styles.applicationValue + ' ' + styles.number}>
+                  <ul className={styles.applicationValue + " " + styles.number}>
                     {data.packagingData.value.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
