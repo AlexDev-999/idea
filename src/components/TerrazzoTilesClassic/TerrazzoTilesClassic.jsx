@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import { useWindowResize } from '@/hooks/windowResize';
-import Image from 'next/image';
-import BreadCrumbs from '../buttons/BreadCrumbs/BreadCrumbs';
-import { i18n } from '@/dictionaries/i18n.config';
+import { useWindowResize } from "@/hooks/windowResize";
+import Image from "next/image";
+import BreadCrumbs from "../buttons/BreadCrumbs/BreadCrumbs";
+import { i18n } from "@/dictionaries/i18n.config";
 
-import styles from './TerrazzoTilesClassic.module.scss';
-import ProductsIdList from '../ProductsIdList/ProductsIdList';
+import styles from "./TerrazzoTilesClassic.module.scss";
+import ProductsIdList from "../ProductsIdList/ProductsIdList";
 
-const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
+const TerrazzoTilesClassic = ({ lang, dictionary }) => {
   const { isTablet, isLaptop } = useWindowResize();
 
   const firstTwoDescriptions = dictionary.cardDescription.slice(0, 2);
@@ -16,7 +16,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
 
   const isDefaultLang = lang === i18n.defaultLocale;
   const parentPagePath = isDefaultLang
-    ? '/plitka-teraczo'
+    ? "/plitka-teraczo"
     : `/${lang}/plitka-teraczo`;
 
   return (
@@ -56,7 +56,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
               <li key={index}>
                 <p>
                   <span className={styles.subtitle}>
-                    {index === 0 && dictionary.cardTitle}{' '}
+                    {index === 0 && dictionary.cardTitle}{" "}
                   </span>
                   {desc}
                 </p>
@@ -67,7 +67,7 @@ const TerrazzoTilesClassic = ({ lang, dictionary, buttons }) => {
       </div>
       {isTablet || isLaptop ? (
         lastDescriptions.length > 0 && (
-          <ul className={styles.descList + ' ' + styles.retreat}>
+          <ul className={styles.descList + " " + styles.retreat}>
             {lastDescriptions.map((desc, index) => (
               <li key={index + 2}>
                 <p>{desc}</p>

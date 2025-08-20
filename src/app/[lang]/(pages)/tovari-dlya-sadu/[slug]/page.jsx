@@ -1,9 +1,9 @@
-import { getDictionary } from '@/helpers/getDictionary';
-import GardenProductsIdSection from '@/sections/GardenProductsIdSection/GardenProductsIdSection';
+import { getDictionary } from "@/helpers/getDictionary";
+import GardenProductsIdSection from "@/sections/gardenProductsIdSection/GardenProductsIdSection";
 
 const GardenProductsIdPage = async ({ params }) => {
   const { lang, slug } = await params;
-  const { gardenProductsSection, buttons } = await getDictionary(lang);
+  const { gardenProductsSection } = await getDictionary(lang);
 
   const gardenProductsIdData = gardenProductsSection.productsData.find(
     (item) => item.slug === slug
@@ -14,7 +14,6 @@ const GardenProductsIdPage = async ({ params }) => {
       <GardenProductsIdSection
         lang={lang}
         dictionary={gardenProductsSection}
-        buttons={buttons}
         data={gardenProductsIdData}
       />
     </>
