@@ -11,6 +11,7 @@ const Footer = ({ lang }) => {
   const pathname = usePathname();
   const { isDesktop } = useWindowResize();
 
+  // для скрітия при notFoundPage
   const isRealPage = matchesRoute(pathname, lang);
 
   return (

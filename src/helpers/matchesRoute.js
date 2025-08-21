@@ -1,22 +1,12 @@
 // используется в Header и Footer для их скрітия, если такой страниці не существует
-import { allPagesData } from "@/data/allPagesData";
+import { allPagePathsData } from "@/data/allPagePathsData";
 import { i18n } from "@/dictionaries/i18n.config";
 
 export default function matchesRoute(pathname, lang) {
-  // Проверяем, начинается ли путь с любого из маршрутов
-  const isInPagesData = allPagesData.some((prefix) => {
+  // Проверяем, равен ли путь любому из маршрутов
+  return allPagePathsData.some((pagePath) => {
     const isDefaultLang = lang === i18n.defaultLocale;
-    const path = isDefaultLang ? prefix : `/${lang}${prefix}`;
-    return pathname === path;
+    const resultPath = isDefaultLang ? pagePath : `/${lang}${pagePath}`;
+    return pathname === resultPath;
   });
-
-  // добавляем к результату isInPagesData еще и проверку на равенство в частніх случаях
-  const isRealPage =
-    isInPagesData ||
-    pathname === "" ||
-    pathname === "/" ||
-    pathname === "/en" ||
-    pathname === "/uk";
-
-  return isRealPage;
 }
