@@ -13,7 +13,7 @@ const WhiteCementSection = ({ lang, dictionary, buttons }) => {
         <h3 className={styles.subtitle}>{dictionary.description}</h3>
         <div className={styles.openPdfBtnContainer}>
           <span>{dictionary.titlePdfBtn}</span>
-          <OpenPdfBtn href={dictionary.pdfPath} text={dictionary.openPdfBtn} />
+          <OpenPdfBtn href={dictionary.pdfPath} text={buttons.openPdfBtn} />
         </div>
 
         <ul className={styles.list}>
