@@ -519,8 +519,27 @@
       ]
     }
   },
+  "seoMainPage": { 
+    "seoMetaMainTitle": "Buy high-quality building materials in Uzhgorod | Mpp Idea",
+    "seoMetaMainDescription":
+      "You can purchase high-quality building materials in Uzhhorod wholesale and retail. White cement, slaked and unslaked lime, river stone, marble chips👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Here will be the title for OpenGraph",
+      "seoMetaDescriptionOpenGraph":
+        "Here is the description for OpenGraph 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”"
+  },
   "homeHeroSection": {
-    "title": "SPE «Idea» - Certified Partner in Ukraine:",
+    "title": "PE «Idea» - Certified Partner in Ukraine:",
     "productsBtn": "All products",
     "aboutAsBtn": "About us"
   },
@@ -1278,7 +1297,7 @@
     "policy": "Privacy policy"
   },
   "buttons": {
-    "backHomeProductsBtn": "Back",
+    "backHomeProductsBtn": "All products",
     "openPdfBtn": "Open Pdf",
     "moreBtn": "Details"
   }
