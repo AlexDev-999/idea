@@ -18,10 +18,23 @@ const Footer = ({ lang }) => {
     <>
       {isRealPage ? (
         <footer className={styles.footer} id="contacts">
-          <div className={`container ${styles.container}`}>
-            <Logo lang={lang} id={styles.customLogoFooter} />
-            {isDesktop && <Navigation lang={lang} />}
-            <ContactsBlock lang={lang} />
+          <div className="container">
+            <div className={styles.logoAndContactsBlockWrapper}>
+              <Logo lang={lang} id={styles.customLogoFooter} />
+              {isDesktop && <Navigation lang={lang} />}
+              <ContactsBlock lang={lang} />
+            </div>
+            <p className={styles.devText}>
+              By{" "}
+              <a
+                className={styles.devLink}
+                href="https://www.webevery.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Webevery.dev{" "}
+              </a>
+            </p>
           </div>
         </footer>
       ) : null}
