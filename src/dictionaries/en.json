@@ -9,6 +9,26 @@
       "/webp/aboutUsPage/Male-Privatne-Pidpriemstvo-IDEA.webp"
     ]
   },
+  "seoAboutUsPage": { 
+    "seoMetaMainTitle": "MIP Idea | experience since 1993: slaked and unslaked lime, cement",
+    "seoMetaMainDescription":
+      "Experience since 1993 and partnerships with European manufacturers.❱ We provide wholesale and retail supplies of building materials, guarantee quality certificates and logistics 👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "About us | MPP Idea ⏩ quality and timely delivery of building materials✅",
+      "seoMetaDescriptionOpenGraph":
+        "Experience since 1993 and partnerships with European manufacturers.❱ We provide wholesale and retail supplies of building materials, guarantee quality certificates and logistics 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "About us page"
+  },
   "certificatesSection": {
     "title": "Certificates",
     "certificatesData": [
@@ -45,6 +65,26 @@
         "altImg": "Certificate TOLO 5"
       }
     ]
+  },
+  "seoCertificatesPage": { 
+    "seoMetaMainTitle": "MPP Idea | Certified wholesale supplier of building materials",
+    "seoMetaMainDescription":
+      "Certified importer of building materials since 1993. Wholesale lime, limestone, white cement, and aerated concrete blocks ⏩ quality from Calmit, Xella, and other manufacturers. Contact and delivery 👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "MPP Idea | Certified wholesale supplier of building materials✅",
+      "seoMetaDescriptionOpenGraph":
+        "Certified importer of building materials since 1993. Wholesale lime, limestone, white cement, and aerated concrete blocks ⏩ quality from Calmit, Xella, and other manufacturers. Contact and delivery 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Certificates page"
   },
   "decorativeStoneIdSection": {
     "title": "Title"
@@ -150,6 +190,26 @@
         ]
       }
     ]
+  },
+  "seoFaqPage": { 
+    "seoMetaMainTitle": "MIP Idea | Frequently asked questions and answers",
+    "seoMetaMainDescription":
+      "Certified importer of building materials since 1993. Lime, limestone, white cement, and aerated concrete blocks wholesale ✅ Quality from Calmit, Xella, and other manufacturers. Contact and delivery",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "MIP Idea | Frequently asked questions and answers👆",
+      "seoMetaDescriptionOpenGraph":
+        "Certified importer of building materials since 1993. Lime, limestone, white cement, and aerated concrete blocks wholesale ✅ Quality from Calmit, Xella, and other manufacturers. Contact and delivery",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "FAQ Page"
   },
   "gardenProductsSection": {
     "title": "Garden products",
@@ -522,7 +582,7 @@
   "seoMainPage": { 
     "seoMetaMainTitle": "Buy high-quality building materials in Uzhgorod | Mpp Idea",
     "seoMetaMainDescription":
-      "You can purchase high-quality building materials in Uzhhorod wholesale and retail. White cement, slaked and unslaked lime, river stone, marble chips👆",
+      "MPP Idea ➜ wholesale supplier of building materials in Uzhhorod ⏩ lime, white cement, aerated concrete blocks, marble chips, and decorative materials with warehouse logistics 👆",
       "seoMetaKeywords": [
         "White cement",
         "Limestone",
@@ -533,9 +593,9 @@
         "Garden products",
         "Stairs"
       ],
-      "seoMetaTitleOpenGraph": "Here will be the title for OpenGraph",
+      "seoMetaTitleOpenGraph": "MPP Idea | wholesale building materials in Uzhhorod ✔️ lime, cement",
       "seoMetaDescriptionOpenGraph":
-        "Here is the description for OpenGraph 👆",
+        "MPP Idea ➜ wholesale supplier of building materials in Uzhhorod ⏩ lime, white cement, aerated concrete blocks, marble chips, and decorative materials with warehouse logistics 👆",
         "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”"
   },
   "homeHeroSection": {
