@@ -7,6 +7,7 @@ const CallLinks = ({ className }) => {
       {callLinksData.map((item) => (
         <li key={item.name} className={styles.callItem}>
           <a
+            aria-label={item.ariaLabel}
             href={item.href}
             className={styles.callLink}
             target="_blank"

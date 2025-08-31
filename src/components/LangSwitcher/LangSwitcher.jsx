@@ -102,6 +102,7 @@ const LangSwitcher = ({ lang }) => {
   return (
     <div className={styles.langSwitcher} ref={switcherRef}>
       <button
+        aria-label="Lang switcher"
         className={styles.toggleBtn}
         onClick={() => setIsLangMenuOpen((prev) => !prev)}
       >
