@@ -579,6 +579,26 @@
       ]
     }
   },
+  "seoGasBlocksPage": { 
+    "seoMetaMainTitle": "Ytong and Gazobet gas blocks ⏩ energy-efficient blocks in Uzhhorod",
+    "seoMetaMainDescription":
+      "Sale of Ytong aerated concrete blocks 👆 excellent thermal insulation, ease of installation, and a wide range of sizes. Selection of materials for projects of any scale",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Buy Ytong gas blocks ⏩ various sizes for residential and industrial construction",
+      "seoMetaDescriptionOpenGraph":
+        "Ytong and Gazobet gas blocks 👆 are energy-efficient and lightweight blocks of various sizes. Suitable for residential and industrial structures, with delivery in Uzhhorod.",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page about Gas Blocks"
+  },
   "seoMainPage": { 
     "seoMetaMainTitle": "Buy high-quality building materials in Uzhgorod | Mpp Idea",
     "seoMetaMainDescription":
@@ -829,6 +849,26 @@
       }
     ]
   },
+  "seoLimePage": { 
+    "seoMetaMainTitle": "Lime for construction, agriculture, and ecology ⏩ MPP Idea",
+    "seoMetaMainDescription":
+      "Lime for plastering, soil stabilization, and eco-friendly solutions.✅ Wholesale deliveries: bulk, 25 kg bags, or big bags❱ Technical data sheets and certificates available 👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Lime for construction, agriculture, and ecology ⏩ MPP Idea",
+      "seoMetaDescriptionOpenGraph":
+        "Lime for plastering, soil stabilization, and eco-friendly solutions.✅ Wholesale deliveries: bulk, 25 kg bags, or big bags❱ Technical data sheets and certificates available 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page about Lime"
+  },
   "limeStoneSection": {
     "title": "Limestone",
     "description": "Pure limestone of various sizes. Fractions depend on the plant.",
@@ -920,6 +960,26 @@
       }
     ]
   },
+  "seoLimeStonePage": { 
+    "seoMetaMainTitle": "Finely ground limestone for industry and agriculture ⏩ MPP Idea",
+    "seoMetaMainDescription":
+      "Buy limestone for the production of building mixtures, asphalt, or for soil liming. ✅ We deliver in bulk and in bags, various fractions and mixtures are available FloraKalk",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Buy limestone in Uzhhorod ⏩ feed additive and construction | MPP Idea",
+      "seoMetaDescriptionOpenGraph":
+        "Limestone fractions for industry, road construction, and agriculture. Finely ground Calmit, packaged in 40 kg bags, bulk deliveries, and quality control.",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page about Lime Stones"
+  },
   "marbleCrumbSection": {
     "title": "Marble crumbs",
     "subTitle": "Available factions:",
@@ -969,6 +1029,26 @@
     "description_2": "Stairs and other terrazzo products are manufactured and supplied in accordance with the ČSN EN 13 748 - 1.2 standard.",
     "description_3": "Products can be made of gray and white cement, colored according to the requirements of the mass.",
     "description_4": "Products can be manufactured in special terrazzo patterns according to customer specifications - physical sample confirmation."
+  },
+  "seoStairsPage": { 
+    "seoMetaMainTitle": "Custom-made terrazzo stairs ⏩ durable and aesthetic solutions | MPP Idea",
+    "seoMetaMainDescription":
+      "Production of custom-made concrete stairs 👆 terrazzo patterns, individual shapes, and precision in accordance with ČSN EN 13748-1. Consultation and delivery.",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Ready-made terrazzo stairs and custom manufacturing ⏩ Cidemat | MPP Idea",
+      "seoMetaDescriptionOpenGraph":
+        "Ready-made terrazzo stairs from Cidemat 👆 standard and custom solutions, strength approx. 30 kg/linear meter, options in white and gray cement, delivery and installation",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page about Stairs"
   },
   "terrazzoTilesSection": {
     "title": "Terrazzo Tiles",
@@ -1352,6 +1432,26 @@
         ]
       }
     ]
+  },
+  "seoWhiteCementPage": { 
+    "seoMetaMainTitle": "White cement CEM I, CEM II ➜ in bags, bulk, big bags | MPP Idea",
+    "seoMetaMainDescription":
+      "Sale of white cement CEM I and CEM II ⏩ high strength, whiteness, and delivery options.✅ Ideal for exposed concrete surfaces and finishing work 👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Buy white cement in Uzhhorod ✅ Portland cement for facades and concrete",
+      "seoMetaDescriptionOpenGraph":
+        "White Portland cement for decorative and structural solutions ➜ facades, colored concrete, terrazzo. Available in 25 kg bags, big bags, and bulk 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page about White cement"
   },
   "footer": {
     "policy": "Privacy policy"

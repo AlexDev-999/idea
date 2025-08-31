@@ -45,6 +45,7 @@ const BurgerBtn = () => {
 
   return (
     <button
+      aria-label="Burger menu"
       className={styles.burgerBtn}
       onClick={() => {
         setSubMenu(false);
