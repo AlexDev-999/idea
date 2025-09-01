@@ -232,7 +232,7 @@
         "diameter": "400/600 mm",
         "height": "5cm 27mm/38mm",
         "weight": "8.5 kg/24 kg",
-        "seoGardenProductIdInfo": { 
+
           "seoMetaMainTitle": "Buy terrazzo circles 400/600 mm for the garden in Uzhgorod | MPP Idea",
           "seoMetaMainDescription":
             "Garden products from MPP Idea: decorative circles, steps, and elements made of terrazzo and concrete. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
@@ -242,7 +242,7 @@
           "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
           "seoMetaNameJsonLd_2" : "Page Garden products",
           "seoMetaNameJsonLd_3" : "Terrazzo Circle Page"
-      }
+      
       },
       {
         "slug": "concrete-circles",
@@ -257,7 +257,6 @@
         "diameter": "600 mm",
         "height": "5cm 40 mm",
         "weight": "28 kg",
-        "seoGardenProductInfo": { 
           "seoMetaMainTitle": "Buy Concrete circles for the garden in Uzhgorod | MPP Idea",
           "seoMetaMainDescription":
             "Concrete circles, garden steps, and terrazzo circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
@@ -267,7 +266,6 @@
           "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
           "seoMetaNameJsonLd_2" : "Page Garden products",
           "seoMetaNameJsonLd_3" : "Concrete circles page"
-      }
       },
       {
         "slug": "concrete-garden-steps",
@@ -279,7 +277,7 @@
           "/webp/gardenProductsPage/ConcreteGardenSteps-2.webp"
         ],
         "sizes": "1200х320х50 mm",
-        "seoGardenProductInfo": { 
+
           "seoMetaMainTitle": "Buy concrete garden steps for your garden in Uzhhorod | MPP Idea",
           "seoMetaMainDescription":
             "Concrete garden steps, terrazzo circles, and concrete circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
@@ -289,7 +287,7 @@
           "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
           "seoMetaNameJsonLd_2" : "Page Garden products",
           "seoMetaNameJsonLd_3" : "Page Concrete garden steps"
-      }
+      
       }
     ]
   },
