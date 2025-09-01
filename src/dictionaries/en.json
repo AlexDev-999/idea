@@ -231,7 +231,18 @@
         "titles": ["TK 40", "TK 60"],
         "diameter": "400/600 mm",
         "height": "5cm 27mm/38mm",
-        "weight": "8.5 kg/24 kg"
+        "weight": "8.5 kg/24 kg",
+        "seoGardenProductIdInfo": { 
+          "seoMetaMainTitle": "Buy terrazzo circles 400/600 mm for the garden in Uzhgorod | MPP Idea",
+          "seoMetaMainDescription":
+            "Garden products from MPP Idea: decorative circles, steps, and elements made of terrazzo and concrete. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaTitleOpenGraph": "Buy terrazzo circles 400/600 mm for the garden in Uzhgorod | MPP Idea ✅",
+          "seoMetaDescriptionOpenGraph":
+            "Garden products from MPP Idea: decorative circles, steps, and elements made of terrazzo and concrete. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+          "seoMetaNameJsonLd_2" : "Page Garden products",
+          "seoMetaNameJsonLd_3" : "Terrazzo Circle Page"
+      }
       },
       {
         "slug": "concrete-circles",
@@ -245,7 +256,18 @@
         "titles": ["BK 601", "BK 602"],
         "diameter": "600 mm",
         "height": "5cm 40 mm",
-        "weight": "28 kg"
+        "weight": "28 kg",
+        "seoGardenProductInfo": { 
+          "seoMetaMainTitle": "Buy Concrete circles for the garden in Uzhgorod | MPP Idea",
+          "seoMetaMainDescription":
+            "Concrete circles, garden steps, and terrazzo circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaTitleOpenGraph": "Buy Concrete circles for the garden in Uzhgorod | MPP Idea ✅",
+          "seoMetaDescriptionOpenGraph":
+            "Concrete circles, garden steps, and terrazzo circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+          "seoMetaNameJsonLd_2" : "Page Garden products",
+          "seoMetaNameJsonLd_3" : "Concrete circles page"
+      }
       },
       {
         "slug": "concrete-garden-steps",
@@ -256,9 +278,40 @@
           "/webp/gardenProductsPage/ConcreteGardenSteps-1.webp",
           "/webp/gardenProductsPage/ConcreteGardenSteps-2.webp"
         ],
-        "sizes": "1200х320х50 mm"
+        "sizes": "1200х320х50 mm",
+        "seoGardenProductInfo": { 
+          "seoMetaMainTitle": "Buy concrete garden steps for your garden in Uzhhorod | MPP Idea",
+          "seoMetaMainDescription":
+            "Concrete garden steps, terrazzo circles, and concrete circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaTitleOpenGraph": "Buy concrete garden steps for your garden in Uzhhorod | MPP Idea ✅",
+          "seoMetaDescriptionOpenGraph":
+            "Concrete garden steps, terrazzo circles, and concrete circles—solutions for landscaping and decoration. Wholesale packaging, delivery throughout Ukraine, and installation advice. 👆",
+          "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+          "seoMetaNameJsonLd_2" : "Page Garden products",
+          "seoMetaNameJsonLd_3" : "Page Concrete garden steps"
+      }
       }
     ]
+  },
+  "seoGardenProductsPage": { 
+    "seoMetaMainTitle": "Buy garden decor in Uzhgorod - tiles, circles, stairs | MPP Idea",
+    "seoMetaMainDescription":
+      "Garden products from MPP Idea: decorative circles, steps, and elements made of terrazzo and concrete. Quality, durability, and wholesale delivery terms. 👆",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Garden products: terrazzo tiles, concrete elements, garden stairs ✅",
+      "seoMetaDescriptionOpenGraph":
+        "Garden products from MPP Idea: decorative circles, steps, and elements made of terrazzo and concrete. Quality, durability, and wholesale delivery terms. 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page Garden products"
   },
 
   "gasBlocksSection": {
@@ -1011,6 +1064,26 @@
         "In 1t big bags."
       ]
     }
+  },
+  "seoMarbleCrumbPage": { 
+    "seoMetaMainTitle": "Buy marble chips for plasters and fillers ⏩ MPP Idea",
+    "seoMetaMainDescription":
+      "High-purity white marble chips for decorative and industrial coatings.👆 Various fractions, quality control, and convenient logistics for wholesale customers.",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "High-purity marble chips for decoration and fillers ✅",
+      "seoMetaDescriptionOpenGraph":
+        "Buy marble chips for terrazzo, putty, and paint. 👆Large volumes available, packaged in big bags and sacks⏩ technical data sheets and samples available upon request",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Page Marble Chips"
   },
   "stairsSection": {
     "title": "Stairs",
