@@ -114,7 +114,16 @@
         "packagingData": {
           "title": "Packaging",
           "value": ["25kg bags."]
-        }
+        },
+        "seoMetaMainTitle": "Buy river stone in Uzhhorod ᐉ MPP Idea",
+          "seoMetaMainDescription":
+            "Sale of river stone and decorative gravel for landscaping, paving paths, and decorating ponds. We deliver throughout Ukraine: bags and large packages. ✅",
+          "seoMetaTitleOpenGraph": "Buy river stone in Uzhhorod ᐉ MPP Idea ✅",
+          "seoMetaDescriptionOpenGraph":
+            "Sale of river stone and decorative gravel for landscaping, paving paths, and decorating ponds. We deliver throughout Ukraine: bags and large packages. 👆",
+          "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+          "seoMetaNameJsonLd_2" : "Decorative stones page",
+          "seoMetaNameJsonLd_3" : "Page Pebble (river stone)"
       },
       {
         "slug": "terrazzo-crumb",
@@ -137,9 +146,40 @@
         "packagingData": {
           "title": "Packaging",
           "value": ["25kg bags.", "Big bags of 1075 kg"]
-        }
+        },
+
+        "seoMetaMainTitle": "Buy terrazzo chips in Uzhhorod ᐉ MPP Idea",
+          "seoMetaMainDescription":
+            "Terrazzo chips for gardens and landscaping. Packaged in 25 kg bags and big bags for wholesale purchases, paving paths, and decorating ponds. ✅",
+          "seoMetaTitleOpenGraph": "Buy terrazzo chips in Uzhhorod ᐉ MPP Idea ✅",
+          "seoMetaDescriptionOpenGraph":
+            "Terrazzo chips for gardens and landscaping. Packaged in 25 kg bags and big bags for wholesale purchases, paving paths, and decorating ponds. 👆",
+          "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+          "seoMetaNameJsonLd_2" : "Decorative stones page",
+          "seoMetaNameJsonLd_3" : "Teraceva crumbs page"
+
       }
     ]
+  },
+  "seoDecorativeStonePage": { 
+    "seoMetaMainTitle": "Buy decorative stones in Uzhhorod ᐉ MPP Idea",
+    "seoMetaMainDescription":
+      "Decorative materials for gardens and landscaping ⏩ pebbles, terrazzo chips, and other fillers. Professional advice on selecting fractions and delivery ✅",
+      "seoMetaKeywords": [
+        "White cement",
+        "Limestone",
+        "Lime",
+        "Gas block",
+        "Tiles",
+        "Decorative stones",
+        "Garden products",
+        "Stairs"
+      ],
+      "seoMetaTitleOpenGraph": "Buy decorative stones in Uzhhorod ᐉ MPP Idea ✅",
+      "seoMetaDescriptionOpenGraph":
+        "Decorative materials for gardens and landscaping ⏩ pebbles, terrazzo chips, and other fillers. Professional advice on selecting fractions and delivery 👆",
+        "seoMetaNameJsonLd_1" : "Home page of MPP “Idea”",
+        "seoMetaNameJsonLd_2" : "Decorative stones page"
   },
   "faqSection": {
     "title": "FAQ",
