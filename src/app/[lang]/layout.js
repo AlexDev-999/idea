@@ -14,8 +14,9 @@ const DynamicToTopBtn = dynamic(() =>
 
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SEO_URL),
-  // title: "Idea",
-  // description: "Import company",
+  verification: {
+    google: "l6Q81O18m_v6b-qB5G8HZ6HzErHG8hJSnDw2RiILPt8",
+  },
 };
 
 export async function generateStaticParams() {
